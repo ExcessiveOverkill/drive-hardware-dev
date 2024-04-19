@@ -7119,7 +7119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06961809-aa1f-4d80-900b-26e49363e99f")
-		(property "Reference" "C1"
+		(property "Reference" "C13"
 			(at 234.95 213.36 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C1")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7189,7 +7189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07629167-25c1-4929-99e8-c47a72b3644b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR030"
 			(at 340.36 176.53 0)
 			(effects
 				(font
@@ -7239,7 +7239,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR020")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07db812c-18bb-47ff-ba0b-f47f79e27d68")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR017"
 			(at 213.36 370.84 0)
 			(effects
 				(font
@@ -7305,7 +7305,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR03")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7322,7 +7322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "088388b1-defe-455e-a69d-5b192d5fddde")
-		(property "Reference" "R6"
+		(property "Reference" "R13"
 			(at 248.92 88.9 90)
 			(effects
 				(font
@@ -7374,7 +7374,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R6")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7390,7 +7390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2c6bb9-7c52-4bb3-a2ef-59bad0d1d2c7")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 289.56 175.26 0)
 			(effects
 				(font
@@ -7514,7 +7514,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "J7")
+					(reference "J2")
 					(unit 2)
 				)
 			)
@@ -7531,7 +7531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f635c1f-7593-4db9-8ca2-3d5a2aea3f29")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 307.34 106.68 0)
 			(effects
 				(font
@@ -7581,7 +7581,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7597,7 +7597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11237800-878d-4fe9-a623-a2277b8f219c")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 363.22 250.19 0)
 			(effects
 				(font
@@ -7660,7 +7660,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "131f8c88-4eca-41e0-89da-60196f6b56fb")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 226.06 60.96 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7750,7 +7750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b1044e-90fb-4639-b50d-d6ed462334e7")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR016"
 			(at 205.74 132.08 0)
 			(effects
 				(font
@@ -7800,7 +7800,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR02")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7816,7 +7816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f1d0454-fc00-42a4-a7f5-15ca0d756416")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR024"
 			(at 297.18 281.94 0)
 			(effects
 				(font
@@ -7866,7 +7866,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR014")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7953,7 +7953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b65cffe-bcbd-4e27-b2a1-0bfd87027348")
-		(property "Reference" "L16"
+		(property "Reference" "L3"
 			(at 262.89 303.53 90)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "L16")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -8021,7 +8021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2de5868b-a54d-492b-9ab4-13016f169380")
-		(property "Reference" "R4"
+		(property "Reference" "R11"
 			(at 201.93 69.85 90)
 			(effects
 				(font
@@ -8073,7 +8073,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8089,7 +8089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f8b23dd-0957-4a1d-bd43-076b721b99dd")
-		(property "Reference" "C3"
+		(property "Reference" "C15"
 			(at 247.65 213.36 0)
 			(effects
 				(font
@@ -8143,7 +8143,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C3")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8159,7 +8159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30aa1143-4db3-46d0-8e76-4305ae46c379")
-		(property "Reference" "C100"
+		(property "Reference" "C33"
 			(at 408.94 266.7 0)
 			(effects
 				(font
@@ -8213,7 +8213,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C100")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -8229,7 +8229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33ab7561-65ad-4695-ae85-946ad19cee13")
-		(property "Reference" "C13"
+		(property "Reference" "C21"
 			(at 285.75 213.36 0)
 			(effects
 				(font
@@ -8283,7 +8283,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C13")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8299,7 +8299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c93832-0c34-4afc-940c-c0f717858d89")
-		(property "Reference" "C91"
+		(property "Reference" "C28"
 			(at 344.17 227.33 0)
 			(effects
 				(font
@@ -8353,7 +8353,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C91")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -8369,7 +8369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ac8bd8c-7b41-4fad-b47f-d4619495b0d0")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 231.14 302.26 0)
 			(effects
 				(font
@@ -8435,7 +8435,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8451,7 +8451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d0f2d65-680b-451c-bb13-86aca4b1c789")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 363.22 68.58 0)
 			(effects
 				(font
@@ -8523,7 +8523,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8539,7 +8539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4372d3f0-2aea-4cde-abbe-de500fb2e3e2")
-		(property "Reference" "C18"
+		(property "Reference" "C23"
 			(at 295.91 318.77 0)
 			(effects
 				(font
@@ -8593,7 +8593,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8609,7 +8609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e0f6f7-8733-4b70-9fc6-624fa4e40fda")
-		(property "Reference" "C5"
+		(property "Reference" "C17"
 			(at 260.35 213.36 0)
 			(effects
 				(font
@@ -8663,7 +8663,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C5")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8679,7 +8679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d684562-c602-41c2-8cbf-55a37ac422d4")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 273.05 318.77 0)
 			(effects
 				(font
@@ -8733,7 +8733,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C7")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8749,7 +8749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51d07c61-578f-4565-9cc7-256985874fbe")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR015"
 			(at 205.74 110.49 0)
 			(effects
 				(font
@@ -8799,7 +8799,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR01")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8815,7 +8815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "546256e6-a65e-4b70-b4bf-bc761da57e8f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR034"
 			(at 386.08 241.3 0)
 			(effects
 				(font
@@ -8865,7 +8865,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR024")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8881,7 +8881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54fc06b4-531f-40c1-8b9a-07e54c5939bb")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR042"
 			(at 415.29 279.4 0)
 			(effects
 				(font
@@ -8931,7 +8931,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR0128")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8947,7 +8947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555d7747-c7d9-4bd7-8c31-56f5dd800ef9")
-		(property "Reference" "C31"
+		(property "Reference" "C26"
 			(at 344.17 104.14 0)
 			(effects
 				(font
@@ -9001,7 +9001,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C31")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9017,7 +9017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57cabc37-f8a3-4c0d-854d-26d0dd75d966")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 201.93 57.15 90)
 			(effects
 				(font
@@ -9069,7 +9069,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9085,7 +9085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a9e94b7-a363-42d4-9121-f9942db7b7b7")
-		(property "Reference" "C94"
+		(property "Reference" "C31"
 			(at 389.89 165.1 0)
 			(effects
 				(font
@@ -9139,7 +9139,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C94")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -9155,7 +9155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5be97051-fd62-45c8-9ad7-9c8f5864e0e6")
-		(property "Reference" "C6"
+		(property "Reference" "C18"
 			(at 273.05 213.36 0)
 			(effects
 				(font
@@ -9209,7 +9209,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C6")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9225,7 +9225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1e8119-a393-445b-8523-2b32872208ce")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR031"
 			(at 340.36 240.03 0)
 			(effects
 				(font
@@ -9275,7 +9275,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR021")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9291,7 +9291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "673e301c-91bd-457b-a689-43715a542940")
-		(property "Reference" "R2"
+		(property "Reference" "R9"
 			(at 194.31 323.85 0)
 			(effects
 				(font
@@ -9345,7 +9345,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9362,7 +9362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "679e1c16-eaa1-45cc-b9b2-ab871291f48d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 292.1 78.74 0)
 			(effects
 				(font
@@ -9412,7 +9412,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9429,7 +9429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7224cce3-f242-4e8a-b865-6f00e1872778")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 278.4759 74.93 0)
 			(effects
 				(font
@@ -9519,7 +9519,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9535,7 +9535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748837fe-9822-4bbe-a63c-45d721d36e1c")
-		(property "Reference" "L17"
+		(property "Reference" "L4"
 			(at 307.34 255.27 90)
 			(effects
 				(font
@@ -9587,7 +9587,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "L17")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -9603,7 +9603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "762b9b76-9926-48bc-9d9d-424ae4cff069")
-		(property "Reference" "L5"
+		(property "Reference" "L2"
 			(at 242.57 143.51 0)
 			(effects
 				(font
@@ -9657,7 +9657,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "L5")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -9673,7 +9673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77137c7a-fec7-4b19-b340-4206cafef9e9")
-		(property "Reference" "C90"
+		(property "Reference" "C27"
 			(at 344.17 163.83 0)
 			(effects
 				(font
@@ -9727,7 +9727,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C90")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9743,7 +9743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78fb9688-a139-42b8-ba09-7e4cd358047e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 237.49 191.77 0)
 			(effects
 				(font
@@ -9793,7 +9793,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9886,7 +9886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ff49931-3275-4808-87ec-c421e985e342")
-		(property "Reference" "R79"
+		(property "Reference" "R14"
 			(at 255.27 83.82 90)
 			(effects
 				(font
@@ -9938,7 +9938,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R79")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9954,7 +9954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8466983e-5632-4426-8d18-83a7701804bf")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 231.14 289.56 90)
 			(effects
 				(font
@@ -10006,7 +10006,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10022,7 +10022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866ed2fa-dd6e-4de1-b38c-2e41970548ba")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 245.11 337.82 0)
 			(effects
 				(font
@@ -10072,7 +10072,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10088,7 +10088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86e60921-1e02-4180-a0ae-917ff67329e5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR029"
 			(at 340.36 116.84 0)
 			(effects
 				(font
@@ -10138,7 +10138,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10154,7 +10154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e9141f-da42-47ce-b241-ee3ca4cc225d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 386.08 118.11 0)
 			(effects
 				(font
@@ -10204,7 +10204,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10220,7 +10220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2eb357-8255-4370-824a-e492514957db")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 284.48 318.77 0)
 			(effects
 				(font
@@ -10274,7 +10274,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10290,7 +10290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94aae528-2ad0-492f-8258-6619619b95c8")
-		(property "Reference" "C92"
+		(property "Reference" "C29"
 			(at 363.22 275.59 90)
 			(effects
 				(font
@@ -10342,7 +10342,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C92")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -10358,7 +10358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95632607-b13f-46ad-9fb7-27702ebf9fd8")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 414.02 257.048 0)
 			(effects
 				(font
@@ -10409,7 +10409,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10425,7 +10425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972dbd4a-5619-453b-be11-757a8eea11d6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR027"
 			(at 336.55 133.35 0)
 			(effects
 				(font
@@ -10475,7 +10475,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10491,7 +10491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9858c7f2-9647-43e5-be91-8531534a533c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR036"
 			(at 389.89 163.83 0)
 			(effects
 				(font
@@ -10541,7 +10541,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR028")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10557,7 +10557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b7d914b-58f6-4ec2-ad79-0b3890cb21c7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 396.24 73.66 0)
 			(effects
 				(font
@@ -10607,7 +10607,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10623,7 +10623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b96f342-c9f7-4a7b-92fd-ad09195e6b60")
-		(property "Reference" "U23"
+		(property "Reference" "U9"
 			(at 363.22 191.77 0)
 			(effects
 				(font
@@ -10695,7 +10695,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U23")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -10712,7 +10712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0c38f9-daff-4610-8a69-94ff92fe7dc3")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 242.57 93.98 90)
 			(effects
 				(font
@@ -10764,7 +10764,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10780,7 +10780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e32e01d-b6e4-4b26-95a0-a6ee0077dbfb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR026"
 			(at 336.55 73.66 0)
 			(effects
 				(font
@@ -10830,7 +10830,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR016")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10918,7 +10918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fecee13-1122-4fa1-a803-170a0b956f30")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 278.13 114.3 0)
 			(effects
 				(font
@@ -10968,7 +10968,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10984,7 +10984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57b9a23-455d-4e57-a729-6925171264f8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR035"
 			(at 389.89 104.14 0)
 			(effects
 				(font
@@ -11034,7 +11034,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR025")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11051,7 +11051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6a4764-0fe2-41ef-90ac-276681dbf0f2")
-		(property "Reference" "R80"
+		(property "Reference" "R15"
 			(at 261.62 78.74 90)
 			(effects
 				(font
@@ -11103,7 +11103,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R80")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11119,7 +11119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae5ea01c-0fb6-4a45-bcc7-829759c6a640")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR041"
 			(at 405.13 257.81 0)
 			(effects
 				(font
@@ -11169,7 +11169,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR0100")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11185,7 +11185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2918dd9-41b4-4f22-962b-5b5921b3ab1d")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 363.22 128.27 0)
 			(effects
 				(font
@@ -11257,7 +11257,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -11273,7 +11273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2c944d3-0e95-4e7d-b159-885249f30946")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR033"
 			(at 386.08 177.8 0)
 			(effects
 				(font
@@ -11323,7 +11323,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR023")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11339,7 +11339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b346e9f1-5ba6-4c77-bb46-37aa9029f0df")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR018"
 			(at 231.14 234.95 0)
 			(effects
 				(font
@@ -11389,7 +11389,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR06")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11476,7 +11476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0950580-2a98-4959-b24b-18f4ccfd404c")
-		(property "Reference" "C16"
+		(property "Reference" "C22"
 			(at 295.91 68.58 0)
 			(effects
 				(font
@@ -11530,7 +11530,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C16")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -11546,7 +11546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c320f671-f1a7-4616-a740-8158e14686a9")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 321.31 264.16 0)
 			(effects
 				(font
@@ -11600,7 +11600,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -11616,7 +11616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5c5c5c3-b524-481a-a413-76c649069153")
-		(property "Reference" "C93"
+		(property "Reference" "C30"
 			(at 389.89 105.41 0)
 			(effects
 				(font
@@ -11670,7 +11670,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C93")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11686,7 +11686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d06f55b8-f905-41e7-90c5-06cbeb48d582")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 396.24 133.35 0)
 			(effects
 				(font
@@ -11736,7 +11736,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11752,7 +11752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2d550e4-e978-4d0c-8bf7-67e0b295ac76")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR037"
 			(at 389.89 227.33 0)
 			(effects
 				(font
@@ -11802,7 +11802,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR029")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11818,7 +11818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3857d6a-bd80-48c7-906f-dfd0c1220440")
-		(property "Reference" "R1"
+		(property "Reference" "R8"
 			(at 194.31 314.96 0)
 			(effects
 				(font
@@ -11872,7 +11872,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R1")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11889,7 +11889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55456b9-0cd1-4ed5-84ae-b9102021100f")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 218.44 175.26 0)
 			(effects
 				(font
@@ -12013,7 +12013,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12029,7 +12029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d64b59e5-ff6e-4d90-a11c-6ff585b26247")
-		(property "Reference" "C4"
+		(property "Reference" "C16"
 			(at 259.08 317.5 0)
 			(effects
 				(font
@@ -12083,7 +12083,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C4")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12099,7 +12099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd91026e-234f-4b43-8cb5-c56cb9bc489e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 396.24 196.85 0)
 			(effects
 				(font
@@ -12149,7 +12149,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12165,7 +12165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd9b5913-4c01-40e2-853b-cba4b63bf1ee")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR028"
 			(at 336.55 196.85 0)
 			(effects
 				(font
@@ -12215,7 +12215,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR018")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12231,7 +12231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed1e0658-0c99-4622-b22a-706ef95379ea")
-		(property "Reference" "C19"
+		(property "Reference" "C24"
 			(at 300.99 264.16 0)
 			(effects
 				(font
@@ -12285,7 +12285,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C19")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12301,7 +12301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2cdb2b-ba00-40de-aa91-ac3f40892054")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR021"
 			(at 255.27 370.84 0)
 			(effects
 				(font
@@ -12351,7 +12351,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR010")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12367,7 +12367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c33399-7359-4ea2-94ab-46563147a3a1")
-		(property "Reference" "C95"
+		(property "Reference" "C32"
 			(at 389.89 228.6 0)
 			(effects
 				(font
@@ -12421,7 +12421,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C95")
+					(reference "C32")
 					(unit 1)
 				)
 			)

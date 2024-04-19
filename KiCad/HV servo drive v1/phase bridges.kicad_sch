@@ -2658,7 +2658,13 @@
 		)
 	)
 	(junction
-		(at 541.02 96.52)
+		(at 213.36 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0028bdc7-921c-4e92-bd11-a177a4e81844")
+	)
+	(junction
+		(at 510.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "002d0df7-d150-47ac-9807-9dcb4a92d3e4")
@@ -2686,6 +2692,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03b0fb6c-1dff-4aaa-b929-69b850992533")
+	)
+	(junction
+		(at 537.21 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03bfebd6-a8c5-4ccf-badc-73160146c3f2")
+	)
+	(junction
+		(at 525.78 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03dc411e-45de-448b-bebd-14e7c1e17810")
 	)
 	(junction
 		(at 339.09 93.98)
@@ -2736,7 +2754,7 @@
 		(uuid "14f998f4-350a-4bd9-a998-3929ee1790b5")
 	)
 	(junction
-		(at 551.18 160.02)
+		(at 520.7 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16722132-523d-4da7-80e0-718b73ac4fe5")
@@ -2766,6 +2784,12 @@
 		(uuid "2191f3dd-1512-479a-bc23-b2714d92108f")
 	)
 	(junction
+		(at 236.22 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22d464d5-d21f-4f82-8b35-ef77869ff912")
+	)
+	(junction
 		(at 134.62 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2790,6 +2814,12 @@
 		(uuid "2e15b4ce-a4f8-466d-bd7b-d4aaea55c34a")
 	)
 	(junction
+		(at 201.93 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f4f76ec-c32b-4e2e-9036-ebeb307fd4c9")
+	)
+	(junction
 		(at 41.91 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2802,7 +2832,7 @@
 		(uuid "32c8c82e-921e-4213-9db4-af7aef7c9837")
 	)
 	(junction
-		(at 257.81 158.75)
+		(at 227.33 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e0ca52-721c-44a4-bc48-f0f5bb714a5a")
@@ -2832,7 +2862,7 @@
 		(uuid "425aa5a7-535e-490a-9e51-89d3ada94993")
 	)
 	(junction
-		(at 260.35 347.98)
+		(at 229.87 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ca05a6-9175-4639-a5ce-51e78ff41a5d")
@@ -2868,6 +2898,12 @@
 		(uuid "4d907bf0-2902-44d4-af5a-7e4ee001687d")
 	)
 	(junction
+		(at 191.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e5619d8-0708-422c-a5c1-acab2bc34c95")
+	)
+	(junction
 		(at 120.65 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2880,13 +2916,25 @@
 		(uuid "50f4e063-d857-4d43-8c71-005a9396352a")
 	)
 	(junction
+		(at 491.49 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55998e16-5b11-4cc4-9de7-dceecc8a0c51")
+	)
+	(junction
+		(at 201.93 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "559d8fbf-cf87-494c-a87e-d03f7488f995")
+	)
+	(junction
 		(at 111.76 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55cd1347-02b5-4a69-b0a0-b6cb94f56dab")
 	)
 	(junction
-		(at 267.97 95.25)
+		(at 237.49 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5611089f-c228-42b3-87e5-ec47ec35f432")
@@ -2896,6 +2944,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "572e8bce-6775-4815-8a80-d69b877066c0")
+	)
+	(junction
+		(at 213.36 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584edb9f-5abc-438b-9260-1d4ebc68e84f")
 	)
 	(junction
 		(at 60.96 250.19)
@@ -2922,7 +2976,13 @@
 		(uuid "5b5153a9-267c-42c6-878d-101524309578")
 	)
 	(junction
-		(at 541.02 160.02)
+		(at 224.79 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b8902e6-6710-4db0-a5da-8a774198b5ad")
+	)
+	(junction
+		(at 510.54 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6320d471-42d4-4042-938b-2145a6240ddc")
@@ -2976,6 +3036,12 @@
 		(uuid "7bb8d57b-4073-4c47-bf95-3314098d0d58")
 	)
 	(junction
+		(at 514.35 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cd8c488-127c-458d-ba19-dfe6e219fb63")
+	)
+	(junction
 		(at 58.42 281.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3000,6 +3066,12 @@
 		(uuid "8a322d37-a587-407d-be87-9e8809830643")
 	)
 	(junction
+		(at 203.2 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac2c441-5030-4374-bd82-b9751610efa1")
+	)
+	(junction
 		(at 403.86 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3012,6 +3084,12 @@
 		(uuid "93846157-9682-4a95-9ada-717b25aa5461")
 	)
 	(junction
+		(at 191.77 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "964ec9f4-236c-4616-a7bb-6a962b84788e")
+	)
+	(junction
 		(at 137.16 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3022,6 +3100,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9923f2fc-cbc2-40b9-9d1e-4e698cd71d34")
+	)
+	(junction
+		(at 237.49 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "996a6166-1b19-46c2-a712-735cc19d7a68")
+	)
+	(junction
+		(at 514.35 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aa15219-e343-4961-8c5e-457db18502ee")
+	)
+	(junction
+		(at 203.2 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9af030c4-3f0f-4bc1-9308-e47e52cf20db")
 	)
 	(junction
 		(at 107.95 77.47)
@@ -3066,7 +3162,13 @@
 		(uuid "a9be4f40-96b1-4c0b-af75-e5ca23567102")
 	)
 	(junction
-		(at 260.35 284.48)
+		(at 525.78 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe6e495-664f-47e7-bf92-f018535ef8b8")
+	)
+	(junction
+		(at 229.87 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add4857f-a467-4c8f-98bc-d15b884fb67d")
@@ -3076,6 +3178,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adef9cb6-7778-4b61-9a0d-d471d8c08277")
+	)
+	(junction
+		(at 214.63 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae901b54-6a50-4428-b5f1-4d57f630e8b7")
 	)
 	(junction
 		(at 55.88 92.71)
@@ -3096,10 +3204,22 @@
 		(uuid "b42d536d-0017-477a-9487-6c8d5e932c74")
 	)
 	(junction
+		(at 247.65 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b912d621-17f2-48a1-90ee-d69f1e070cfb")
+	)
+	(junction
 		(at 322.58 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc30a925-cbf4-4e31-9017-01fe27e81e9d")
+	)
+	(junction
+		(at 537.21 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0eef19b-78b6-4144-b2c1-b5fe7c10d364")
 	)
 	(junction
 		(at 182.88 342.9)
@@ -3120,13 +3240,19 @@
 		(uuid "c416f2fb-1bbe-45e5-865c-86c05d71548e")
 	)
 	(junction
-		(at 551.18 96.52)
+		(at 226.06 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4328843-af62-401f-a98c-db793cf04f87")
+	)
+	(junction
+		(at 520.7 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4f394b5-8a38-42c2-b726-038aa055dc4e")
 	)
 	(junction
-		(at 270.51 347.98)
+		(at 240.03 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6312fbb-1fa8-4718-a666-0c933fe882a6")
@@ -3136,6 +3262,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c987b22f-af11-439d-b021-50588b077e02")
+	)
+	(junction
+		(at 224.79 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4eb571-26bd-48b1-b03f-3296be1b6b2d")
 	)
 	(junction
 		(at 123.19 350.52)
@@ -3150,7 +3282,13 @@
 		(uuid "cffd138f-ee80-41ac-82d9-8989afbc48a0")
 	)
 	(junction
-		(at 270.51 284.48)
+		(at 236.22 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d26ef008-4a87-4edb-a988-af5c3e098a4a")
+	)
+	(junction
+		(at 240.03 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2b36605-13eb-486e-867a-4a2864b54fe8")
@@ -3180,6 +3318,18 @@
 		(uuid "d8203756-1fef-4ac7-9e0c-62afde5fdff4")
 	)
 	(junction
+		(at 491.49 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d90a5e89-59db-4612-8e51-d98c012256bb")
+	)
+	(junction
+		(at 226.06 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da41b298-52f9-4eb2-8a8f-15ffb601186d")
+	)
+	(junction
 		(at 127 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3198,16 +3348,40 @@
 		(uuid "dda9a05a-0c68-4af3-9b1e-7946767fb754")
 	)
 	(junction
+		(at 502.92 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1f13b1a-75a8-473b-b686-d45f84e8d1da")
+	)
+	(junction
+		(at 214.63 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6be49de-0fb8-48f2-ba9c-ed8d66cbe1d9")
+	)
+	(junction
 		(at 407.67 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e87e80de-fe4f-4b18-a2b3-33b6c3749f85")
 	)
 	(junction
-		(at 257.81 95.25)
+		(at 247.65 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebfb04a2-4ede-4e5c-8d0b-e55b5b1091a9")
+	)
+	(junction
+		(at 227.33 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeffc5e3-b57e-4c68-8d17-7c7f34f948cd")
+	)
+	(junction
+		(at 237.49 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f31dbb5b-2f15-4ba4-8267-543e955d07e6")
 	)
 	(junction
 		(at 400.05 101.6)
@@ -3216,7 +3390,13 @@
 		(uuid "f435975f-b36f-43de-87b0-c2f09fbbbcb5")
 	)
 	(junction
-		(at 267.97 158.75)
+		(at 502.92 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4798529-7f6d-4f9a-8468-4c89d670308c")
+	)
+	(junction
+		(at 237.49 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5f7b5bd-eb93-4daa-b4a6-655c6ff34d79")
@@ -3275,13 +3455,23 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 173.99) (xy 541.02 160.02)
+			(xy 510.54 173.99) (xy 510.54 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "03592587-ad49-4bab-8e0f-aa20c626bcb5")
+	)
+	(wire
+		(pts
+			(xy 213.36 248.92) (xy 224.79 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053e9251-9902-4512-9620-011a58ce65e1")
 	)
 	(wire
 		(pts
@@ -3305,7 +3495,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 347.98) (xy 260.35 340.36)
+			(xy 247.65 241.3) (xy 259.08 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0821fad4-54a8-4a69-98ac-5b7afb3e3b40")
+	)
+	(wire
+		(pts
+			(xy 229.87 347.98) (xy 229.87 340.36)
 		)
 		(stroke
 			(width 0)
@@ -3335,7 +3535,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 151.13) (xy 267.97 158.75)
+			(xy 237.49 152.4) (xy 237.49 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3555,17 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 347.98) (xy 270.51 367.03)
+			(xy 236.22 241.3) (xy 247.65 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acb1d3e-1629-4557-bf6f-448ba86621bb")
+	)
+	(wire
+		(pts
+			(xy 240.03 347.98) (xy 240.03 367.03)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3625,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 173.99) (xy 541.02 173.99)
+			(xy 464.82 173.99) (xy 510.54 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3455,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 284.48) (xy 260.35 284.48)
+			(xy 210.82 284.48) (xy 229.87 284.48)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 340.36) (xy 270.51 347.98)
+			(xy 240.03 340.36) (xy 240.03 347.98)
 		)
 		(stroke
 			(width 0)
@@ -3482,6 +3692,16 @@
 			(type default)
 		)
 		(uuid "16c46446-1700-453e-8d36-c59cb95f2416")
+	)
+	(wire
+		(pts
+			(xy 182.88 62.23) (xy 191.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fc3fe9-28e2-4697-a273-70884ab92acc")
 	)
 	(wire
 		(pts
@@ -3535,6 +3755,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 248.92) (xy 259.08 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1995089e-cbd9-4850-af3e-5759b798835d")
+	)
+	(wire
+		(pts
 			(xy 120.65 107.95) (xy 134.62 107.95)
 		)
 		(stroke
@@ -3585,6 +3815,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 241.3) (xy 224.79 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6d9090-7ba8-4b5c-a792-14c4e49edc83")
+	)
+	(wire
+		(pts
 			(xy 107.95 153.67) (xy 120.65 153.67)
 		)
 		(stroke
@@ -3605,7 +3845,7 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 160.02) (xy 551.18 160.02)
+			(xy 519.43 160.02) (xy 520.7 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3635,7 +3875,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 284.48) (xy 261.62 284.48)
+			(xy 229.87 284.48) (xy 231.14 284.48)
 		)
 		(stroke
 			(width 0)
@@ -3795,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 551.18 152.4) (xy 551.18 160.02)
+			(xy 520.7 152.4) (xy 520.7 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3825,16 +4065,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 95.25) (xy 267.97 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bdddd86-30cc-493f-b7c3-d335364a5532")
-	)
-	(wire
-		(pts
 			(xy 154.94 153.67) (xy 168.91 153.67)
 		)
 		(stroke
@@ -3855,7 +4085,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 347.98) (xy 270.51 347.98)
+			(xy 238.76 347.98) (xy 240.03 347.98)
 		)
 		(stroke
 			(width 0)
@@ -3882,6 +4112,16 @@
 			(type default)
 		)
 		(uuid "2d5b3cb8-df29-4c02-af5d-7e9f8915181d")
+	)
+	(wire
+		(pts
+			(xy 537.21 59.69) (xy 548.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d69315a-90c5-4643-9147-4e08bbb4544e")
 	)
 	(wire
 		(pts
@@ -3975,6 +4215,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 52.07) (xy 537.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fd38be-8fd2-4bd9-9a28-bc9f53ae4844")
+	)
+	(wire
+		(pts
 			(xy 391.16 88.9) (xy 391.16 78.74)
 		)
 		(stroke
@@ -3982,6 +4232,16 @@
 			(type default)
 		)
 		(uuid "36565d8f-6148-49d8-a730-159c6fae7cbb")
+	)
+	(wire
+		(pts
+			(xy 537.21 52.07) (xy 548.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3841de14-8d3e-41f3-9926-9607f076ca72")
 	)
 	(wire
 		(pts
@@ -4012,6 +4272,16 @@
 			(type default)
 		)
 		(uuid "3a7dec62-7591-4526-bbbf-c4b036eca182")
+	)
+	(wire
+		(pts
+			(xy 237.49 95.25) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab385b7-e6a0-4714-b434-30d4c4f1944b")
 	)
 	(wire
 		(pts
@@ -4095,7 +4365,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 95.25) (xy 278.13 95.25)
+			(xy 237.49 95.25) (xy 281.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 284.48) (xy 270.51 332.74)
+			(xy 240.03 284.48) (xy 240.03 332.74)
 		)
 		(stroke
 			(width 0)
@@ -4125,7 +4395,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 95.25) (xy 259.08 95.25)
+			(xy 227.33 95.25) (xy 228.6 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4165,6 +4435,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 62.23) (xy 226.06 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d63bb3-9a66-4838-a7de-17fe876e83ef")
+	)
+	(wire
+		(pts
 			(xy 208.28 92.71) (xy 208.28 95.25)
 		)
 		(stroke
@@ -4172,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "43e844aa-e217-4ade-81b8-7bf6547352c4")
+	)
+	(wire
+		(pts
+			(xy 502.92 52.07) (xy 514.35 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b84763-0973-4320-bb63-ef6f4cb8b1d0")
 	)
 	(wire
 		(pts
@@ -4265,7 +4555,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 257.81 95.25)
+			(xy 208.28 95.25) (xy 227.33 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4335,6 +4625,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 54.61) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50acbf7c-36e4-4570-b740-f2cf3fa6aa85")
+	)
+	(wire
+		(pts
 			(xy 345.44 106.68) (xy 339.09 106.68)
 		)
 		(stroke
@@ -4365,13 +4665,33 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 158.75) (xy 267.97 158.75)
+			(xy 236.22 160.02) (xy 237.49 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5192b59c-d7ae-43ac-94a5-3dabf175aa00")
+	)
+	(wire
+		(pts
+			(xy 201.93 248.92) (xy 213.36 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5248b3b3-96c6-456c-99a1-3670a93a6dc7")
+	)
+	(wire
+		(pts
+			(xy 502.92 59.69) (xy 514.35 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52850d69-313d-4d21-8201-0b3a5147b07f")
 	)
 	(wire
 		(pts
@@ -4405,7 +4725,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 158.75) (xy 267.97 177.8)
+			(xy 237.49 160.02) (xy 237.49 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4415,7 +4735,7 @@
 	)
 	(wire
 		(pts
-			(xy 551.18 96.52) (xy 551.18 144.78)
+			(xy 520.7 96.52) (xy 520.7 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4605,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 62.23) (xy 237.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ff9da8-baae-4676-bb82-d32dbe1f3e69")
+	)
+	(wire
+		(pts
 			(xy 134.62 100.33) (xy 144.78 100.33)
 		)
 		(stroke
@@ -4635,7 +4965,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 367.03) (xy 270.51 367.03)
+			(xy 184.15 367.03) (xy 240.03 367.03)
 		)
 		(stroke
 			(width 0)
@@ -4675,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 160.02) (xy 542.29 160.02)
+			(xy 510.54 160.02) (xy 511.81 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4692,6 +5022,16 @@
 			(type default)
 		)
 		(uuid "69938a1f-9402-4b64-bd8f-bffb9a1cb971")
+	)
+	(wire
+		(pts
+			(xy 237.49 54.61) (xy 248.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adb201b-92ef-4807-b9fa-ebac796c50c8")
 	)
 	(wire
 		(pts
@@ -4805,7 +5145,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 361.95) (xy 260.35 347.98)
+			(xy 229.87 361.95) (xy 229.87 347.98)
 		)
 		(stroke
 			(width 0)
@@ -4825,6 +5165,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 248.92) (xy 247.65 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7083c69a-79c9-4805-a49c-c19109f0dc84")
+	)
+	(wire
+		(pts
 			(xy 398.78 96.52) (xy 457.2 96.52)
 		)
 		(stroke
@@ -4832,6 +5182,16 @@
 			(type default)
 		)
 		(uuid "70b04222-58fc-45bf-9800-575b00859740")
+	)
+	(wire
+		(pts
+			(xy 514.35 52.07) (xy 525.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737e5b44-64cb-4165-b504-322d2d7c80b8")
 	)
 	(wire
 		(pts
@@ -4985,6 +5345,26 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 59.69) (xy 491.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f91c8e8-b8d3-49a3-93a8-a786b5fecbab")
+	)
+	(wire
+		(pts
+			(xy 491.49 59.69) (xy 502.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8020d8e7-68a6-4269-bbd9-6f28f93fd1cd")
+	)
+	(wire
+		(pts
 			(xy 176.53 287.02) (xy 176.53 293.37)
 		)
 		(stroke
@@ -4995,7 +5375,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 96.52) (xy 542.29 96.52)
+			(xy 510.54 96.52) (xy 511.81 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5062,6 +5442,16 @@
 			(type default)
 		)
 		(uuid "876be056-9b69-4722-b23b-e5fc658f7cd0")
+	)
+	(wire
+		(pts
+			(xy 203.2 62.23) (xy 214.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8907cab1-adff-4260-be34-0f835aefec4b")
 	)
 	(wire
 		(pts
@@ -5132,6 +5522,16 @@
 			(type default)
 		)
 		(uuid "8cf8f506-23c4-40c9-b8e7-602ef46dda97")
+	)
+	(wire
+		(pts
+			(xy 203.2 54.61) (xy 214.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3d9b51-9eab-4f69-927b-cbebae8fb217")
 	)
 	(wire
 		(pts
@@ -5285,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 158.75) (xy 257.81 151.13)
+			(xy 227.33 160.02) (xy 227.33 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5345,7 +5745,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 347.98) (xy 261.62 347.98)
+			(xy 226.06 54.61) (xy 237.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99165aff-1763-43ef-943c-3ee73fa6e23d")
+	)
+	(wire
+		(pts
+			(xy 229.87 347.98) (xy 231.14 347.98)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 179.07) (xy 551.18 179.07)
+			(xy 464.82 179.07) (xy 520.7 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5375,7 +5785,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 177.8) (xy 267.97 177.8)
+			(xy 181.61 177.8) (xy 237.49 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5392,6 +5802,16 @@
 			(type default)
 		)
 		(uuid "9f4ee2b4-0f40-432b-b998-5400862ef45d")
+	)
+	(wire
+		(pts
+			(xy 525.78 59.69) (xy 537.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a049c78b-43aa-4338-af09-c7c870400179")
 	)
 	(wire
 		(pts
@@ -5452,6 +5872,16 @@
 			(type default)
 		)
 		(uuid "a3f9f579-32fb-4a1a-af4b-61058c2c3619")
+	)
+	(wire
+		(pts
+			(xy 227.33 95.25) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a418004e-0fcc-4a25-9475-c63f488b08ca")
 	)
 	(wire
 		(pts
@@ -5595,6 +6025,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 62.23) (xy 203.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec997f7-73b6-4c0a-bafe-da33bab0fba1")
+	)
+	(wire
+		(pts
 			(xy 140.97 167.64) (xy 140.97 161.29)
 		)
 		(stroke
@@ -5615,7 +6055,7 @@
 	)
 	(wire
 		(pts
-			(xy 551.18 160.02) (xy 551.18 179.07)
+			(xy 520.7 160.02) (xy 520.7 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +6115,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 96.52) (xy 541.02 96.52)
+			(xy 491.49 96.52) (xy 510.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5725,7 +6165,7 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 96.52) (xy 551.18 96.52)
+			(xy 519.43 96.52) (xy 520.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5765,6 +6205,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 248.92) (xy 236.22 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9589f36-34c0-4fc6-8899-04a02316b999")
+	)
+	(wire
+		(pts
 			(xy 127 266.7) (xy 137.16 266.7)
 		)
 		(stroke
@@ -5795,7 +6245,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 332.74) (xy 260.35 284.48)
+			(xy 229.87 332.74) (xy 229.87 284.48)
 		)
 		(stroke
 			(width 0)
@@ -5812,6 +6262,16 @@
 			(type default)
 		)
 		(uuid "bba0badf-5663-4e91-95ab-9ce8a4a543b7")
+	)
+	(wire
+		(pts
+			(xy 193.04 241.3) (xy 201.93 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5954dd-a6dc-4b4b-a1a2-5a619d9485b8")
 	)
 	(wire
 		(pts
@@ -5835,13 +6295,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 143.51) (xy 257.81 95.25)
+			(xy 491.49 52.07) (xy 502.92 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdea0b2a-5407-442b-83c8-639d4024f155")
+		(uuid "be4e4847-1cf6-4c5e-880e-bf7faaad5833")
 	)
 	(wire
 		(pts
@@ -5855,7 +6315,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 172.72) (xy 257.81 172.72)
+			(xy 181.61 172.72) (xy 227.33 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5875,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 95.25) (xy 267.97 95.25)
+			(xy 236.22 95.25) (xy 237.49 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5915,6 +6375,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 241.3) (xy 236.22 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c69d9f-2bc5-4688-ad78-499d255c8f4e")
+	)
+	(wire
+		(pts
 			(xy 110.49 266.7) (xy 127 266.7)
 		)
 		(stroke
@@ -5932,6 +6402,16 @@
 			(type default)
 		)
 		(uuid "c3ebddfd-edc1-43fe-81cd-2dca73cced8e")
+	)
+	(wire
+		(pts
+			(xy 514.35 59.69) (xy 525.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4112e0f-5684-4fbf-b4a1-d50bfd32056b")
 	)
 	(wire
 		(pts
@@ -5975,7 +6455,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 361.95) (xy 260.35 361.95)
+			(xy 184.15 361.95) (xy 229.87 361.95)
 		)
 		(stroke
 			(width 0)
@@ -6055,6 +6535,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 54.61) (xy 203.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fe3915-5ed1-4c66-93b2-81a002f54587")
+	)
+	(wire
+		(pts
 			(xy 341.63 62.23) (xy 363.22 62.23)
 		)
 		(stroke
@@ -6105,7 +6595,17 @@
 	)
 	(wire
 		(pts
-			(xy 551.18 96.52) (xy 561.34 96.52)
+			(xy 482.6 52.07) (xy 491.49 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffe85aa-eee6-4d6b-aeab-5ccb13abd16f")
+	)
+	(wire
+		(pts
+			(xy 520.7 96.52) (xy 561.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6152,6 +6652,16 @@
 			(type default)
 		)
 		(uuid "d3c2fafe-b7b3-4ea8-b94e-931772409e02")
+	)
+	(wire
+		(pts
+			(xy 193.04 248.92) (xy 201.93 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e820e8-8e9d-4c1a-b747-006170704552")
 	)
 	(wire
 		(pts
@@ -6205,13 +6715,23 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 158.75) (xy 259.08 158.75)
+			(xy 227.33 160.02) (xy 228.6 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6ad0fb1-dc46-4c3a-aa26-f513a26f2b1d")
+	)
+	(wire
+		(pts
+			(xy 201.93 241.3) (xy 213.36 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d707214e-b9b2-4e75-99e3-43faee3e05c3")
 	)
 	(wire
 		(pts
@@ -6385,7 +6905,17 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 284.48) (xy 270.51 284.48)
+			(xy 237.49 62.23) (xy 248.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ac8ae0-d2b9-44d7-8eef-7f21d24dc1ed")
+	)
+	(wire
+		(pts
+			(xy 238.76 284.48) (xy 240.03 284.48)
 		)
 		(stroke
 			(width 0)
@@ -6405,7 +6935,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 144.78) (xy 541.02 96.52)
+			(xy 510.54 144.78) (xy 510.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6432,6 +6962,16 @@
 			(type default)
 		)
 		(uuid "eda19bfb-fd2e-460d-bb49-b113ed3287ba")
+	)
+	(wire
+		(pts
+			(xy 214.63 54.61) (xy 226.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee83bbc6-9f30-4386-a8e9-17cb364be776")
 	)
 	(wire
 		(pts
@@ -6495,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 172.72) (xy 257.81 158.75)
+			(xy 227.33 172.72) (xy 227.33 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6565,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 284.48) (xy 280.67 284.48)
+			(xy 240.03 284.48) (xy 280.67 284.48)
 		)
 		(stroke
 			(width 0)
@@ -6635,7 +7175,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 160.02) (xy 541.02 152.4)
+			(xy 510.54 160.02) (xy 510.54 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6766,7 +7306,7 @@
 			)
 		)
 	)
-	(global_label "V"
+	(global_label "V_"
 		(shape output)
 		(at 280.67 284.48 0)
 		(fields_autoplaced yes)
@@ -6779,7 +7319,7 @@
 		)
 		(uuid "0c13b433-c19b-439b-83a0-309bc85f2d92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.2198 284.48 0)
+			(at 286.1874 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +7528,7 @@
 			)
 		)
 	)
-	(global_label "W"
+	(global_label "W_"
 		(shape output)
 		(at 561.34 96.52 0)
 		(fields_autoplaced yes)
@@ -7001,7 +7541,7 @@
 		)
 		(uuid "6156fbd8-79b6-428c-86b5-bacb1e9600c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.2526 96.52 0)
+			(at 567.2202 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,9 +7838,9 @@
 			)
 		)
 	)
-	(global_label "U"
+	(global_label "U_"
 		(shape output)
-		(at 278.13 95.25 0)
+		(at 281.94 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7311,7 +7851,7 @@
 		)
 		(uuid "ed1a5dc2-c187-47a4-b14d-9bd0158a06dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.064 95.123 0)
+			(at 287.6993 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,6 +7859,76 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "001299f2-c89f-4810-9e3d-08a8975a89c9")
+		(property "Reference" "C109"
+			(at 218.44 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 218.44 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 215.5952 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0695ede7-6001-4d35-8245-55d091daff7d")
+		)
+		(pin "1"
+			(uuid "1d26796a-3f0a-4e4c-9567-15f268254b05")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C109")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7332,7 +7942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03422b82-bdad-426b-9bc0-6f235169829c")
-		(property "Reference" "C62"
+		(property "Reference" "C50"
 			(at 137.16 80.01 0)
 			(effects
 				(font
@@ -7386,7 +7996,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C62")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -7402,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0460dcf2-0259-4510-8cee-3f1b32b74ff8")
-		(property "Reference" "R57"
+		(property "Reference" "R45"
 			(at 189.23 290.83 90)
 			(effects
 				(font
@@ -7456,7 +8066,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R57")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -7472,7 +8082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f97bbb-21e0-4339-8d17-d2d34edacbbc")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR083"
 			(at 398.78 52.07 0)
 			(effects
 				(font
@@ -7522,7 +8132,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0120")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -7538,7 +8148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05be9382-e0c3-467a-a2f7-cf65e2ddcc34")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 214.63 275.8566 0)
 			(effects
 				(font
@@ -7600,7 +8210,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7616,7 +8226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07d054e1-22f6-4bd0-974c-9d596eb9f460")
-		(property "Reference" "R56"
+		(property "Reference" "R44"
 			(at 189.23 274.32 90)
 			(effects
 				(font
@@ -7670,7 +8280,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R56")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -7686,7 +8296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c0c589f-5f02-4aa4-9819-c8b422f5392e")
-		(property "Reference" "D19"
+		(property "Reference" "D11"
 			(at 147.32 49.53 0)
 			(effects
 				(font
@@ -7756,7 +8366,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D19")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7772,7 +8382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d3ba714-4cff-420c-a76c-20c92c5bb9d0")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR072"
 			(at 210.82 274.32 0)
 			(effects
 				(font
@@ -7822,7 +8432,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0126")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7838,7 +8448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dece285-80fd-4ea3-a644-b52865354ffe")
-		(property "Reference" "R48"
+		(property "Reference" "R39"
 			(at 139.7 238.76 90)
 			(effects
 				(font
@@ -7890,7 +8500,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R48")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7906,7 +8516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e0f85ca-802f-4050-bc04-34065ba4970b")
-		(property "Reference" "C83"
+		(property "Reference" "C64"
 			(at 184.15 148.5899 0)
 			(effects
 				(font
@@ -7960,7 +8570,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C83")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -7976,7 +8586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e1b0756-900c-4038-90c2-cdbbe867aeff")
-		(property "Reference" "D22"
+		(property "Reference" "D13"
 			(at 157.48 148.59 90)
 			(effects
 				(font
@@ -8030,7 +8640,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D22")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8046,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e299414-c0cc-464c-91fe-00f3bb48fb6b")
-		(property "Reference" "C54"
+		(property "Reference" "C71"
 			(at 407.67 157.4799 0)
 			(effects
 				(font
@@ -8100,7 +8710,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C54")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -8116,7 +8726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd3aad5-88e3-43b6-a991-7d8caf084ae4")
-		(property "Reference" "C58"
+		(property "Reference" "C72"
 			(at 410.21 81.28 0)
 			(effects
 				(font
@@ -8170,7 +8780,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C58")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -8186,7 +8796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1058e604-9409-41e8-b8e6-9f4eba2a5498")
-		(property "Reference" "C70"
+		(property "Reference" "C54"
 			(at 139.7 269.24 0)
 			(effects
 				(font
@@ -8240,7 +8850,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C70")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -8248,32 +8858,34 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 546.1 160.02 90)
+		(at 201.93 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13186bec-136f-4427-a966-c9b5c9c42f88")
-		(property "Reference" "C87"
-			(at 546.1 152.4 90)
+		(uuid "11905c1d-358a-4a63-81df-cd859f42e3df")
+		(property "Reference" "C124"
+			(at 205.74 243.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 546.1 154.94 90)
+			(at 205.74 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 549.91 159.0548 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 202.8952 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8894,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 546.1 160.02 0)
+			(at 201.93 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 201.93 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4806d61d-19c5-4366-b6d3-ec976405d438")
+		)
+		(pin "1"
+			(uuid "1c8e2aad-9215-4780-8f43-cc803d987154")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 515.62 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13186bec-136f-4427-a966-c9b5c9c42f88")
+		(property "Reference" "C82"
+			(at 515.62 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 515.62 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 519.43 159.0548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,7 +8971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 546.1 160.02 0)
+			(at 515.62 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8988,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C87")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -8324,7 +9004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16d437d4-86a8-4812-9753-a2427fc0ac3b")
-		(property "Reference" "C56"
+		(property "Reference" "C46"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -8378,40 +9058,42 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C56")
+					(reference "C46")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 546.1 96.52 90)
+		(lib_id "Device:C")
+		(at 525.78 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1c000e54-9d0c-47c2-8e17-02b2762abb2b")
-		(property "Reference" "R62"
-			(at 546.1 90.17 90)
+		(uuid "1b923265-335d-4880-bc62-e4f5c42d1042")
+		(property "Reference" "C121"
+			(at 529.59 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ".005"
-			(at 546.1 92.71 90)
+		(property "Value" "C"
+			(at 529.59 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RES_HCSM2818_STP"
-			(at 546.1 98.298 90)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 526.7452 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +9102,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 546.1 96.52 0)
+			(at 525.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 525.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5963096c-de12-48b6-a7c9-855f936711e9")
+		)
+		(pin "1"
+			(uuid "dfc1263d-7311-497e-a7fa-f5dfec5197e9")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 515.62 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c000e54-9d0c-47c2-8e17-02b2762abb2b")
+		(property "Reference" "R58"
+			(at 515.62 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".005"
+			(at 515.62 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES_HCSM2818_STP"
+			(at 515.62 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +9179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 546.1 96.52 0)
+			(at 515.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +9196,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R62")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -8462,7 +9212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1facff4b-ee08-4067-b20b-d6b52bcd478d")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR060"
 			(at 81.28 134.62 0)
 			(effects
 				(font
@@ -8512,7 +9262,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR095")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8528,7 +9278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fb4abf7-691b-4b7f-8724-f1e1b6aba4af")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR073"
 			(at 210.82 295.91 0)
 			(effects
 				(font
@@ -8578,7 +9328,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0127")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8586,7 +9336,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 262.89 95.25 90)
+		(at 232.41 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8594,8 +9344,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20562c50-fa28-4812-96de-d96f09e5afe1")
-		(property "Reference" "R61"
-			(at 262.89 88.9 90)
+		(property "Reference" "R48"
+			(at 232.41 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +9353,7 @@
 			)
 		)
 		(property "Value" ".005"
-			(at 262.89 91.44 90)
+			(at 232.41 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +9361,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RES_HCSM2818_STP"
-			(at 262.89 97.028 90)
+			(at 232.41 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +9370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 95.25 0)
+			(at 232.41 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +9379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 95.25 0)
+			(at 232.41 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +9396,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R61")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -8662,7 +9412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2216f7be-4275-49fa-a19e-ca90c15ae806")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR063"
 			(at 83.82 323.85 0)
 			(effects
 				(font
@@ -8712,7 +9462,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0102")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8728,7 +9478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "248f22b8-4a51-4c25-80e6-715c5dc83fcf")
-		(property "Reference" "TP11"
+		(property "Reference" "TP14"
 			(at 327.66 127.5079 0)
 			(effects
 				(font
@@ -8779,7 +9529,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP11")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -8795,7 +9545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a087f8-4c8c-424b-9501-477a4c7bcefd")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR081"
 			(at 391.16 156.21 0)
 			(effects
 				(font
@@ -8845,7 +9595,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0105")
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 548.64 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "254e194e-3beb-4175-8d9b-0f2f852552fd")
+		(property "Reference" "C123"
+			(at 552.45 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 552.45 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 549.6052 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 548.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 548.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55f4c553-f3c5-4752-8c46-afb4701688fd")
+		)
+		(pin "1"
+			(uuid "daaff94c-7f33-4f77-bcf7-ee9028a6235f")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -8861,7 +9681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2855d189-834a-42ab-9023-23c144c1b6fe")
-		(property "Reference" "U15"
+		(property "Reference" "U17"
 			(at 163.83 345.44 0)
 			(effects
 				(font
@@ -8933,7 +9753,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "U15")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -8949,7 +9769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29ccef1b-eabd-400b-bec2-53517730d85b")
-		(property "Reference" "C77"
+		(property "Reference" "C79"
 			(at 430.53 111.76 0)
 			(effects
 				(font
@@ -9003,7 +9823,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C77")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -9019,7 +9839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dc64edc-d617-421b-98c1-2e299d2cd323")
-		(property "Reference" "C52"
+		(property "Reference" "C43"
 			(at 120.65 240.03 0)
 			(effects
 				(font
@@ -9073,7 +9893,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C52")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd5748d-37f7-48dd-b90f-d4f78c5f0a62")
-		(property "Reference" "R49"
+		(property "Reference" "R40"
 			(at 157.48 138.43 0)
 			(effects
 				(font
@@ -9143,7 +9963,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R49")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9159,7 +9979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e1a8ba3-abc5-447e-bd2a-ac059312a735")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR074"
 			(at 314.96 91.44 0)
 			(effects
 				(font
@@ -9209,7 +10029,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR077")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9225,7 +10045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e235602-048e-4d8b-a8d5-75fbfbb18208")
-		(property "Reference" "C76"
+		(property "Reference" "C78"
 			(at 430.53 104.14 0)
 			(effects
 				(font
@@ -9279,7 +10099,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C76")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -9295,7 +10115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ffc6e7c-715c-4f1b-a458-c94274697d16")
-		(property "Reference" "TP13"
+		(property "Reference" "TP11"
 			(at 62.23 314.1979 0)
 			(effects
 				(font
@@ -9346,7 +10166,73 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP13")
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 182.88 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30b6594a-b456-444f-9134-c811422229bc")
+		(property "Reference" "#PWR0133"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cfa423d-4727-4da7-a0b4-7c7731926cad")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -9362,7 +10248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "327ebac5-3871-4b64-a3b4-5fa8e785c2bf")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR070"
 			(at 208.28 85.09 0)
 			(effects
 				(font
@@ -9412,7 +10298,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0122")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9428,7 +10314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "328c13cb-d2c7-4702-9df7-2aa055a097d7")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 86.36 243.84 90)
 			(effects
 				(font
@@ -9480,7 +10366,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9496,7 +10382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3349f2f4-3b52-420d-9b30-ef3545a6eb81")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR056"
 			(at 60.96 252.73 0)
 			(effects
 				(font
@@ -9546,7 +10432,143 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR091")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 514.35 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33bec83a-2409-4177-a8b9-dc79161404e2")
+		(property "Reference" "C120"
+			(at 518.16 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 518.16 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 515.3152 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 514.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 514.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb16803e-c5d0-4442-ac15-53071a9220c1")
+		)
+		(pin "1"
+			(uuid "2c41a6a8-e667-49e9-83f7-cfb4f2a6e9b4")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 193.04 248.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38662ba3-4238-45d8-896f-527f1c338c09")
+		(property "Reference" "#PWR0138"
+			(at 193.04 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 193.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "309336da-9e4e-45ff-82ce-724fb8aee5d5")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -9562,7 +10584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "392ccedc-1ffc-4922-85b9-9f7c72f64a85")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 212.09 86.6266 0)
 			(effects
 				(font
@@ -9624,7 +10646,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9640,7 +10662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39dedfcc-8c75-4ad3-9b73-2897bf98a979")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR053"
 			(at 34.29 295.91 0)
 			(effects
 				(font
@@ -9690,7 +10712,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR083")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9706,7 +10728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aafc9b1-a1cf-4607-a1f5-5d21fcfc6dc0")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR062"
 			(at 83.82 317.5 0)
 			(effects
 				(font
@@ -9756,7 +10778,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0101")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9772,7 +10794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ab79013-8028-4e0e-b9e3-f0697f928152")
-		(property "Reference" "L11"
+		(property "Reference" "L13"
 			(at 377.19 132.08 90)
 			(effects
 				(font
@@ -9824,7 +10846,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L11")
+					(reference "L13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 537.21 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af7695b-1464-4bb3-aed1-1b43167d6532")
+		(property "Reference" "C122"
+			(at 541.02 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 541.02 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 538.1752 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3669a322-359a-40cf-8484-414e62e324ef")
+		)
+		(pin "1"
+			(uuid "1d373b30-1650-4948-bb18-628c6df9928d")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -9840,7 +10932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b50519f-b028-432b-b752-a04ef3be4a6b")
-		(property "Reference" "C78"
+		(property "Reference" "C60"
 			(at 149.86 292.1 0)
 			(effects
 				(font
@@ -9894,7 +10986,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C78")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -9910,7 +11002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c5fd8a7-5e74-419e-914c-660af1186743")
-		(property "Reference" "L3"
+		(property "Reference" "L6"
 			(at 93.98 120.65 90)
 			(effects
 				(font
@@ -9962,7 +11054,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L3")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -9970,7 +11062,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 551.18 148.59 0)
+		(at 520.7 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9978,8 +11070,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cff4365-f9a8-409c-9c54-1793851587dd")
-		(property "Reference" "R66"
-			(at 553.72 147.3199 0)
+		(property "Reference" "R59"
+			(at 523.24 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +11080,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 553.72 149.8599 0)
+			(at 523.24 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +11089,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 549.402 148.59 90)
+			(at 518.922 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +11098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 551.18 148.59 0)
+			(at 520.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +11107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 551.18 148.59 0)
+			(at 520.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +11124,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R66")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -10048,7 +11140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e4f85fb-95eb-4083-b3df-649f83818b7d")
-		(property "Reference" "C80"
+		(property "Reference" "C62"
 			(at 172.72 148.5899 0)
 			(effects
 				(font
@@ -10102,7 +11194,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C80")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -10118,7 +11210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e5ddf3b-35c6-4e39-b074-ffaf9f489cbe")
-		(property "Reference" "TP10"
+		(property "Reference" "TP9"
 			(at 41.91 314.1979 0)
 			(effects
 				(font
@@ -10169,7 +11261,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10185,7 +11277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ef40638-2312-4ef0-981d-101e56367d59")
-		(property "Reference" "C10"
+		(property "Reference" "C38"
 			(at 43.18 91.4399 0)
 			(effects
 				(font
@@ -10239,7 +11331,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C10")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -10255,7 +11347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f025358-9073-4824-82f6-4551ad7dc59a")
-		(property "Reference" "R34"
+		(property "Reference" "R52"
 			(at 367.03 55.88 90)
 			(effects
 				(font
@@ -10307,7 +11399,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R34")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -10323,7 +11415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "404cae8e-f995-49e6-8a47-142c46a2a14e")
-		(property "Reference" "L8"
+		(property "Reference" "L11"
 			(at 377.19 113.03 90)
 			(effects
 				(font
@@ -10375,7 +11467,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L8")
+					(reference "L11")
 					(unit 1)
 				)
 			)
@@ -10383,7 +11475,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 262.89 158.75 90)
+		(at 232.41 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10391,8 +11483,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d2615a-107d-4949-9d82-1e8087ce7c47")
-		(property "Reference" "C86"
-			(at 262.89 151.13 90)
+		(property "Reference" "C66"
+			(at 232.41 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +11492,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 262.89 153.67 90)
+			(at 232.41 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +11500,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 266.7 157.7848 0)
+			(at 236.22 159.0548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +11509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 158.75 0)
+			(at 232.41 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +11518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 158.75 0)
+			(at 232.41 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +11535,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C86")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -10459,7 +11551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "435c5927-4da1-439c-aa11-d006f5e982fe")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR068"
 			(at 115.57 50.8 0)
 			(effects
 				(font
@@ -10509,7 +11601,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0119")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -10525,7 +11617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443cf20a-fc39-446e-b508-5c0d3842bf23")
-		(property "Reference" "R54"
+		(property "Reference" "R55"
 			(at 469.9 86.36 90)
 			(effects
 				(font
@@ -10579,7 +11671,73 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R54")
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 193.04 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4533d912-3ee8-4d3a-8e08-4ec149a24750")
+		(property "Reference" "#PWR0137"
+			(at 193.04 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 193.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b822e74-249e-4244-b335-036d2eb3745c")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -10595,7 +11753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48da3f99-aaea-42cf-a6c2-6c10dc919800")
-		(property "Reference" "L9"
+		(property "Reference" "L12"
 			(at 377.19 121.92 90)
 			(effects
 				(font
@@ -10647,7 +11805,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L9")
+					(reference "L12")
 					(unit 1)
 				)
 			)
@@ -10663,7 +11821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb73388-2590-4edd-8b87-cb6aedc23b6b")
-		(property "Reference" "C85"
+		(property "Reference" "C65"
 			(at 186.69 337.8199 0)
 			(effects
 				(font
@@ -10717,7 +11875,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C85")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -10733,7 +11891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bc5b3cb-13ce-428f-b74a-3c0794d1d6bf")
-		(property "Reference" "C68"
+		(property "Reference" "C76"
 			(at 420.37 104.14 0)
 			(effects
 				(font
@@ -10787,7 +11945,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C68")
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c54a0a6-bb9f-4050-a4f6-64b25804b8cb")
+		(property "Reference" "C129"
+			(at 262.89 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 262.89 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 260.0452 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 259.08 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f171f45-2f35-4e84-9086-c1b628a74e04")
+		)
+		(pin "1"
+			(uuid "6797b904-2753-4146-a9b7-22c0e17f2069")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -10803,7 +12031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d2b6835-8532-488c-b0e1-ab44a4593584")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR051"
 			(at 31.75 106.68 0)
 			(effects
 				(font
@@ -10853,7 +12081,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR073")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10869,7 +12097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ea9ea13-38ec-4113-8067-19348a6dabce")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR075"
 			(at 314.96 107.95 0)
 			(effects
 				(font
@@ -10919,7 +12147,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR078")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10935,7 +12163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fc07b16-3225-43ea-a4ef-6a9e0ee4e96d")
-		(property "Reference" "L4"
+		(property "Reference" "L7"
 			(at 93.98 130.81 90)
 			(effects
 				(font
@@ -10987,7 +12215,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L4")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -10995,7 +12223,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 267.97 147.32 0)
+		(at 237.49 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11003,8 +12231,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51259ce8-6875-4f72-b294-e167ba6b4408")
-		(property "Reference" "R64"
-			(at 270.51 146.0499 0)
+		(property "Reference" "R50"
+			(at 240.03 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +12241,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 270.51 148.5899 0)
+			(at 240.03 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,7 +12250,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.192 147.32 90)
+			(at 235.712 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,7 +12259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 147.32 0)
+			(at 237.49 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,7 +12268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 147.32 0)
+			(at 237.49 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +12285,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R64")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -11073,7 +12301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5476b8dd-d5cf-435a-816e-445e36e32fb0")
-		(property "Reference" "C63"
+		(property "Reference" "C51"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -11127,7 +12355,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C63")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -11135,7 +12363,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 265.43 347.98 90)
+		(at 234.95 347.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11143,8 +12371,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5514dcdb-2b6b-4f91-add9-f7ecfb830a71")
-		(property "Reference" "C88"
-			(at 265.43 340.36 90)
+		(property "Reference" "C67"
+			(at 234.95 340.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +12380,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 265.43 342.9 90)
+			(at 234.95 342.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11160,7 +12388,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 269.24 347.0148 0)
+			(at 238.76 347.0148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11169,7 +12397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 347.98 0)
+			(at 234.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,7 +12406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 347.98 0)
+			(at 234.95 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +12423,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C88")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -11211,7 +12439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57353752-0ca1-4d25-9ef6-05c928f41de6")
-		(property "Reference" "D17"
+		(property "Reference" "D15"
 			(at 378.46 55.88 0)
 			(effects
 				(font
@@ -11281,7 +12509,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D17")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -11297,7 +12525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5915d75b-a8dd-48cd-aadd-43c52d407e72")
-		(property "Reference" "TP15"
+		(property "Reference" "TP12"
 			(at 129.54 165.862 0)
 			(effects
 				(font
@@ -11346,7 +12574,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP15")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -11362,7 +12590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a00115e-7f33-43b0-b493-df774dadedac")
-		(property "Reference" "R52"
+		(property "Reference" "R42"
 			(at 186.69 85.09 90)
 			(effects
 				(font
@@ -11416,7 +12644,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R52")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -11432,7 +12660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0dc578-1f5d-409d-b8a0-a0695df5798e")
-		(property "Reference" "C71"
+		(property "Reference" "C55"
 			(at 139.7 276.86 0)
 			(effects
 				(font
@@ -11486,7 +12714,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C71")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -11502,7 +12730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c953127-2138-444a-9198-475cb9e3183a")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR067"
 			(at 110.49 360.68 0)
 			(effects
 				(font
@@ -11552,7 +12780,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0118")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -11568,7 +12796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d482a5a-fdbd-4c51-87ed-bdc1bc623c97")
-		(property "Reference" "R33"
+		(property "Reference" "R36"
 			(at 83.82 54.61 90)
 			(effects
 				(font
@@ -11620,7 +12848,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R33")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11636,7 +12864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62843242-de8a-45d0-a5e5-351fd8c48ae8")
-		(property "Reference" "U14"
+		(property "Reference" "U19"
 			(at 444.5 157.48 0)
 			(effects
 				(font
@@ -11708,7 +12936,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "U14")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -11724,7 +12952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f2317a-46e2-4566-94c4-c06d9c4ee964")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR066"
 			(at 110.49 344.17 0)
 			(effects
 				(font
@@ -11774,7 +13002,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0117")
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664a9d2c-eb1a-4ab8-ae44-43cd6a5127cd")
+		(property "Reference" "C108"
+			(at 207.01 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 207.01 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 204.1652 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95a29cda-73d8-4bd0-88d2-11ef46d8f88b")
+		)
+		(pin "1"
+			(uuid "ee663974-45b5-45fe-85e9-fc5150fd7bc6")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -11790,7 +13088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6841d168-c2e7-45fa-a19d-51a214b58782")
-		(property "Reference" "TP12"
+		(property "Reference" "TP10"
 			(at 60.96 124.9679 0)
 			(effects
 				(font
@@ -11841,7 +13139,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP12")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -11849,7 +13147,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 257.81 147.32 0)
+		(at 227.33 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11857,8 +13155,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "693ad1ef-7216-445b-a147-bffd45fc67b7")
-		(property "Reference" "R58"
-			(at 260.35 146.0499 0)
+		(property "Reference" "R46"
+			(at 229.87 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11867,7 +13165,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 260.35 148.5899 0)
+			(at 229.87 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +13174,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.032 147.32 90)
+			(at 225.552 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11885,7 +13183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 147.32 0)
+			(at 227.33 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +13192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 147.32 0)
+			(at 227.33 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11911,7 +13209,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R58")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11927,7 +13225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a943f9d-59f1-440b-ba7a-d15fa6cd5849")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 137.16 49.53 90)
 			(effects
 				(font
@@ -11979,7 +13277,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -11995,7 +13293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b13044b-c7a4-4989-a221-f948015a5cd1")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR061"
 			(at 83.82 311.15 0)
 			(effects
 				(font
@@ -12045,7 +13343,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR099")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -12061,7 +13359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7172822e-078a-4a67-9e62-92af5a4d06ac")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR082"
 			(at 391.16 172.72 0)
 			(effects
 				(font
@@ -12111,7 +13409,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0115")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -12127,7 +13425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71fcc9b4-9a13-432b-898d-e1e65e16bd3c")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR057"
 			(at 60.96 264.16 0)
 			(effects
 				(font
@@ -12177,7 +13475,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR092")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -12193,7 +13491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a0505a-33f3-4bf1-9bc1-dac2698aa470")
-		(property "Reference" "C45"
+		(property "Reference" "C40"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -12247,7 +13545,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C45")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -12263,7 +13561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72cb8bfd-f404-45a7-90fe-de483c66ae72")
-		(property "Reference" "C59"
+		(property "Reference" "C73"
 			(at 410.21 88.9 0)
 			(effects
 				(font
@@ -12317,7 +13615,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C59")
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72cc87e2-e784-4832-b9c7-2b62fc2fd308")
+		(property "Reference" "C126"
+			(at 228.6 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 228.6 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 225.7552 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f5fe219-bf98-4d48-972c-5e38b819b074")
+		)
+		(pin "1"
+			(uuid "ad3dda8e-6acf-483d-85bd-53372d24c1dd")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -12333,7 +13701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732c24fc-ae64-4c84-b43c-abb199f6895f")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR071"
 			(at 208.28 106.68 0)
 			(effects
 				(font
@@ -12383,7 +13751,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0123")
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ad9d64-63f2-4132-9873-3caca1d1a236")
+		(property "Reference" "C111"
+			(at 195.58 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 195.58 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 192.7352 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "befde27d-5689-4c96-a16f-09670b3b449d")
+		)
+		(pin "1"
+			(uuid "341bcb14-02f2-475e-90ad-760e764d6ab6")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -12399,7 +13837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7407a6a9-1642-4298-bbfd-f88fbde71787")
-		(property "Reference" "C67"
+		(property "Reference" "C75"
 			(at 420.37 88.9 0)
 			(effects
 				(font
@@ -12453,7 +13891,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C67")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -12469,7 +13907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76bd7b94-c802-48a4-a25a-da9cdbc7be10")
-		(property "Reference" "D24"
+		(property "Reference" "D14"
 			(at 160.02 337.82 90)
 			(effects
 				(font
@@ -12523,7 +13961,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D24")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -12539,7 +13977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d0c8954-1df4-48a7-a654-0220dbefa090")
-		(property "Reference" "TP17"
+		(property "Reference" "TP13"
 			(at 132.08 355.092 0)
 			(effects
 				(font
@@ -12588,7 +14026,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP17")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -12604,7 +14042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6a6384-c2f6-462c-994c-55239d501937")
-		(property "Reference" "R47"
+		(property "Reference" "R53"
 			(at 420.37 50.8 90)
 			(effects
 				(font
@@ -12656,7 +14094,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R47")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -12672,7 +14110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7eaab827-d4de-436a-ba5d-c8fa7212ae12")
-		(property "Reference" "C46"
+		(property "Reference" "C69"
 			(at 344.17 64.77 0)
 			(effects
 				(font
@@ -12726,7 +14164,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C46")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -12742,7 +14180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef3ed08-e570-4028-a201-6a7aff2fce20")
-		(property "Reference" "C84"
+		(property "Reference" "C81"
 			(at 467.36 149.8599 0)
 			(effects
 				(font
@@ -12796,7 +14234,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C84")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -12812,7 +14250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84524f2e-26fa-4527-9e22-6245eb9ef695")
-		(property "Reference" "R55"
+		(property "Reference" "R56"
 			(at 469.9 102.87 90)
 			(effects
 				(font
@@ -12866,7 +14304,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -12882,7 +14320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "865cc3a6-3ec9-49b6-847c-781a1778d270")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR080"
 			(at 364.49 135.89 0)
 			(effects
 				(font
@@ -12932,7 +14370,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR098")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -12948,7 +14386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "875cdf25-ef29-406e-9c50-0f1554c8425f")
-		(property "Reference" "Q4"
+		(property "Reference" "Q7"
 			(at 495.3 104.4066 0)
 			(effects
 				(font
@@ -13010,7 +14448,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "Q4")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -13026,7 +14464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f3afdb-8582-4903-9a21-906bf02c5f9c")
-		(property "Reference" "R51"
+		(property "Reference" "R41"
 			(at 160.02 327.66 0)
 			(effects
 				(font
@@ -13080,7 +14518,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R51")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -13152,6 +14590,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 502.92 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "895b258a-c983-4ba7-8a7e-c9481f5dc445")
+		(property "Reference" "C119"
+			(at 506.73 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 506.73 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 503.8852 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 502.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 502.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "149dc336-852e-44c8-9a4f-cbb29bf8a95e")
+		)
+		(pin "1"
+			(uuid "1c20aec0-60ca-4bd8-9d65-bc5557ee8a7a")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 430.53 57.15 0)
 		(unit 1)
@@ -13161,7 +14669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c06ff52-9b95-4d4d-8614-c3dff0c09c30")
-		(property "Reference" "D20"
+		(property "Reference" "D16"
 			(at 430.53 50.8 0)
 			(effects
 				(font
@@ -13231,7 +14739,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D20")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -13247,7 +14755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e5bfb34-d80e-49dc-b01d-502f79f8de6c")
-		(property "Reference" "C40"
+		(property "Reference" "C39"
 			(at 45.72 280.6699 0)
 			(effects
 				(font
@@ -13301,7 +14809,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C40")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -13317,7 +14825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ecf1187-9519-4115-b9a6-8169a56fa7ec")
-		(property "Reference" "C79"
+		(property "Reference" "C61"
 			(at 149.86 299.72 0)
 			(effects
 				(font
@@ -13371,7 +14879,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C79")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -13387,7 +14895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90ed088f-1c17-4241-b0c5-3266d362285c")
-		(property "Reference" "C75"
+		(property "Reference" "C59"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -13441,7 +14949,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C75")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -13457,7 +14965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "920fb2a7-78fe-4c18-989a-1e78b4217484")
-		(property "Reference" "D16"
+		(property "Reference" "D9"
 			(at 95.25 54.61 0)
 			(effects
 				(font
@@ -13527,7 +15035,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D16")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13543,7 +15051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95f40ebc-2ab7-497c-b185-2b08727cc5c3")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR078"
 			(at 364.49 123.19 0)
 			(effects
 				(font
@@ -13593,7 +15101,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR096")
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 213.36 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97bce6f0-4523-4b17-94a8-bfbba5bd621f")
+		(property "Reference" "C125"
+			(at 217.17 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 217.17 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 214.3252 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5d3ee20-95bf-4b23-8d81-b0cbe2334f90")
+		)
+		(pin "1"
+			(uuid "b90660ee-cf3c-42fa-8696-a1a5ab73d6e5")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -13609,7 +15187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a9d24f9-5e18-4cf7-9312-fd3424f7aff9")
-		(property "Reference" "R53"
+		(property "Reference" "R43"
 			(at 186.69 101.6 90)
 			(effects
 				(font
@@ -13663,7 +15241,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R53")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -13679,7 +15257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c2b9c4c-13a1-4569-8b67-4b3ff1c30aa1")
-		(property "Reference" "C53"
+		(property "Reference" "C44"
 			(at 124.46 156.2099 0)
 			(effects
 				(font
@@ -13733,7 +15311,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C53")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -13749,7 +15327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c73ef66-d823-4061-8804-29d1fd679959")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR064"
 			(at 107.95 154.94 0)
 			(effects
 				(font
@@ -13799,7 +15377,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0103")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -13815,7 +15393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c7f7f21-ccac-4f6a-999f-2283aeb9b5ad")
-		(property "Reference" "C50"
+		(property "Reference" "C42"
 			(at 118.11 50.8 0)
 			(effects
 				(font
@@ -13869,7 +15447,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C50")
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e74ed27-c5f9-42db-a35d-ea66b2faba3b")
+		(property "Reference" "C112"
+			(at 241.3 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 241.3 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 238.4552 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "348f1e26-56d6-4e81-b241-ce024e89c1c2")
+		)
+		(pin "1"
+			(uuid "20da843d-011b-4419-8847-52a350543603")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -13885,7 +15533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f65f422-cea8-47d3-abf8-299785eabdcc")
-		(property "Reference" "D23"
+		(property "Reference" "D17"
 			(at 440.69 149.86 90)
 			(effects
 				(font
@@ -13939,7 +15587,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D23")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -13955,7 +15603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a001d272-fb09-4f51-8312-95d522cb3e6d")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR052"
 			(at 34.29 279.4 0)
 			(effects
 				(font
@@ -14005,7 +15653,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR079")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -14013,7 +15661,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 284.48 90)
+		(at 234.95 284.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14021,8 +15669,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a031098e-9b05-4dc3-8764-f0865b734d0d")
-		(property "Reference" "R63"
-			(at 265.43 278.13 90)
+		(property "Reference" "R49"
+			(at 234.95 278.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +15678,7 @@
 			)
 		)
 		(property "Value" ".005"
-			(at 265.43 280.67 90)
+			(at 234.95 280.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +15686,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RES_HCSM2818_STP"
-			(at 265.43 286.258 90)
+			(at 234.95 286.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +15695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 284.48 0)
+			(at 234.95 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +15704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 284.48 0)
+			(at 234.95 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14073,7 +15721,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R63")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -14089,7 +15737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12e0e77-66f8-428e-93d5-d059cf4da63e")
-		(property "Reference" "C69"
+		(property "Reference" "C77"
 			(at 420.37 111.76 0)
 			(effects
 				(font
@@ -14143,7 +15791,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C69")
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a300a318-2314-4c71-a4e1-8a6dba77c715")
+		(property "Reference" "C110"
+			(at 229.87 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 229.87 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 227.0252 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c20a8bd8-b46d-4568-85fa-7c31f1b6ee39")
+		)
+		(pin "1"
+			(uuid "af5ca0d9-a318-49e7-8eab-a8466422d461")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -14159,7 +15877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3c44b4b-4918-43f5-8179-fc637b2eeb91")
-		(property "Reference" "L14"
+		(property "Reference" "L10"
 			(at 96.52 320.04 90)
 			(effects
 				(font
@@ -14211,7 +15929,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L14")
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -14227,7 +15945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a524fdc9-3174-4d29-b099-8b8ec26d4ecf")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR079"
 			(at 364.49 129.54 0)
 			(effects
 				(font
@@ -14277,7 +15995,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR097")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -14293,7 +16011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a71b7a70-1b8d-471a-929b-545fd8c21ddf")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR069"
 			(at 118.11 240.03 0)
 			(effects
 				(font
@@ -14343,7 +16061,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0121")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -14359,7 +16077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8dfc63a-cdcf-41d8-b576-6b473f88be6e")
-		(property "Reference" "C51"
+		(property "Reference" "C70"
 			(at 401.32 52.07 0)
 			(effects
 				(font
@@ -14413,7 +16131,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C51")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -14421,7 +16139,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 270.51 336.55 0)
+		(at 240.03 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14429,8 +16147,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac95a9d1-911f-4b99-8fb1-aa00627f4d60")
-		(property "Reference" "R68"
-			(at 273.05 335.2799 0)
+		(property "Reference" "R51"
+			(at 242.57 335.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,7 +16157,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 273.05 337.8199 0)
+			(at 242.57 337.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +16166,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 268.732 336.55 90)
+			(at 238.252 336.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,7 +16175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 336.55 0)
+			(at 240.03 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +16184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 336.55 0)
+			(at 240.03 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14483,7 +16201,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R68")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -14499,7 +16217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b57c9a5c-72a6-4f2f-9714-415db7460799")
-		(property "Reference" "L2"
+		(property "Reference" "L5"
 			(at 93.98 111.76 90)
 			(effects
 				(font
@@ -14551,7 +16269,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L2")
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c8877d-e82a-4fb6-a0f2-509ffa066c6b")
+		(property "Reference" "C128"
+			(at 251.46 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 251.46 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 248.6152 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 247.65 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c28e9bcf-cd3d-4a42-86a8-9f864395c9d7")
+		)
+		(pin "1"
+			(uuid "38640fec-e1b5-4d89-9cde-f44d912b48cd")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -14567,7 +16355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6ef2a7e-f096-4888-aafe-ed86c4224c8e")
-		(property "Reference" "C72"
+		(property "Reference" "C56"
 			(at 139.7 292.1 0)
 			(effects
 				(font
@@ -14621,7 +16409,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C72")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -14637,7 +16425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e746f1-956f-4193-8290-87cd3617fd7d")
-		(property "Reference" "C61"
+		(property "Reference" "C49"
 			(at 129.54 276.86 0)
 			(effects
 				(font
@@ -14691,7 +16479,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C61")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -14707,7 +16495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbeba884-e671-4e8a-84c4-1094414efea1")
-		(property "Reference" "C65"
+		(property "Reference" "C53"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -14761,7 +16549,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C65")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -14777,7 +16565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be4b3f06-eae5-40f0-8130-e1c06d40ce7e")
-		(property "Reference" "U12"
+		(property "Reference" "U15"
 			(at 87.63 266.7 0)
 			(effects
 				(font
@@ -14873,7 +16661,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "U12")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -14889,7 +16677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beea7a47-0cb0-4a89-b378-e5c582a083de")
-		(property "Reference" "U11"
+		(property "Reference" "U18"
 			(at 368.3 78.74 0)
 			(effects
 				(font
@@ -14985,7 +16773,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "U11")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -15001,7 +16789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf9bcf41-59ba-4d45-9792-5ce1902e41f9")
-		(property "Reference" "C74"
+		(property "Reference" "C58"
 			(at 147.32 102.87 0)
 			(effects
 				(font
@@ -15055,7 +16843,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C74")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -15071,7 +16859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c002423f-bf8d-4e67-9418-5709157e78c7")
-		(property "Reference" "L12"
+		(property "Reference" "L8"
 			(at 96.52 300.99 90)
 			(effects
 				(font
@@ -15123,7 +16911,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L12")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -15139,7 +16927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d31270-d47c-4e14-8d1e-a4b0e59ceb8e")
-		(property "Reference" "U13"
+		(property "Reference" "U16"
 			(at 161.29 156.21 0)
 			(effects
 				(font
@@ -15211,7 +16999,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "U13")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -15227,7 +17015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c332977d-20ad-4e42-9e51-606fdc05c4c1")
-		(property "Reference" "C73"
+		(property "Reference" "C57"
 			(at 139.7 299.72 0)
 			(effects
 				(font
@@ -15281,7 +17069,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C73")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -15297,7 +17085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3391636-9e58-4989-892b-e269d3bf7ffc")
-		(property "Reference" "U10"
+		(property "Reference" "U14"
 			(at 85.09 77.47 0)
 			(effects
 				(font
@@ -15393,7 +17181,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "U10")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -15409,7 +17197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7777d59-5604-4fa4-9ba9-78fb758ffed7")
-		(property "Reference" "Q3"
+		(property "Reference" "Q6"
 			(at 495.3 87.8966 0)
 			(effects
 				(font
@@ -15471,7 +17259,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "Q3")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -15487,7 +17275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7cc7f61-dfdb-4b9f-8912-47aac847f851")
-		(property "Reference" "C37"
+		(property "Reference" "C68"
 			(at 326.39 92.7099 0)
 			(effects
 				(font
@@ -15541,7 +17329,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C37")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -15557,7 +17345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb4ddaf5-80ed-40da-b45e-7174a4561da3")
-		(property "Reference" "C66"
+		(property "Reference" "C74"
 			(at 420.37 81.28 0)
 			(effects
 				(font
@@ -15611,7 +17399,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C66")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -15627,7 +17415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbb49a6b-3e0b-42a8-a30c-dcf0ce6bc394")
-		(property "Reference" "C82"
+		(property "Reference" "C63"
 			(at 175.26 337.8199 0)
 			(effects
 				(font
@@ -15681,7 +17469,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C82")
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 248.92 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbddb167-f606-45a2-ac6c-fe39eb455f77")
+		(property "Reference" "C113"
+			(at 252.73 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 252.73 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 249.8852 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc86ad12-b6b8-4c30-b8e8-033706a1b9d5")
+		)
+		(pin "1"
+			(uuid "3745ea99-daa0-4229-af26-c14b44eceffc")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -15697,7 +17555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca1ec0f-5878-418c-96b9-38c593d59b6a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR065"
 			(at 107.95 171.45 0)
 			(effects
 				(font
@@ -15747,7 +17605,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0104")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -15763,7 +17621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca94888-d353-4361-b205-c806097e7162")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 214.63 292.3666 0)
 			(effects
 				(font
@@ -15825,7 +17683,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "Q6")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -15841,7 +17699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdec7c7e-6844-437d-b7ad-f472f0faa0a3")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR059"
 			(at 81.28 128.27 0)
 			(effects
 				(font
@@ -15891,7 +17749,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR094")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -15907,7 +17765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d001f320-7cb5-49f9-9632-f326910afd81")
-		(property "Reference" "C60"
+		(property "Reference" "C48"
 			(at 129.54 269.24 0)
 			(effects
 				(font
@@ -15961,7 +17819,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C60")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -15977,7 +17835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d30fc88d-3db9-4d49-a2ec-8c5c2e2439fa")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR085"
 			(at 491.49 107.95 0)
 			(effects
 				(font
@@ -16027,7 +17885,77 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0125")
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 491.49 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d66deb01-4afa-4fad-9bd3-8bbfa2c5765f")
+		(property "Reference" "C118"
+			(at 495.3 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 495.3 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 492.4552 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 491.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 491.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ec56f2c-1006-46bb-be5e-8cc13e8a0cea")
+		)
+		(pin "1"
+			(uuid "8a499d07-d7a3-4a26-af4f-1e6006fe8408")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -16043,7 +17971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ab2a83-fb3c-47d6-bd34-dffee5500032")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR050"
 			(at 31.75 90.17 0)
 			(effects
 				(font
@@ -16093,7 +18021,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR040")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -16109,7 +18037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c2a72b-406b-4063-8884-5859b7d780b5")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR084"
 			(at 491.49 86.36 0)
 			(effects
 				(font
@@ -16159,7 +18087,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR0124")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -16175,7 +18103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da7846ac-83a4-458d-baaa-dc84b2987a7b")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR077"
 			(at 341.63 76.2 0)
 			(effects
 				(font
@@ -16225,7 +18153,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR090")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -16233,16 +18161,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 260.35 336.55 0)
+		(at 229.87 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "daf21a20-fc0b-45ac-9f56-2eb0a0bd66d0")
-		(property "Reference" "R60"
-			(at 262.89 335.2799 0)
+		(property "Reference" "R47"
+			(at 232.41 335.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16251,7 +18178,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 262.89 337.8199 0)
+			(at 232.41 337.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16260,7 +18187,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 258.572 336.55 90)
+			(at 228.092 336.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16269,7 +18196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 336.55 0)
+			(at 229.87 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16278,7 +18205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 336.55 0)
+			(at 229.87 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16295,7 +18222,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R60")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -16311,7 +18238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd493d1-2d6b-4c88-88b9-15e7a6ed99fa")
-		(property "Reference" "C57"
+		(property "Reference" "C47"
 			(at 127 87.63 0)
 			(effects
 				(font
@@ -16365,7 +18292,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C57")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -16381,7 +18308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a253e5-ac05-4e2e-98f1-6328ba493290")
-		(property "Reference" "TP14"
+		(property "Reference" "TP15"
 			(at 347.98 127.5079 0)
 			(effects
 				(font
@@ -16432,7 +18359,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP14")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -16448,7 +18375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3716ad1-d916-40db-b8f9-57f6eaed407f")
-		(property "Reference" "C81"
+		(property "Reference" "C80"
 			(at 455.93 149.8599 0)
 			(effects
 				(font
@@ -16502,7 +18429,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C81")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -16518,7 +18445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37f1793-668c-4823-9968-c23ce5f545df")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR058"
 			(at 81.28 121.92 0)
 			(effects
 				(font
@@ -16568,7 +18495,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR093")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16584,7 +18511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5756d5e-2804-40c0-bfa8-86e370b1ed21")
-		(property "Reference" "C47"
+		(property "Reference" "C41"
 			(at 63.5 252.73 0)
 			(effects
 				(font
@@ -16638,7 +18565,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C47")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -16654,7 +18581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6af217b-8b33-4eb4-8b5c-7a7fe3f007cb")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 212.09 103.1366 0)
 			(effects
 				(font
@@ -16716,7 +18643,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -16732,7 +18659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9a0c558-bfe1-40b8-b8ed-cf898919b2c2")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR076"
 			(at 341.63 64.77 0)
 			(effects
 				(font
@@ -16782,7 +18709,143 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR089")
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 482.6 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea95a386-a973-4436-9e78-6e91c4d0febf")
+		(property "Reference" "#PWR0130"
+			(at 482.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 482.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 482.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 482.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07eed7e9-50f5-4838-858f-48eb2d2dd6e2")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee01cb5a-98c1-4bec-bd8f-4a84cf1969b5")
+		(property "Reference" "C127"
+			(at 240.03 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 240.03 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 237.1852 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b774dbc-1929-47e9-9d20-fe1aa3b5b558")
+		)
+		(pin "1"
+			(uuid "55a66d22-593d-4831-b614-175e249601f2")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -16798,7 +18861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28bcfe0-3fa0-48fe-916c-d71ee2effe02")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR054"
 			(at 58.42 63.5 0)
 			(effects
 				(font
@@ -16848,7 +18911,73 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR087")
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 182.88 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f368755c-4f77-4efd-9b11-7c45fecc1b18")
+		(property "Reference" "#PWR0134"
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5a24d2-f8db-403f-bd93-72c0da564e77")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -16864,7 +18993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3955f18-c0a1-4a0f-90f0-df0e1fabdb2a")
-		(property "Reference" "L13"
+		(property "Reference" "L9"
 			(at 96.52 309.88 90)
 			(effects
 				(font
@@ -16916,7 +19045,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L13")
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -16932,7 +19061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f466e7e9-25f2-46e4-a0b4-abaa2741b972")
-		(property "Reference" "TP9"
+		(property "Reference" "TP8"
 			(at 40.64 124.9679 0)
 			(effects
 				(font
@@ -16983,7 +19112,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "TP9")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -16999,7 +19128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f47a925d-59f5-41ab-aa40-a3d8422f8876")
-		(property "Reference" "D18"
+		(property "Reference" "D10"
 			(at 97.79 243.84 0)
 			(effects
 				(font
@@ -17069,7 +19198,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D18")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -17085,7 +19214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60873d7-b4a4-4be2-93ee-2cefd7f3b95e")
-		(property "Reference" "C64"
+		(property "Reference" "C52"
 			(at 137.16 102.87 0)
 			(effects
 				(font
@@ -17139,7 +19268,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C64")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -17155,7 +19284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6682a6c-edc2-4f29-8afa-e06e01cdcfaa")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR055"
 			(at 58.42 74.93 0)
 			(effects
 				(font
@@ -17205,7 +19334,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR088")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -17221,7 +19350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9224946-0028-4e0b-9cdf-c860dccfd6ae")
-		(property "Reference" "R50"
+		(property "Reference" "R54"
 			(at 440.69 139.7 0)
 			(effects
 				(font
@@ -17275,7 +19404,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R50")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -17283,7 +19412,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 541.02 148.59 0)
+		(at 510.54 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17291,8 +19420,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f976a270-aed8-47c7-976a-24b36f18c369")
-		(property "Reference" "R59"
-			(at 543.56 147.3199 0)
+		(property "Reference" "R57"
+			(at 513.08 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17301,7 +19430,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 543.56 149.8599 0)
+			(at 513.08 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17310,7 +19439,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 539.242 148.59 90)
+			(at 508.762 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17319,7 +19448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 541.02 148.59 0)
+			(at 510.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17328,7 +19457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 541.02 148.59 0)
+			(at 510.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17345,7 +19474,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "R59")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -17361,7 +19490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcdbbefd-6164-4599-8feb-b2b7cfd788bf")
-		(property "Reference" "C55"
+		(property "Reference" "C45"
 			(at 127 345.4399 0)
 			(effects
 				(font
@@ -17415,7 +19544,73 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "C55")
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 482.6 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe63501f-446a-4bcb-a5ed-9863d7d0c173")
+		(property "Reference" "#PWR0132"
+			(at 482.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 482.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 482.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 482.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e26f0962-ee8f-48ea-badf-ad284420c0dd")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -17431,7 +19626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff5df871-1e11-46cb-9969-629755ed8254")
-		(property "Reference" "D21"
+		(property "Reference" "D12"
 			(at 149.86 238.76 0)
 			(effects
 				(font
@@ -17501,7 +19696,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "D21")
+					(reference "D12")
 					(unit 1)
 				)
 			)

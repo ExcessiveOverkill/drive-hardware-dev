@@ -912,6 +912,447 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+VDC"
 			(power)
 			(pin_names
@@ -1164,126 +1605,170 @@
 		)
 	)
 	(junction
-		(at 104.14 78.74)
+		(at 69.85 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "054d3f42-884b-45c6-a0c6-43f51b9d68a7")
+	)
+	(junction
+		(at 40.64 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09c13b40-ff5a-42bf-951e-8ff618feb4a5")
 	)
 	(junction
-		(at 161.29 115.57)
+		(at 199.39 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a4b1ecb-c380-4c8f-93cd-ed06da89161b")
 	)
 	(junction
-		(at 180.34 71.12)
+		(at 96.52 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "188267bb-4101-4d0a-acaf-f68ced41f716")
+		(uuid "2f2ebc3e-df44-4df1-ad0e-6bbd30877d92")
 	)
 	(junction
-		(at 142.24 71.12)
+		(at 82.55 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32bd756b-1d80-4ea4-bf26-3c6a4e3545d3")
+	)
+	(junction
+		(at 78.74 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3efb183b-c83d-497a-b3ee-40101df855b5")
 	)
 	(junction
-		(at 167.64 78.74)
+		(at 156.21 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46f3469f-0ea1-43ad-81cb-84be9e46cf56")
+		(uuid "45ea80bd-0124-49ce-8b10-52c64d05d121")
 	)
 	(junction
-		(at 173.99 118.11)
+		(at 212.09 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59a1109f-b5ce-4626-b9e3-8f294146909e")
 	)
 	(junction
-		(at 153.67 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a472c1a-659a-49f9-8636-e576439f9aa2")
-	)
-	(junction
-		(at 173.99 102.87)
+		(at 212.09 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65a89452-9575-49e6-baa4-d6b7ca4bfa00")
 	)
 	(junction
-		(at 118.11 78.74)
+		(at 54.61 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "681dcab6-025f-4b24-8629-841126928a8c")
 	)
 	(junction
-		(at 118.11 71.12)
+		(at 156.21 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c2fa669-7959-4342-9fe8-b14cb433ccee")
+	)
+	(junction
+		(at 52.07 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f83a321-8ac3-4b53-b45c-92f0d6816647")
+	)
+	(junction
+		(at 68.58 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8010157c-c9e4-446a-bafc-061513ebf016")
+	)
+	(junction
+		(at 59.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8db4e457-72d9-422a-a02d-3107dad224f1")
+	)
+	(junction
+		(at 54.61 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97ea8e1d-3351-4641-a064-960f646de74b")
 	)
 	(junction
-		(at 142.24 78.74)
+		(at 78.74 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a0bff1-51ad-45d5-9e5f-b540a1914862")
 	)
 	(junction
-		(at 180.34 78.74)
+		(at 96.52 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0bbbd2e-e038-4df8-ad7a-fc424fd5595f")
+		(uuid "a2f20cf8-9c51-4ec8-ae66-bc3eaffd72eb")
 	)
 	(junction
-		(at 153.67 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7b3ed71-4aa5-4c1c-916a-0a3ec4348d67")
-	)
-	(junction
-		(at 132.08 71.12)
+		(at 68.58 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abdfd70e-c0c2-413a-a39b-e84b8a73579d")
 	)
 	(junction
-		(at 132.08 78.74)
+		(at 68.58 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b38371e9-df07-42ee-87fa-fcbce4286808")
 	)
 	(junction
-		(at 161.29 100.33)
+		(at 82.55 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b77f9be6-e746-41cb-8ee9-a8c991798928")
+	)
+	(junction
+		(at 68.58 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4523a96-5d53-44b9-af29-207c7ad0947b")
+	)
+	(junction
+		(at 68.58 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddfb0bf8-bcc3-419d-9606-682d06562c82")
+	)
+	(junction
+		(at 60.96 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e05a821d-9df6-4d71-a732-81984c52c95e")
+	)
+	(junction
+		(at 199.39 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e40b5c46-6a43-4d3e-b42c-bb2cf164f22d")
 	)
 	(junction
-		(at 104.14 71.12)
+		(at 77.47 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4531a73-c4f5-490a-b819-19953251721b")
+	)
+	(junction
+		(at 82.55 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4d49f72-124b-48e6-8fb9-851e678b27de")
+	)
+	(junction
+		(at 40.64 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f298b806-fe25-4ec6-b88e-f8333e684792")
 	)
-	(junction
-		(at 167.64 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe758b1f-ff89-4195-8602-107e3dccd949")
-	)
 	(wire
 		(pts
-			(xy 167.64 71.12) (xy 180.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "087958d4-e574-4f46-95ff-54e59316b7d5")
-	)
-	(wire
-		(pts
-			(xy 173.99 115.57) (xy 173.99 118.11)
+			(xy 212.09 54.61) (xy 212.09 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1293,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 71.12) (xy 118.11 71.12)
+			(xy 40.64 43.18) (xy 54.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1788,57 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 71.12) (xy 132.08 71.12)
+			(xy 166.37 38.1) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c74b79b-67ed-4bbc-bf2c-0b53c7b2fe74")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 82.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109feaff-2524-47fe-9ab6-784d76eb9f6c")
+	)
+	(wire
+		(pts
+			(xy 59.69 134.62) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ee6984-adfc-4b8e-befa-8d9c5f78d48c")
+	)
+	(wire
+		(pts
+			(xy 176.53 140.97) (xy 176.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d49663-456c-437e-b569-ed6e72cc186a")
+	)
+	(wire
+		(pts
+			(xy 59.69 88.9) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c571c7-3d2e-44b8-b7e3-90773c9e2301")
+	)
+	(wire
+		(pts
+			(xy 54.61 43.18) (xy 68.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1313,7 +1848,117 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 78.74)
+			(xy 36.83 95.25) (xy 41.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250595a2-4a26-4731-a693-5b564fc583f9")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd75b0f-122a-431a-b8c4-7315ba947b12")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3187df1c-3e6f-4fe7-9aeb-848f190a5c9f")
+	)
+	(wire
+		(pts
+			(xy 36.83 107.95) (xy 41.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331e850e-9b43-4360-9284-95680797799c")
+	)
+	(wire
+		(pts
+			(xy 82.55 105.41) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c1946b-d150-42a2-96be-a82ae65caba3")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 156.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36471c37-a609-4907-a500-d9e8884ff899")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4319e536-b507-4ed0-a549-8c2ef61b35eb")
+	)
+	(wire
+		(pts
+			(xy 77.47 88.9) (xy 77.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d548d4-e121-4a13-99cf-95fb20900885")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476213bd-495f-4ce6-842d-c21d06e15595")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 96.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a98cde-25ac-48c1-a295-b38e12ed2719")
+	)
+	(wire
+		(pts
+			(xy 77.47 118.11) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4daae68c-16a7-4f52-a53e-1e304b288ea4")
+	)
+	(wire
+		(pts
+			(xy 68.58 52.07) (xy 68.58 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1968,27 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 71.12) (xy 142.24 71.12)
+			(xy 59.69 81.28) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508c8faf-7674-4891-ad0d-2dd01d309103")
+	)
+	(wire
+		(pts
+			(xy 96.52 105.41) (xy 96.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ce9aa9-8b7e-4584-ba59-8a1d1ec763b2")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 78.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1998,57 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 102.87) (xy 179.07 102.87)
+			(xy 60.96 105.41) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b949bc6-e277-4fe2-ab28-4c1357c7e071")
+	)
+	(wire
+		(pts
+			(xy 130.81 38.1) (xy 137.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ab66d7-29cb-4d84-a85f-0da1f43cbd65")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 82.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c641666-6410-461d-a136-72215f29129e")
+	)
+	(wire
+		(pts
+			(xy 52.07 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcb4eda-60f4-4dac-bbab-3a7c4a439ea1")
+	)
+	(wire
+		(pts
+			(xy 68.58 105.41) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae2e274-3aac-4d7d-abf6-254dc54f6b62")
+	)
+	(wire
+		(pts
+			(xy 212.09 41.91) (xy 217.17 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 115.57) (xy 161.29 118.11)
+			(xy 199.39 54.61) (xy 199.39 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1353,27 +2068,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 78.74) (xy 167.64 78.74)
+			(xy 156.21 55.88) (xy 156.21 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "827ebbfa-8b63-4936-8cb7-2227d1c41561")
+		(uuid "8870f470-88c3-4d99-87ba-257b4acb0579")
 	)
 	(wire
 		(pts
-			(xy 167.64 78.74) (xy 180.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e722500-c5f0-4835-ab94-57609a593982")
-	)
-	(wire
-		(pts
-			(xy 156.21 115.57) (xy 161.29 115.57)
+			(xy 194.31 54.61) (xy 199.39 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1383,7 +2088,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 132.08 78.74)
+			(xy 54.61 50.8) (xy 68.58 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1393,17 +2098,37 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 193.04 71.12)
+			(xy 144.78 38.1) (xy 156.21 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aabe3ecf-9265-4fd4-ab34-833282345616")
+		(uuid "9e2cdbd1-65d6-49ab-ada7-7d6c63d76965")
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 161.29 100.33)
+			(xy 144.78 55.88) (xy 156.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44ccb5b-9d7a-4365-99c3-9a2aa8ba92df")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 68.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae398947-53d9-4f16-b955-c67b6422e15a")
+	)
+	(wire
+		(pts
+			(xy 194.31 39.37) (xy 199.39 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1413,17 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 193.04 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b24a37-d5f9-4403-977d-8fe6d7c9ee2a")
-	)
-	(wire
-		(pts
-			(xy 104.14 78.74) (xy 118.11 78.74)
+			(xy 40.64 50.8) (xy 54.61 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 69.85) (xy 132.08 71.12)
+			(xy 68.58 41.91) (xy 68.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1443,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 78.74) (xy 153.67 78.74)
+			(xy 78.74 50.8) (xy 90.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1453,7 +2168,27 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.74) (xy 142.24 78.74)
+			(xy 180.34 140.97) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a9ce6a-7716-4b7d-8fbd-98ee30805beb")
+	)
+	(wire
+		(pts
+			(xy 49.53 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90e039b-b5ec-42e4-8927-ffb6a2082c64")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +2198,57 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 118.11) (xy 179.07 118.11)
+			(xy 60.96 107.95) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3d7d79-49f5-435c-9b37-397941cfd5a9")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbca1f2-abf5-4de4-a9cc-279178d73f56")
+	)
+	(wire
+		(pts
+			(xy 82.55 118.11) (xy 82.55 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf31c2f6-58ec-466f-a21d-d0c8e842d95f")
+	)
+	(wire
+		(pts
+			(xy 52.07 92.71) (xy 52.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2997b4e-aa0f-475b-a81f-a8a703de862a")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 156.21 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d58e25-d4e8-41e1-a92a-313f0c6bdc1a")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 217.17 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +2258,37 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 71.12) (xy 153.67 71.12)
+			(xy 49.53 95.25) (xy 52.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd55238a-545f-4095-ad2d-88d581383f33")
+	)
+	(wire
+		(pts
+			(xy 130.81 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb5cd00-541f-4a8f-b5d7-b4e11f8dcca4")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11625cf-c284-4a56-b164-39ed2d8276d0")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 90.17 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1483,7 +2298,47 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 161.29 102.87)
+			(xy 69.85 118.11) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85ce30a-3c82-434c-95af-1b1d7b210ffc")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcaa2497-2a10-4924-a3f9-38632ba89114")
+	)
+	(wire
+		(pts
+			(xy 59.69 92.71) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde81be7-e52e-47d5-b8b8-db5cc1d8f175")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df231e2c-a453-4772-a7d8-a30e4335e912")
+	)
+	(wire
+		(pts
+			(xy 199.39 39.37) (xy 199.39 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1493,7 +2348,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 100.33) (xy 173.99 102.87)
+			(xy 49.53 120.65) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e206919b-edfa-4d99-8590-c36d4417a2e0")
+	)
+	(wire
+		(pts
+			(xy 212.09 39.37) (xy 212.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1503,17 +2368,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 167.64 71.12)
+			(xy 36.83 120.65) (xy 41.91 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3df4a46-57af-48e5-9004-aca30be04fcb")
+		(uuid "ebffc3c7-52f1-489e-b37a-de7bab1f8a44")
 	)
 	(rectangle
-		(start 91.44 54.61)
-		(end 209.55 132.08)
+		(start 27.94 26.67)
+		(end 241.3 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -1523,9 +2388,9 @@
 		)
 		(uuid c4d60fc3-d384-4f9d-ae59-17b7cff97a4e)
 	)
-	(text "Power Connectors"
+	(text "Power Connectors / Filtering"
 		(exclude_from_sim no)
-		(at 132.08 53.34 0)
+		(at 101.854 24.892 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1536,7 +2401,7 @@
 	)
 	(global_label "W"
 		(shape output)
-		(at 121.92 107.95 0)
+		(at 160.02 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1547,7 +2412,7 @@
 		)
 		(uuid "0cd08952-b17e-4125-90c3-b9a835e63c30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8326 107.95 0)
+			(at 164.9326 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +2425,7 @@
 	)
 	(global_label "U"
 		(shape output)
-		(at 121.92 102.87 0)
+		(at 160.02 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1571,7 +2436,7 @@
 		)
 		(uuid "0ff6a658-ff46-454f-9847-e65f8a0136a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.7117 102.87 0)
+			(at 164.8117 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,9 +2447,147 @@
 			)
 		)
 	)
+	(global_label "W_"
+		(shape output)
+		(at 36.83 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "1a04e9dd-3ec7-46a0-924f-610e814ca715")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.9498 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCBUS+"
+		(shape input)
+		(at 194.31 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1da20dc3-8323-415e-a2c0-a9749275e999")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.4024 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_"
+		(shape output)
+		(at 36.83 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "26c557ab-f1b3-4478-a984-8da26aad7784")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.3126 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCBUS-"
+		(shape input)
+		(at 166.37 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dcde904-d5af-4ddf-9ab6-07be790ae1a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.2776 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCBUS+"
+		(shape input)
+		(at 194.31 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "669f5c7e-ab26-44c2-9adf-a07c649a6a00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.4024 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U_"
+		(shape output)
+		(at 36.83 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "6c915c96-a7fa-4444-af05-4d79970d5b58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.0707 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape output)
-		(at 109.22 110.49 180)
+		(at 147.32 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1595,7 +2598,7 @@
 		)
 		(uuid "6cba905f-01d4-4e47-9ee6-b483544935c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8883 110.49 0)
+			(at 139.9883 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +2611,7 @@
 	)
 	(global_label "GND"
 		(shape output)
-		(at 121.92 110.49 0)
+		(at 160.02 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1619,7 +2622,7 @@
 		)
 		(uuid "708cd89c-e8f0-418c-ace3-6bd652ce3233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.2517 110.49 0)
+			(at 167.3517 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,9 +2633,31 @@
 			)
 		)
 	)
+	(global_label "DCBUS-"
+		(shape input)
+		(at 217.17 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82f20f30-ab94-4882-94be-3487269abb6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.0776 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V"
 		(shape output)
-		(at 121.92 105.41 0)
+		(at 160.02 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1643,7 +2668,55 @@
 		)
 		(uuid "84a1dd51-a559-4d63-b7ed-4cc6e7abc864")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.4698 105.41 0)
+			(at 164.5698 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "W"
+		(shape output)
+		(at 107.95 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8cb38584-36a9-4798-8b36-d24bec492184")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8626 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U"
+		(shape output)
+		(at 107.95 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "929c0e40-da7c-40f6-895a-f2581ac68ca5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.7417 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +2729,7 @@
 	)
 	(global_label "V"
 		(shape output)
-		(at 109.22 105.41 180)
+		(at 147.32 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1667,7 +2740,7 @@
 		)
 		(uuid "9b590b6c-122a-4986-afdb-da166f9067dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.6702 105.41 0)
+			(at 142.7702 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1678,9 +2751,125 @@
 			)
 		)
 	)
+	(global_label "DCBUS+"
+		(shape input)
+		(at 166.37 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afb4d4cf-56ce-4c23-8fc4-c3e7ac4bac16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.2776 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V"
+		(shape output)
+		(at 107.95 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c51b02b8-c069-445c-b88d-f76a5e5e8970")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.4998 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DCBUS-"
+		(shape input)
+		(at 217.17 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5de28b2-5df5-4dff-b8fd-3e2582f032bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.0776 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape output)
+		(at 157.48 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ef940303-d607-482d-9623-dce928b0af07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8117 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape output)
+		(at 187.96 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f0425d89-1369-4a72-b0da-22b51351b567")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.2917 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "U"
 		(shape output)
-		(at 109.22 102.87 180)
+		(at 147.32 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1691,7 +2880,7 @@
 		)
 		(uuid "f26e83aa-59b1-4b0c-b2b3-ab70167969b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4283 102.87 0)
+			(at 142.5283 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +2893,7 @@
 	)
 	(global_label "W"
 		(shape output)
-		(at 109.22 107.95 180)
+		(at 147.32 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1715,7 +2904,7 @@
 		)
 		(uuid "fb652ff9-1b2f-4289-ad57-fa2c42777d86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.3074 107.95 0)
+			(at 142.4074 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,15 +2917,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 104.14 71.12 0)
+		(at 40.64 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0d11b6e2-457b-40ef-a585-5f8fbced4410")
-		(property "Reference" "TP7"
-			(at 104.14 64.262 0)
+		(property "Reference" "TP21"
+			(at 40.64 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +2933,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 66.04 0)
+			(at 40.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" "footprints:TestPoint_Pad_3.1x1.6mm"
-			(at 109.22 71.12 0)
+			(at 45.72 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 71.12 0)
+			(at 45.72 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +2959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 71.12 0)
+			(at 40.64 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +2973,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "TP7")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -1792,16 +2981,16 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 156.21 115.57 0)
+		(at 68.58 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "11ec8ac1-ea4f-4803-974e-53ec2ae59361")
-		(property "Reference" "#PWR0113"
-			(at 156.21 118.11 0)
+		(uuid "11b9a94d-10ec-47cc-8850-028ab7604e6c")
+		(property "Reference" "#PWR0135"
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +2999,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 156.21 107.95 0)
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +3007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 115.57 0)
+			(at 68.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +3016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 115.57 0)
+			(at 68.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +3025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 115.57 0)
+			(at 68.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,45 +3034,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd5ad29b-f417-4142-8959-089b0d49ac36")
+			(uuid "e585d8bf-5807-4d28-840b-a62c3228c71b")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "#PWR0113")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 166.37 115.57 0)
+		(lib_id "Device:L")
+		(at 45.72 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b20b14b-9c1d-4dd9-abd2-553d56d31d60")
-		(property "Reference" "J5"
-			(at 167.64 109.22 0)
+		(uuid "1a62ad59-2520-4232-becb-286b550f7146")
+		(property "Reference" "L18"
+			(at 45.72 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DC BUS J2"
-			(at 167.64 111.76 0)
+		(property "Value" "1uH"
+			(at 45.72 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76825-0004_2x02_P5.70mm_Horizontal"
-			(at 166.37 115.57 0)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-6767"
+			(at 45.72 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +3081,144 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 115.57 0)
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8da6c5c8-5400-4fd1-88df-caba599277c7")
+		)
+		(pin "1"
+			(uuid "db87e51b-8471-46d0-9ba3-f3059bfd096a")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "L18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 140.97 55.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1afb0888-9147-4577-b7c4-7bb0d14d498c")
+		(property "Reference" "L22"
+			(at 140.97 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uH"
+			(at 140.97 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-5050"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88152121-f781-4519-bf31-9c90365a3824")
+		)
+		(pin "1"
+			(uuid "be58bd0e-3ca6-47c9-9806-7e206f24578e")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "L22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 204.47 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b20b14b-9c1d-4dd9-abd2-553d56d31d60")
+		(property "Reference" "J7"
+			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC BUS J2"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76825-0004_2x02_P5.70mm_Horizontal"
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +3227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 115.57 0)
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +3250,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1932,7 +3258,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 166.37 100.33 0)
+		(at 204.47 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1940,8 +3266,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200859a9-86d5-4f78-af5d-1b6e80991e10")
-		(property "Reference" "J4"
-			(at 167.64 93.98 0)
+		(property "Reference" "J6"
+			(at 205.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +3275,7 @@
 			)
 		)
 		(property "Value" "DC BUS J1"
-			(at 167.64 96.52 0)
+			(at 205.74 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +3283,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76825-0004_2x02_P5.70mm_Horizontal"
-			(at 166.37 100.33 0)
+			(at 204.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +3292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 100.33 0)
+			(at 204.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +3301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 100.33 0)
+			(at 204.47 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,40 +3324,41 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
-		(at 114.3 105.41 0)
+		(lib_id "Device:L")
+		(at 140.97 38.1 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43bc008d-0d1c-455b-a9a2-6f3857832144")
-		(property "Reference" "J2"
-			(at 115.57 96.52 0)
+		(uuid "22133806-de84-42c6-932e-e6343fc5f492")
+		(property "Reference" "L21"
+			(at 140.97 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MOTOR"
-			(at 115.57 99.06 0)
+		(property "Value" "1uH"
+			(at 140.97 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76825-0008_2x04_P5.70mm_Horizontal"
-			(at 114.3 105.41 0)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-5050"
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +3367,145 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 105.41 0)
+			(at 140.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 140.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7712ad0-a3bb-42bd-a9fd-7ceb1755b13a")
+		)
+		(pin "1"
+			(uuid "adae4ee1-003c-4a86-b76f-7de55d919d84")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "L21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "287883f7-802a-40e8-b723-bdf99ad8b86f")
+		(property "Reference" "R87"
+			(at 162.56 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7"
+			(at 160.02 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
+			(at 157.988 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0466799-04b5-4bb2-862e-173eb429b0ac")
+		)
+		(pin "2"
+			(uuid "da4f7ed2-d6d8-41ee-8234-39f60b719366")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 176.53 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3681d396-d423-431c-b43b-22bf2396f1da")
+		(property "Reference" "#PWR0140"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 176.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +3514,139 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 105.41 0)
+			(at 176.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "309af0a6-ffeb-43ec-9e0b-64ba71de791a")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 149.86 140.97 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c48c2da-7ecb-4db0-b369-443c60909504")
+		(property "Reference" "#PWR0139"
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18ef6a05-843e-40a1-acd0-084f0e8e33a5")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
+		(at 152.4 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43bc008d-0d1c-455b-a9a2-6f3857832144")
+		(property "Reference" "J5"
+			(at 153.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MOTOR"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76825-0008_2x04_P5.70mm_Horizontal"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,23 +3681,24 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 104.14 74.93 0)
+		(lib_id "Device:C")
+		(at 82.55 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "452cad62-2be9-4de3-9063-84dd2b710d6d")
-		(property "Reference" "C8"
-			(at 107.95 73.025 0)
+		(fields_autoplaced yes)
+		(uuid "4432a5c5-c033-4208-9dd6-d696514ae961")
+		(property "Reference" "C114"
+			(at 86.36 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,8 +3706,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uf"
-			(at 107.95 74.93 0)
+		(property "Value" "470pf"
+			(at 86.36 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,8 +3715,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
-			(at 104.14 74.93 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 83.5152 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +3725,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 74.93 0)
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a30e7f2e-b1ee-4b52-8bbf-630e00955957")
+		)
+		(pin "1"
+			(uuid "e931f7d5-e37b-41b4-9b27-7aa0309186a2")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 40.64 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "452cad62-2be9-4de3-9063-84dd2b710d6d")
+		(property "Reference" "C104"
+			(at 44.45 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uf"
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +3803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 74.93 0)
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +3820,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C8")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -2161,34 +3828,35 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 74.93 180)
+		(at 156.21 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b12a63e-11f4-477e-afb6-3857e1a9f44d")
-		(property "Reference" "C108"
-			(at 171.45 73.66 0)
+		(uuid "550dafe1-eecc-4667-8ebe-b83e9d86b951")
+		(property "Reference" "C117"
+			(at 152.4 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
-			(at 171.45 76.2 0)
+		(property "Value" "4.7nf"
+			(at 152.4 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5650Metric"
-			(at 166.6748 71.12 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 155.2448 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 74.93 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,126 +3873,60 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 167.64 74.93 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "3befcccd-553d-4cac-9a6a-a3e8567217d7")
 		)
 		(pin "2"
-			(uuid "20252525-532e-48db-9522-dfa67c6477a3")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VDC")
-		(at 156.21 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58aa9adf-0acb-4194-a229-7e67a5d0beef")
-		(property "Reference" "#PWR0112"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 156.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "0757d682-9942-48de-8d64-a137e875b3e3")
 		)
 		(pin "1"
-			(uuid "b131735a-2795-4b9b-9e3f-43a5537412c1")
+			(uuid "fd6e46a6-8105-423d-8d37-a4fc1c2085a8")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "#PWR0112")
+					(reference "C117")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 193.04 74.93 180)
+		(lib_id "Device:D")
+		(at 77.47 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63dcd190-c6f1-4517-b26c-b18e6e10a63d")
-		(property "Reference" "C110"
-			(at 196.85 73.66 0)
+		(uuid "5c361850-2cba-4254-bd5d-5b8391259120")
+		(property "Reference" "D34"
+			(at 80.01 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
-			(at 196.85 76.2 0)
+		(property "Value" "D"
+			(at 80.01 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5650Metric"
-			(at 192.0748 71.12 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +3935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 74.93 0)
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,8 +3943,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 193.04 74.93 0)
+		(property "Description" "Diode"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,15 +3971,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d7afaed-d747-4315-b552-b10d5198d361")
+			(uuid "e40a6215-ce00-4c8a-b3a0-2cf8a709783e")
 		)
 		(pin "2"
-			(uuid "14820bd6-23b2-4900-a9fa-f65237d3061a")
+			(uuid "9de9b518-382e-4050-bbd0-7f409ea97eac")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C110")
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6359a472-36bb-42b4-8ae0-1ffdbcfaf30b")
+		(property "Reference" "R84"
+			(at 55.88 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7"
+			(at 55.88 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
+			(at 55.88 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16485ee2-108f-41ac-98ea-0bd3e47d4938")
+		)
+		(pin "2"
+			(uuid "448a86ab-a5e0-4fbf-804e-0372a72c7b6d")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "710b4220-1da9-4efc-87b4-fbaf0446889a")
+		(property "Reference" "R86"
+			(at 73.66 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7"
+			(at 73.66 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
+			(at 73.66 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b9e4b48-bb87-43c9-aa24-e94fe7d0acf9")
+		)
+		(pin "2"
+			(uuid "6a29bfd0-68ee-429f-80ee-6c8488817283")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -2367,7 +4121,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 74.93 0)
+		(at 78.74 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2375,8 +4129,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71ead6c6-7e0f-4aea-9b44-9523f404b7e6")
-		(property "Reference" "C48"
-			(at 146.05 73.6599 0)
+		(property "Reference" "C106"
+			(at 82.55 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +4139,7 @@
 			)
 		)
 		(property "Value" "40uf"
-			(at 146.05 76.1999 0)
+			(at 82.55 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +4148,7 @@
 			)
 		)
 		(property "Footprint" "footprints:BUS CAP1"
-			(at 143.2052 78.74 0)
+			(at 79.7052 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +4157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 74.93 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +4166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 74.93 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,39 +4183,42 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C48")
+					(reference "C106")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 104.14 78.74 180)
+		(lib_id "Device:D")
+		(at 77.47 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "787cd9b0-8a33-4db2-bc05-9219b543a127")
-		(property "Reference" "TP8"
-			(at 104.14 85.598 0)
+		(fields_autoplaced yes)
+		(uuid "734a140c-aa54-4e51-a6da-7c22f559042c")
+		(property "Reference" "D30"
+			(at 80.01 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 104.14 83.82 0)
+		(property "Value" "D"
+			(at 80.01 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_Pad_3.1x1.6mm"
-			(at 99.06 78.74 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +4227,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 78.74 0)
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0219d9c-b3d2-48c8-8d42-99a19b0ed79b")
+		)
+		(pin "2"
+			(uuid "2279dc95-5313-4e48-8b6a-3bb01682e174")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "787cd9b0-8a33-4db2-bc05-9219b543a127")
+		(property "Reference" "TP22"
+			(at 40.64 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_3.1x1.6mm"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +4321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 78.74 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +4335,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "TP8")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -2501,34 +4343,32 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 74.93 180)
+		(at 184.15 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf768c28-4aee-401b-a393-f74ba38102b6")
-		(property "Reference" "C109"
-			(at 184.15 73.66 0)
+		(uuid "82575af3-0c6a-4e6d-85fe-1b5d63c60da3")
+		(property "Reference" "C131"
+			(at 184.15 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" ".1uf"
-			(at 184.15 76.2 0)
+		(property "Value" "220pf"
+			(at 184.15 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5650Metric"
-			(at 179.3748 71.12 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
+			(at 180.34 141.9352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 74.93 0)
+			(at 184.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +4386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 74.93 0)
+			(at 184.15 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,32 +4395,117 @@
 			)
 		)
 		(pin "1"
-			(uuid "a31c7e84-47e1-466a-b8ea-543e7d91b6ce")
+			(uuid "e166da2a-d24b-4285-a73d-b3c23d03cd10")
 		)
 		(pin "2"
-			(uuid "f0fe06a3-5669-4809-8304-f99bd5e27d37")
+			(uuid "e0780e4b-c7c8-4ed0-8f6e-71b715f1df38")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C109")
+					(reference "C131")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:-VDC")
-		(at 179.07 118.11 180)
+		(lib_id "Device:R")
+		(at 64.77 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b741f1e-eef7-418b-b799-eea16f028a80")
+		(property "Reference" "R85"
+			(at 64.77 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7"
+			(at 64.77 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
+			(at 64.77 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb9c318b-cf69-4d00-9bcf-89524d1a493c")
+		)
+		(pin "2"
+			(uuid "358514bf-99c3-47ba-8e8b-b829b85aca02")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 59.69 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c429bd59-f463-477c-b0d4-b9c1b4e92787")
-		(property "Reference" "#PWR0116"
-			(at 179.07 115.57 0)
+		(uuid "91744143-9af7-40b2-97ef-be816bed23ed")
+		(property "Reference" "D31"
+			(at 62.23 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 62.23 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,16 +4513,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-VDC"
-			(at 179.07 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 118.11 0)
+		(property "Datasheet" "~"
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,8 +4522,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 179.07 118.11 0)
+		(property "Description" "Diode"
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,8 +4531,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 118.11 0)
+		(property "Sim.Device" "D"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,12 +4550,307 @@
 			)
 		)
 		(pin "1"
-			(uuid "47ae85c4-e6e6-49c6-b16e-0d17a2491eed")
+			(uuid "04dd3cc4-e3b9-4722-ba49-615c7a51ef27")
+		)
+		(pin "2"
+			(uuid "27023ff5-1861-4c07-bbfa-132b25797813")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "#PWR0116")
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 45.72 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a208f1e9-8fc1-4503-8e6b-ba27e4544600")
+		(property "Reference" "L19"
+			(at 45.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uH"
+			(at 45.72 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-6767"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eec1092f-929f-4bb2-b829-f1db360b34a7")
+		)
+		(pin "1"
+			(uuid "95944a03-3691-4e31-a815-cc4d7844407a")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "L19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd244f73-0168-4ee1-a462-d18e90f9135b")
+		(property "Reference" "C130"
+			(at 153.67 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220pf"
+			(at 153.67 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
+			(at 149.86 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02cdf865-eb1b-4000-b919-4170bb16d59d")
+		)
+		(pin "2"
+			(uuid "a36d7ed6-3f21-4344-95ae-e0f87c0bad65")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "C130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 45.72 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdf109c3-5867-4767-a321-6458c361f2df")
+		(property "Reference" "L20"
+			(at 45.72 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uH"
+			(at 45.72 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-6767"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9869af1c-4e06-4516-9a05-7e0df81def24")
+		)
+		(pin "1"
+			(uuid "e4305e10-bfe4-4f2b-b9d8-0c35366202bd")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "L20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 68.58 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1219e75-af57-4361-82d4-fffd00fb4950")
+		(property "Reference" "D29"
+			(at 71.12 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 71.12 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa13045-8a60-46cc-a1c9-fd9aec22432d")
+		)
+		(pin "2"
+			(uuid "ca1399c9-3537-4ae9-b303-8d5083452227")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -2637,7 +4858,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 132.08 80.01 180)
+		(at 68.58 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2645,8 +4866,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c62f6d41-4728-44c5-8949-b541108b105c")
-		(property "Reference" "#PWR027"
-			(at 132.08 77.47 0)
+		(property "Reference" "#PWR0128"
+			(at 68.58 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +4876,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 132.08 87.63 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +4884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 80.01 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +4893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 80.01 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +4902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 80.01 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,41 +4916,24 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "#PWR027")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 118.11 74.93 0)
+		(lib_id "power:-VDC")
+		(at 68.58 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cbaaed03-ad83-409a-9bc1-4fb9bc864cf7")
-		(property "Reference" "C9"
-			(at 121.92 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470uf"
-			(at 121.92 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
-			(at 118.11 74.93 0)
+		(fields_autoplaced yes)
+		(uuid "cb4285e2-9987-4282-887d-ed24c91aecf1")
+		(property "Reference" "#PWR0136"
+			(at 68.58 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,8 +4941,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 118.11 74.93 0)
+		(property "Value" "-VDC"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +4968,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 74.93 0)
+			(at 68.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad7e242-f818-458a-add4-18046760f7c3")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 54.61 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbaaed03-ad83-409a-9bc1-4fb9bc864cf7")
+		(property "Reference" "C105"
+			(at 58.42 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uf"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +5051,323 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C9")
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 68.58 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d624a1df-f34f-4c0f-98e5-cf81cb831be6")
+		(property "Reference" "D33"
+			(at 71.12 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 71.12 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aebd22a2-0324-4cf0-817e-476579a6cfb1")
+		)
+		(pin "2"
+			(uuid "ce0d0c6f-1528-426d-9800-df542a215f3f")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d76918ab-8b5d-4d8e-be30-b2d56aa4c329")
+		(property "Reference" "C115"
+			(at 86.36 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pf"
+			(at 86.36 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 83.5152 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8a9cab4-efc9-4fdc-b9b8-3fe86085dcf0")
+		)
+		(pin "1"
+			(uuid "9a956e88-d0e0-4e21-afc6-c18b5da00bdf")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 59.69 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc2ae102-8081-4cad-bbd0-06a7bb9ac5f1")
+		(property "Reference" "D32"
+			(at 62.23 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 62.23 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05ff0825-3038-40b1-92d2-8b16228943a6")
+		)
+		(pin "2"
+			(uuid "bae97719-12d0-475a-bf86-d7d201394df1")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec876852-0738-4ff7-8643-92ea443a918c")
+		(property "Reference" "C116"
+			(at 100.33 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pf"
+			(at 100.33 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 97.4852 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "018e8874-758a-468b-93a5-1bed4758fc9f")
+		)
+		(pin "1"
+			(uuid "4a6553b0-3537-44c7-920e-e7adc1393006")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -2772,16 +5375,17 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 132.08 69.85 0)
+		(at 130.81 38.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2107a1d-e4e6-47ae-91b0-66aceb138669")
-		(property "Reference" "#PWR026"
-			(at 132.08 72.39 0)
+		(uuid "ee0acaa4-889c-407d-8930-4ec555e0ed08")
+		(property "Reference" "#PWR0129"
+			(at 130.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +5394,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 132.08 62.23 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +5402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 69.85 0)
+			(at 130.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +5411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 69.85 0)
+			(at 130.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +5420,140 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 69.85 0)
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c1ecb64-1f76-4159-8d23-cdc94a27a0fe")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 130.81 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1e6fd3c-d881-45e0-b854-d32e61639a83")
+		(property "Reference" "#PWR0131"
+			(at 130.81 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64e865bb-e743-4868-bb28-3e107c666f11")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 68.58 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2107a1d-e4e6-47ae-91b0-66aceb138669")
+		(property "Reference" "#PWR0127"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,73 +5567,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-VDC")
-		(at 179.07 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f22bcc2e-07a8-44f0-86c2-cd0576691149")
-		(property "Reference" "#PWR0114"
-			(at 179.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-VDC"
-			(at 179.07 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1479ee7-99ef-41cb-81a0-fc004ff18c6b")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "#PWR0114")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -2904,7 +5575,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 74.93 0)
+		(at 90.17 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2912,8 +5583,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b07fa8-faea-4ee8-b204-b23dad82a1d0")
-		(property "Reference" "C49"
-			(at 157.48 73.6599 0)
+		(property "Reference" "C107"
+			(at 93.98 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +5593,7 @@
 			)
 		)
 		(property "Value" "40uf"
-			(at 157.48 76.1999 0)
+			(at 93.98 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +5602,7 @@
 			)
 		)
 		(property "Footprint" "footprints:BUS CAP1"
-			(at 154.6352 78.74 0)
+			(at 91.1352 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +5611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 74.93 0)
+			(at 90.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +5620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 74.93 0)
+			(at 90.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +5637,7 @@
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C49")
+					(reference "C107")
 					(unit 1)
 				)
 			)

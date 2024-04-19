@@ -93,7 +93,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2852c9f9-8bc9-4870-b49f-dc85f06c165d")
-		(property "Sheetname" "Power Connectors"
+		(property "Sheetname" "Power Connectors and Filtering"
 			(at 30.48 127.5584 0)
 			(effects
 				(font
