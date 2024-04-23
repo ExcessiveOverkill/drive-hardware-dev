@@ -3008,6 +3008,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 114.3) (xy 254 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373ac53d-e114-4f79-b78c-09a50657b438")
+	)
+	(wire
+		(pts
 			(xy 226.06 91.44) (xy 229.87 91.44)
 		)
 		(stroke
@@ -3598,6 +3608,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 113.03) (xy 254 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b904a0b9-c0b2-45e5-8a9c-8b00a0a91806")
+	)
+	(wire
+		(pts
 			(xy 105.41 176.53) (xy 105.41 184.15)
 		)
 		(stroke
@@ -3725,6 +3745,16 @@
 			(type default)
 		)
 		(uuid "d954b0de-5a79-42e7-b37c-bff3c068efba")
+	)
+	(wire
+		(pts
+			(xy 254 121.92) (xy 254 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db16df99-dfb1-4f90-af54-495e6c03a90a")
 	)
 	(wire
 		(pts
@@ -4015,6 +4045,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STO EN"
+		(shape input)
+		(at 251.46 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "213215cc-8165-4b11-b845-a732ab29fe4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.5201 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4843,6 +4895,76 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/5ac84363-ab69-4569-a1a9-ce084738114b"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f3764f0-6532-4217-bfae-f06c30ab1260")
+		(property "Reference" "R88"
+			(at 256.54 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 256.54 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 255.778 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ce91de7-b9b7-438e-86eb-76fac1de6b0b")
+		)
+		(pin "2"
+			(uuid "405e0dce-2c13-4325-8505-59002595d18c")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/5ac84363-ab69-4569-a1a9-ce084738114b"
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -6789,6 +6911,72 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/5ac84363-ab69-4569-a1a9-ce084738114b"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 254 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b245275a-34e1-43da-92ea-756e66591247")
+		(property "Reference" "#PWR0141"
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 254 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a353982a-2464-4be6-9244-6e507387d52d")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/5ac84363-ab69-4569-a1a9-ce084738114b"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
