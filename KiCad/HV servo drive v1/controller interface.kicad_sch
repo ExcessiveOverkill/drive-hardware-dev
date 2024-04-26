@@ -4065,12 +4065,6 @@
 		(uuid "581c98ba-40e0-4d29-b893-bee74b348914")
 	)
 	(junction
-		(at 266.7 308.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59d8aa83-a673-42a9-aafa-9b94619b37e0")
-	)
-	(junction
 		(at 255.27 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4962,7 +4956,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 308.61) (xy 266.7 308.61)
+			(xy 265.43 308.61) (xy 269.24 308.61)
 		)
 		(stroke
 			(width 0)
@@ -5062,7 +5056,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 308.61) (xy 259.08 308.61)
+			(xy 251.46 308.61) (xy 257.81 308.61)
 		)
 		(stroke
 			(width 0)
@@ -5939,16 +5933,6 @@
 			(type default)
 		)
 		(uuid "f2ee1228-818c-448c-b351-662aa4cdcf0b")
-	)
-	(wire
-		(pts
-			(xy 266.7 308.61) (xy 269.24 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f43be16b-9b1e-44cf-b9f3-5e241ce9676f")
 	)
 	(wire
 		(pts
@@ -7945,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 262.89 308.61 90)
+		(at 261.62 308.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7954,7 +7938,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b65cffe-bcbd-4e27-b2a1-0bfd87027348")
 		(property "Reference" "L3"
-			(at 262.89 303.53 90)
+			(at 261.62 303.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +7946,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 262.89 306.07 90)
+			(at 261.62 306.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7954,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
-			(at 262.89 308.61 0)
+			(at 261.62 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +7963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 308.61 0)
+			(at 261.62 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +7972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 308.61 0)
+			(at 261.62 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
