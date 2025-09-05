@@ -1507,13 +1507,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 41.91) (xy 217.17 41.91)
+			(xy 304.8 85.09) (xy 304.8 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "172a54c2-289b-4d0e-a7e2-8769c3213ac1")
+		(uuid "1921ed9e-0fae-4f0b-bdd5-29805754328f")
 	)
 	(wire
 		(pts
@@ -1534,6 +1534,16 @@
 			(type default)
 		)
 		(uuid "1976572a-8a3d-45d9-bf53-3846c1959dc3")
+	)
+	(wire
+		(pts
+			(xy 132.08 128.27) (xy 119.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af6c293-d2f6-4016-8378-3eaba22811a2")
 	)
 	(wire
 		(pts
@@ -1577,16 +1587,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 143.51) (xy 215.9 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d779ef3-1561-4561-a630-fea28e39085a")
-	)
-	(wire
-		(pts
 			(xy 182.88 238.76) (xy 182.88 236.22)
 		)
 		(stroke
@@ -1607,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 41.91) (xy 309.88 82.55)
+			(xy 309.88 33.02) (xy 309.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1727,16 +1727,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 139.7) (xy 123.19 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c0d25f-0684-422e-8b1f-15178e8b8669")
-	)
-	(wire
-		(pts
 			(xy 104.14 156.21) (xy 104.14 157.48)
 		)
 		(stroke
@@ -1767,13 +1757,13 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 149.86) (xy 294.64 143.51)
+			(xy 217.17 33.02) (xy 204.47 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "499f5de1-9b29-4384-84a1-6122633e26e5")
+		(uuid "48ae5e45-54b2-4b0d-9254-b469e046250c")
 	)
 	(wire
 		(pts
@@ -1797,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 87.63) (xy 308.61 143.51)
+			(xy 308.61 87.63) (xy 308.61 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1824,6 +1814,16 @@
 			(type default)
 		)
 		(uuid "58f78444-54b5-4923-ac2e-a4d37368db8a")
+	)
+	(wire
+		(pts
+			(xy 231.14 72.39) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eac89d2-8189-47ce-9e44-b13ebbee51e7")
 	)
 	(wire
 		(pts
@@ -1977,16 +1977,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 72.39) (xy 231.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784c11cf-61e3-420c-9dff-255035c964c7")
-	)
-	(wire
-		(pts
 			(xy 181.61 116.84) (xy 181.61 120.65)
 		)
 		(stroke
@@ -2027,16 +2017,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 41.91) (xy 309.88 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84186cc6-df85-4773-84da-ba06fe21ec6f")
-	)
-	(wire
-		(pts
 			(xy 182.88 222.25) (xy 182.88 224.79)
 		)
 		(stroke
@@ -2047,16 +2027,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 72.39) (xy 205.74 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b79262-130f-4482-b6a0-ec2b40c1dc54")
-	)
-	(wire
-		(pts
 			(xy 189.23 168.91) (xy 189.23 171.45)
 		)
 		(stroke
@@ -2064,16 +2034,6 @@
 			(type default)
 		)
 		(uuid "85f550db-0925-4a9c-8d34-5322f06ac42f")
-	)
-	(wire
-		(pts
-			(xy 204.47 149.86) (xy 204.47 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88753941-1292-4b8c-abb7-e4f7690d1659")
 	)
 	(wire
 		(pts
@@ -2107,6 +2067,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 134.62) (xy 215.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e38f194-1e91-44f0-85a9-e071b096bb7a")
+	)
+	(wire
+		(pts
 			(xy 138.43 236.22) (xy 128.27 236.22)
 		)
 		(stroke
@@ -2117,16 +2087,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 99.06) (xy 294.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e3aa8d-678f-4c5e-9326-a6fd19566161")
-	)
-	(wire
-		(pts
 			(xy 279.4 109.22) (xy 276.86 109.22)
 		)
 		(stroke
@@ -2134,16 +2094,6 @@
 			(type default)
 		)
 		(uuid "925fff63-f987-4438-a3d9-37b3fd725402")
-	)
-	(wire
-		(pts
-			(xy 205.74 72.39) (xy 231.14 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f388f1-c93b-4e06-b416-e6fdab04808d")
 	)
 	(wire
 		(pts
@@ -2167,6 +2117,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 33.02) (xy 217.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96632ec1-a554-442d-94ff-1d6216bdfb86")
+	)
+	(wire
+		(pts
 			(xy 279.4 58.42) (xy 279.4 59.69)
 		)
 		(stroke
@@ -2184,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "990132af-e1d5-47fd-9fb0-e2dcca177f5c")
-	)
-	(wire
-		(pts
-			(xy 294.64 92.71) (xy 304.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f2b133-f117-4770-a775-cffffc05bd07")
 	)
 	(wire
 		(pts
@@ -2217,13 +2167,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 99.06) (xy 204.47 92.71)
+			(xy 309.88 33.02) (xy 294.64 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d324d39-d493-403f-b259-1a81f826df00")
+		(uuid "9e40dcf8-165a-4661-be2d-3f315689278d")
 	)
 	(wire
 		(pts
@@ -2247,16 +2197,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 41.91) (xy 217.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2270974-a2fb-4ecb-8d5a-a70a24164a22")
-	)
-	(wire
-		(pts
 			(xy 96.52 140.97) (xy 96.52 148.59)
 		)
 		(stroke
@@ -2264,26 +2204,6 @@
 			(type default)
 		)
 		(uuid "a2328e3a-752b-4414-b1cf-ebc266cc2431")
-	)
-	(wire
-		(pts
-			(xy 304.8 92.71) (xy 304.8 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3760cb5-5a15-4009-b57b-0d017221ab31")
-	)
-	(wire
-		(pts
-			(xy 204.47 48.26) (xy 204.47 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3fa8597-76ae-491f-bb43-0c16a8886e98")
 	)
 	(wire
 		(pts
@@ -2304,16 +2224,6 @@
 			(type default)
 		)
 		(uuid "a4bf301c-7b97-42f5-b1c9-186db9ef6ba4")
-	)
-	(wire
-		(pts
-			(xy 204.47 92.71) (xy 205.74 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa4eac37-69ae-4ddc-ada2-f55903b51a8c")
 	)
 	(wire
 		(pts
@@ -2354,16 +2264,6 @@
 			(type default)
 		)
 		(uuid "b4777721-77b2-4064-b44f-185b5805f3f8")
-	)
-	(wire
-		(pts
-			(xy 294.64 143.51) (xy 308.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a5e20a-5e5b-478b-93f9-46ab74fd3e45")
 	)
 	(wire
 		(pts
@@ -2477,17 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 123.19 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c579d185-f26d-4d46-9887-60c16d0327fc")
-	)
-	(wire
-		(pts
-			(xy 215.9 82.55) (xy 215.9 143.51)
+			(xy 215.9 82.55) (xy 215.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2537,6 +2427,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 128.27) (xy 119.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ba467c-187f-4738-9e5c-9a418bdb47ea")
+	)
+	(wire
+		(pts
 			(xy 294.64 160.02) (xy 279.4 160.02)
 		)
 		(stroke
@@ -2564,16 +2464,6 @@
 			(type default)
 		)
 		(uuid "d8b2faa6-04f2-4eb1-a64f-cbb67a547a95")
-	)
-	(wire
-		(pts
-			(xy 119.38 146.05) (xy 119.38 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8fe7ae-8384-44b7-820c-6b1791e43f40")
 	)
 	(wire
 		(pts
@@ -2627,6 +2517,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 72.39) (xy 231.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3985fea-fe50-48c3-a352-6c89451e152a")
+	)
+	(wire
+		(pts
 			(xy 191.77 171.45) (xy 191.77 175.26)
 		)
 		(stroke
@@ -2634,16 +2534,6 @@
 			(type default)
 		)
 		(uuid "e64563d7-619e-4e9d-8e5e-be0829ad99e1")
-	)
-	(wire
-		(pts
-			(xy 294.64 48.26) (xy 294.64 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e76bdc2c-1ca1-45db-b2b3-84a504eca034")
 	)
 	(wire
 		(pts
@@ -2664,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "e8b80276-efce-4643-8048-d44a51ff6f4b")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 204.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabd4b8a-dce2-4bc4-9b8c-e68a8b69ae9b")
 	)
 	(wire
 		(pts
@@ -2727,6 +2627,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 134.62) (xy 308.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0abacf6-5ef2-44a1-8cd4-7fddad53957e")
+	)
+	(wire
+		(pts
 			(xy 119.38 165.1) (xy 119.38 167.64)
 		)
 		(stroke
@@ -2754,6 +2664,16 @@
 			(type default)
 		)
 		(uuid "f252cf1f-d092-42c0-b610-7be8f1059097")
+	)
+	(wire
+		(pts
+			(xy 304.8 83.82) (xy 294.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f395c1ab-12cb-443f-b2ac-babaeda34e9a")
 	)
 	(wire
 		(pts
@@ -3125,7 +3045,7 @@
 	)
 	(global_label "VM"
 		(shape input)
-		(at 205.74 87.63 0)
+		(at 231.14 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3136,7 +3056,7 @@
 		)
 		(uuid "9dc4aaeb-b3ec-4fa5-8074-affb2a01cd84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.7412 87.63 0)
+			(at 237.1412 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3257,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 279.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 279.4 165.1 0)
 			(effects
 				(font
@@ -3362,6 +3309,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 294.64 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05319eb9-0283-49e2-a95e-a2af56f82ff7")
+		(property "Reference" "R103"
+			(at 297.18 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fd792f9-75ab-43e8-b613-4d16753928fa")
+		)
+		(pin "2"
+			(uuid "7c67c911-23c9-4e37-a3d7-e042d3702185")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 242.57 0)
 		(unit 1)
@@ -3380,7 +3424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uf"
+		(property "Value" "1uf"
 			(at 132.08 243.8399 0)
 			(effects
 				(font
@@ -3407,7 +3451,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 128.27 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 128.27 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL10A105KB8NNNC"
+			(at 128.27 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 128.27 242.57 0)
 			(effects
 				(font
@@ -3499,6 +3570,297 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 294.64 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071276fa-a796-440f-be73-8dcfaf22650f")
+		(property "Reference" "R75"
+			(at 297.18 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3799094-e975-4847-b5fb-b5db353cdaa1")
+		)
+		(pin "2"
+			(uuid "309b69ea-cc0a-4a08-89d5-c2ccc457d24d")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 294.64 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d67d9ad-a836-4b2c-a796-e6e70bcf2f44")
+		(property "Reference" "R104"
+			(at 297.18 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbe23a94-d593-46eb-a8c8-3dfe1315ec41")
+		)
+		(pin "2"
+			(uuid "87e85832-a255-4eec-86c3-fc212cf81045")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f207ee6-601b-4834-b6c0-a903ec1ea747")
+		(property "Reference" "R60"
+			(at 121.92 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 121.92 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 117.602 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f1f945-2f60-4fd3-823b-22a97e5bc3c2")
+		)
+		(pin "2"
+			(uuid "d69f28e5-e7d8-4d09-850b-226895953caa")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 138.43 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3543,7 +3905,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 138.43 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 138.43 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 138.43 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 138.43 242.57 0)
 			(effects
 				(font
@@ -3562,6 +3951,103 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b2a6ab-1fb8-4f69-a5b2-2925e93dbbc6")
+		(property "Reference" "R68"
+			(at 207.01 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 207.01 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b466a06-d651-4fbd-ac75-fb4024d848b9")
+		)
+		(pin "2"
+			(uuid "0bf59a3c-2278-4449-8be7-430103bc9418")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -3652,7 +4138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 179.07 57.8484 90)
 			(effects
 				(font
@@ -3670,7 +4156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 181.61 58.42 0)
 			(effects
 				(font
@@ -3680,6 +4166,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 181.61 58.42 0)
 			(effects
 				(font
@@ -3725,7 +4238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 207.01 115.5699 0)
 			(effects
 				(font
@@ -3752,7 +4265,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 204.47 114.3 0)
 			(effects
 				(font
@@ -3821,6 +4361,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "0469990014"
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 224.79 82.55 0)
 			(effects
 				(font
@@ -3923,7 +4490,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1ce8a072-bd67-4e39-bef0-459b32071527")
 		(property "Reference" "TH3"
@@ -3971,6 +4538,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 226.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 226.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 226.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e5b899e-d0a7-47b1-9e91-d66f69fce1ae")
 		)
@@ -4005,7 +4599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 269.24 159.4484 90)
 			(effects
 				(font
@@ -4023,7 +4617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 271.78 160.02 0)
 			(effects
 				(font
@@ -4033,6 +4627,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 271.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 271.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 271.78 160.02 0)
 			(effects
 				(font
@@ -4120,6 +4741,103 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 294.64 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "232c0c6b-6514-4a43-add9-197cd7d3fc6c")
+		(property "Reference" "R101"
+			(at 297.18 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3841d05-f540-4be9-a9fa-fcf94bcf8acb")
+		)
+		(pin "2"
+			(uuid "b1f49dcf-29c9-4edb-81c1-079a7771cec5")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -4237,7 +4955,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 189.23 63.5 0)
 			(effects
 				(font
@@ -4263,7 +5008,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 123.19 137.16 0)
+		(at 132.08 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4272,7 +5017,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a00d27a-6f08-4834-877c-4d73cc17ce65")
 		(property "Reference" "#PWR088"
-			(at 123.19 139.7 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +5026,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 123.19 129.54 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +5034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 137.16 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +5043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 137.16 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +5052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 137.16 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +5091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 179.07 108.6484 90)
 			(effects
 				(font
@@ -4364,7 +5109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 181.61 109.22 0)
 			(effects
 				(font
@@ -4374,6 +5119,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 181.61 109.22 0)
 			(effects
 				(font
@@ -4407,7 +5179,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "33d587aa-b2fc-4ccb-839f-5f159992831a")
 		(property "Reference" "TH1"
@@ -4455,6 +5227,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 138.43 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 138.43 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 138.43 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20de1481-73b6-4add-9f12-b5617701e9ad")
 		)
@@ -4465,76 +5264,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 294.64 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37415411-16d0-450f-a106-a0a5570e9340")
-		(property "Reference" "R75"
-			(at 297.18 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 297.18 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 292.862 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "516b0536-cc06-437a-b732-6e42ccfe9cf3")
-		)
-		(pin "2"
-			(uuid "1cf9ca27-1e0d-4b2f-9611-d1796d447b8c")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
-					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -4559,7 +5288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 207.01 64.7699 0)
 			(effects
 				(font
@@ -4586,7 +5315,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 204.47 63.5 0)
 			(effects
 				(font
@@ -4605,6 +5361,200 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f7dcfab-70ef-4f5e-ba9e-9378cfb86c4c")
+		(property "Reference" "R96"
+			(at 207.01 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 207.01 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d91489b8-cc03-4fc0-b439-723e1b8dc627")
+		)
+		(pin "2"
+			(uuid "bb718f7c-1d23-4c27-bfc8-6b3eb8c62b13")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 294.64 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f804d59-3ee5-4302-bd80-8b2b399ce291")
+		(property "Reference" "R100"
+			(at 297.18 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec3ad99-1a87-4137-b393-3ddf4a609f21")
+		)
+		(pin "2"
+			(uuid "2daf2c31-baa5-4504-a237-ce8a1687d5cb")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -4722,7 +5672,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 279.4 114.3 0)
 			(effects
 				(font
@@ -4741,76 +5718,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "C91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b351985-faf7-4adb-8b5a-8be90d74e39a")
-		(property "Reference" "R66"
-			(at 207.01 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 207.01 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 202.692 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6654f7f5-b2fb-4037-88f3-bc935c97ce04")
-		)
-		(pin "2"
-			(uuid "d5255dbb-7b5a-4ec2-a8cf-f6e1471e9b70")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
-					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -4862,7 +5769,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 182.88 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 182.88 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 182.88 242.57 0)
 			(effects
 				(font
@@ -4905,7 +5839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 297.18 64.7699 0)
 			(effects
 				(font
@@ -4932,7 +5866,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 294.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 294.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 294.64 63.5 0)
 			(effects
 				(font
@@ -4975,7 +5936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 269.24 57.8484 90)
 			(effects
 				(font
@@ -4993,7 +5954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 271.78 58.42 0)
 			(effects
 				(font
@@ -5003,6 +5964,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 271.78 58.42 0)
 			(effects
 				(font
@@ -5048,7 +6036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 297.18 166.3699 0)
 			(effects
 				(font
@@ -5075,7 +6063,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 294.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 294.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 294.64 165.1 0)
 			(effects
 				(font
@@ -5118,7 +6133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uf"
+		(property "Value" "1uf"
 			(at 176.53 243.8399 0)
 			(effects
 				(font
@@ -5145,7 +6160,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 172.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 172.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL10A105KB8NNNC"
+			(at 172.72 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 172.72 242.57 0)
 			(effects
 				(font
@@ -5254,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 93.98 155.6384 90)
 			(effects
 				(font
@@ -5272,7 +6314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 96.52 156.21 0)
 			(effects
 				(font
@@ -5282,6 +6324,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 96.52 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 96.52 156.21 0)
 			(effects
 				(font
@@ -5375,76 +6444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 119.38 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "719b1efe-69d6-4c25-a888-c9a87de3f433")
-		(property "Reference" "R60"
-			(at 121.92 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 121.92 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 117.602 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0547fbb1-9fbf-418b-98cf-a8b3377a8a37")
-		)
-		(pin "2"
-			(uuid "cad471e0-ac45-41e4-866c-f1e4b6f8222e")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 189.23 165.1 0)
 		(unit 1)
@@ -5490,7 +6489,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 189.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 189.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 189.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 189.23 165.1 0)
 			(effects
 				(font
@@ -5647,6 +6673,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cb2a250-d916-4c2f-b2cf-a693c17bbdde")
+		(property "Reference" "R97"
+			(at 207.01 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 207.01 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6847692c-c497-4906-a51d-896f29dd9cc6")
+		)
+		(pin "2"
+			(uuid "78298271-f5e8-4a5e-85d3-6a2f7fcd6b46")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 106.68 171.45 0)
 		(unit 1)
@@ -5731,7 +6854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "750k"
 			(at 207.01 53.3399 0)
 			(effects
 				(font
@@ -5740,7 +6863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 202.692 52.07 90)
 			(effects
 				(font
@@ -5758,7 +6881,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 204.47 52.07 0)
 			(effects
 				(font
@@ -5828,7 +6978,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 226.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 226.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 226.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 226.06 242.57 0)
 			(effects
 				(font
@@ -5847,6 +7024,200 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 294.64 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b93711-2581-492a-84e1-c7ad596cab50")
+		(property "Reference" "R73"
+			(at 297.18 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d39a137-5215-4396-b485-a5e9928642a4")
+		)
+		(pin "2"
+			(uuid "6470ff84-3588-4105-9349-0b166438317e")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 294.64 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86159f3e-a78e-4966-bc13-d64f4210f727")
+		(property "Reference" "R102"
+			(at 297.18 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f75b8f1-82c1-48cd-8064-bdb5c384996f")
+		)
+		(pin "2"
+			(uuid "f33f8beb-e286-401a-a062-0beccd4bdb68")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -5964,7 +7335,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 279.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 279.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 279.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 279.4 63.5 0)
 			(effects
 				(font
@@ -5990,16 +7388,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 153.67 0)
+		(at 204.47 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8fdf8fb0-e020-425f-aab2-9fa76c9c9723")
-		(property "Reference" "R68"
-			(at 207.01 152.3999 0)
+		(uuid "92ec4e51-b18e-481d-ac7c-abf557cb6c36")
+		(property "Reference" "R98"
+			(at 207.01 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,8 +7405,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
-			(at 207.01 154.9399 0)
+		(property "Value" "750k"
+			(at 207.01 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,8 +7414,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 202.692 153.67 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +7424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 153.67 0)
+			(at 204.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,8 +7432,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 204.47 153.67 0)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,15 +7469,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d425b601-1114-4e5c-8cc8-d2fab2535a6a")
+			(uuid "a929376e-e422-4c56-affb-0181729c4704")
 		)
 		(pin "2"
-			(uuid "1c75b453-d5d4-46b4-aa4d-4f8ff21dcc1a")
+			(uuid "1e02dec3-34c0-43d4-bb75-5de5db4707a2")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
-					(reference "R68")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -6104,7 +7529,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 189.23 114.3 0)
 			(effects
 				(font
@@ -6129,6 +7581,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d29a482-d276-41d9-bc77-85157e69f34d")
+		(property "Reference" "R99"
+			(at 207.01 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 207.01 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89fa5f95-7a6a-4930-9b67-dd65f103b2dd")
+		)
+		(pin "2"
+			(uuid "554cc569-c9b1-49db-8f3b-41e6ea5a64f1")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Dual_Series_AKC")
 		(at 181.61 160.02 90)
 		(unit 1)
@@ -6147,7 +7696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 179.07 159.4484 90)
 			(effects
 				(font
@@ -6165,7 +7714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 181.61 160.02 0)
 			(effects
 				(font
@@ -6175,6 +7724,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 181.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 181.61 160.02 0)
 			(effects
 				(font
@@ -6196,6 +7772,103 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7da0cd3-5363-4bb2-9f75-aef3db5ef83f")
+		(property "Reference" "R95"
+			(at 207.01 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 207.01 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da7b6e17-c9af-4286-af3b-a01ece92dc9b")
+		)
+		(pin "2"
+			(uuid "bb67a093-4499-4645-bce1-741bbbf0f040")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -6286,7 +7959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 269.24 108.6484 90)
 			(effects
 				(font
@@ -6304,7 +7977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 271.78 109.22 0)
 			(effects
 				(font
@@ -6314,6 +7987,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 271.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 271.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 271.78 109.22 0)
 			(effects
 				(font
@@ -6491,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 207.01 166.3699 0)
 			(effects
 				(font
@@ -6518,7 +8218,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 204.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 204.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 204.47 165.1 0)
 			(effects
 				(font
@@ -6627,7 +8354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uf"
+		(property "Value" "1uf"
 			(at 219.71 243.8399 0)
 			(effects
 				(font
@@ -6654,7 +8381,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 215.9 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 215.9 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL10A105KB8NNNC"
+			(at 215.9 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 215.9 242.57 0)
 			(effects
 				(font
@@ -6812,16 +8566,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 294.64 52.07 0)
+		(at 294.64 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc37dd49-2548-4e22-a3e6-c828be5af0b1")
+		(uuid "c9ca024b-3786-4b35-a4dd-109330be2685")
 		(property "Reference" "R71"
-			(at 297.18 50.7999 0)
+			(at 297.18 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,8 +8583,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
-			(at 297.18 53.3399 0)
+		(property "Value" "750k"
+			(at 297.18 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,8 +8592,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 292.862 52.07 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +8602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 52.07 0)
+			(at 294.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,8 +8610,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 294.64 52.07 0)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,10 +8647,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8bf3f32-5f4a-4acd-a980-3f75fcc9e044")
+			(uuid "e181b1c3-3f33-4979-91fd-e60a52dd69d6")
 		)
 		(pin "2"
-			(uuid "9949893d-8c51-4c32-a58a-a8dca6a7e96d")
+			(uuid "175dd196-18b9-4d32-a171-e1baa194ac6d")
 		)
 		(instances
 			(project "HV servo drive v1"
@@ -6887,7 +8668,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cfcbd860-3824-4389-abb0-a9e2c0b79a40")
 		(property "Reference" "TH2"
@@ -6935,6 +8716,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 182.88 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 182.88 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 182.88 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ffd3c06-f6ac-45bd-95ee-9ec9e52cd61a")
 		)
@@ -6952,16 +8760,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 294.64 102.87 0)
+		(at 119.38 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4abd0df-69a5-44c8-bee1-7f4192ff437a")
-		(property "Reference" "R73"
-			(at 297.18 101.5999 0)
+		(uuid "d2e823fe-6c01-4989-96bc-a4e01d810cec")
+		(property "Reference" "R106"
+			(at 121.92 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,8 +8777,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
-			(at 297.18 104.1399 0)
+		(property "Value" "750k"
+			(at 121.92 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,8 +8786,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 292.862 102.87 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 117.602 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +8796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 294.64 102.87 0)
+			(at 119.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,8 +8804,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 294.64 102.87 0)
+		(property "Description" "1% 200v min operating voltage"
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 119.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,15 +8841,112 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b382826-d409-4dfb-9c41-e998ab867cba")
+			(uuid "c27ef0a1-a216-4f0e-9af0-18f1e2d4771e")
 		)
 		(pin "2"
-			(uuid "dd621180-1edf-4408-a6ab-80196673b7fd")
+			(uuid "a63e51cd-f1f6-481e-a562-fcbcfd9838a2")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
-					(reference "R73")
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6143b4f-04bd-437a-ae80-8726516f2d13")
+		(property "Reference" "R107"
+			(at 121.92 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 121.92 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 117.602 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc1ac2a5-db0b-45f5-9a3a-ad6f0e8861e4")
+		)
+		(pin "2"
+			(uuid "29d8a077-6e15-45fe-a891-481d225e9858")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -7066,7 +8998,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 104.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 104.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 104.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 104.14 161.29 0)
 			(effects
 				(font
@@ -7109,7 +9068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 121.92 162.5599 0)
 			(effects
 				(font
@@ -7136,7 +9095,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 119.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 119.38 161.29 0)
 			(effects
 				(font
@@ -7245,7 +9231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 297.18 115.5699 0)
 			(effects
 				(font
@@ -7272,7 +9258,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 294.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 294.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 294.64 114.3 0)
 			(effects
 				(font
@@ -7291,6 +9304,200 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87bd631-7aaa-4e92-9531-e29a507b50f1")
+		(property "Reference" "R94"
+			(at 207.01 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 207.01 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db5e605d-91da-4687-b988-b8d42d2f5695")
+		)
+		(pin "2"
+			(uuid "28c4ef31-293a-4252-93f8-8cfc9d2a910c")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabdbc9c-bd8a-4dc7-8851-54f831dee058")
+		(property "Reference" "R66"
+			(at 207.01 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 207.01 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.692 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb54708-4ba0-4d4e-bbc6-bc9e87540c08")
+		)
+		(pin "2"
+			(uuid "29989874-c6ca-4798-83fe-3ea194632050")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -7357,6 +9564,103 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 294.64 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc20b492-bf81-4d13-ab65-18f1e9ffc851")
+		(property "Reference" "R105"
+			(at 297.18 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750k"
+			(at 297.18 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.862 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% 200v min operating voltage"
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8642d03b-07ec-4011-a232-216b024d6640")
+		)
+		(pin "2"
+			(uuid "a55e87c3-3a5b-4ab5-ae49-46c2bea486e6")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/d112511a-b5ba-4c1b-9115-b44aced07b40"
+					(reference "R105")
 					(unit 1)
 				)
 			)

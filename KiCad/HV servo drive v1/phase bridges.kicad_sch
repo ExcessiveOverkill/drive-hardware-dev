@@ -1265,31 +1265,34 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "Device:FerriteBead_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1306,7 +1309,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
+			(property "Description" "Ferrite bead, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1315,7 +1318,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(property "ki_keywords" "L ferrite bead inductor filter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1324,7 +1327,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1333,11 +1336,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1346,10 +1349,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1358,22 +1361,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1383,11 +1374,11 @@
 					)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "FerriteBead_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 2.54 270)
 					(length 1.27)
-					(name "1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1403,9 +1394,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 -2.54 90)
 					(length 1.27)
-					(name "2"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2664,7 +2655,7 @@
 		(uuid "0028bdc7-921c-4e92-bd11-a177a4e81844")
 	)
 	(junction
-		(at 510.54 96.52)
+		(at 530.86 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "002d0df7-d150-47ac-9807-9dcb4a92d3e4")
@@ -2754,10 +2745,22 @@
 		(uuid "14f998f4-350a-4bd9-a998-3929ee1790b5")
 	)
 	(junction
-		(at 520.7 160.02)
+		(at 541.02 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16722132-523d-4da7-80e0-718b73ac4fe5")
+	)
+	(junction
+		(at 391.16 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18fa4684-942f-4a4b-aa56-27bb51e6afa7")
+	)
+	(junction
+		(at 110.49 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1adc5b57-c0eb-42c1-b586-6ab81f20d19b")
 	)
 	(junction
 		(at 134.62 77.47)
@@ -2802,6 +2805,12 @@
 		(uuid "25954dca-8b01-4fe9-b028-6b2368e722e3")
 	)
 	(junction
+		(at 234.95 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26bf4e0d-1fdd-4ca1-b429-7a7c153ef0f1")
+	)
+	(junction
 		(at 124.46 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2832,7 +2841,7 @@
 		(uuid "32c8c82e-921e-4213-9db4-af7aef7c9837")
 	)
 	(junction
-		(at 227.33 160.02)
+		(at 247.65 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e0ca52-721c-44a4-bc48-f0f5bb714a5a")
@@ -2862,7 +2871,7 @@
 		(uuid "425aa5a7-535e-490a-9e51-89d3ada94993")
 	)
 	(junction
-		(at 229.87 347.98)
+		(at 247.65 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ca05a6-9175-4639-a5ce-51e78ff41a5d")
@@ -2934,7 +2943,7 @@
 		(uuid "55cd1347-02b5-4a69-b0a0-b6cb94f56dab")
 	)
 	(junction
-		(at 237.49 95.25)
+		(at 257.81 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5611089f-c228-42b3-87e5-ec47ec35f432")
@@ -2982,7 +2991,13 @@
 		(uuid "5b8902e6-6710-4db0-a5da-8a774198b5ad")
 	)
 	(junction
-		(at 510.54 160.02)
+		(at 233.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61ec6656-5708-4b28-a16f-29e4a0710a07")
+	)
+	(junction
+		(at 530.86 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6320d471-42d4-4042-938b-2145a6240ddc")
@@ -3168,7 +3183,7 @@
 		(uuid "abe6e495-664f-47e7-bf92-f018535ef8b8")
 	)
 	(junction
-		(at 229.87 284.48)
+		(at 247.65 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add4857f-a467-4c8f-98bc-d15b884fb67d")
@@ -3210,6 +3225,12 @@
 		(uuid "b912d621-17f2-48a1-90ee-d69f1e070cfb")
 	)
 	(junction
+		(at 107.95 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4578c8-948f-4d60-9bfd-47d9e9678730")
+	)
+	(junction
 		(at 322.58 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3246,13 +3267,13 @@
 		(uuid "c4328843-af62-401f-a98c-db793cf04f87")
 	)
 	(junction
-		(at 520.7 96.52)
+		(at 541.02 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4f394b5-8a38-42c2-b726-038aa055dc4e")
 	)
 	(junction
-		(at 240.03 347.98)
+		(at 257.81 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6312fbb-1fa8-4718-a666-0c933fe882a6")
@@ -3288,7 +3309,7 @@
 		(uuid "d26ef008-4a87-4edb-a988-af5c3e098a4a")
 	)
 	(junction
-		(at 240.03 284.48)
+		(at 257.81 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2b36605-13eb-486e-867a-4a2864b54fe8")
@@ -3342,6 +3363,12 @@
 		(uuid "dc2ae124-878c-4925-aa6c-be0f11fa6939")
 	)
 	(junction
+		(at 516.89 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc91c0df-43e0-4ccf-90cd-00c20545c7a7")
+	)
+	(junction
 		(at 417.83 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3372,7 +3399,7 @@
 		(uuid "ebfb04a2-4ede-4e5c-8d0b-e55b5b1091a9")
 	)
 	(junction
-		(at 227.33 95.25)
+		(at 247.65 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeffc5e3-b57e-4c68-8d17-7c7f34f948cd")
@@ -3396,7 +3423,7 @@
 		(uuid "f4798529-7f6d-4f9a-8468-4c89d670308c")
 	)
 	(junction
-		(at 237.49 160.02)
+		(at 257.81 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5f7b5bd-eb93-4daa-b4a6-655c6ff34d79")
@@ -3455,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 173.99) (xy 510.54 160.02)
+			(xy 530.86 173.99) (xy 530.86 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 347.98) (xy 229.87 340.36)
+			(xy 247.65 347.98) (xy 247.65 340.36)
 		)
 		(stroke
 			(width 0)
@@ -3535,7 +3562,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 152.4) (xy 237.49 160.02)
+			(xy 208.28 95.25) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6e7c0f-bd7b-479e-811e-96acca06db82")
+	)
+	(wire
+		(pts
+			(xy 257.81 152.4) (xy 257.81 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3565,13 +3602,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 347.98) (xy 240.03 367.03)
+			(xy 257.81 347.98) (xy 257.81 367.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c342723-f55e-408d-a401-214275032b6d")
+	)
+	(wire
+		(pts
+			(xy 234.95 292.1) (xy 234.95 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d36796c-0ff5-4782-9d64-9dfe3486daa4")
 	)
 	(wire
 		(pts
@@ -3615,23 +3662,13 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 128.27) (xy 373.38 128.27)
+			(xy 370.84 128.27) (xy 375.92 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "110a187a-5bfc-44a2-9bb5-93a956ecd769")
-	)
-	(wire
-		(pts
-			(xy 464.82 173.99) (xy 510.54 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128dcd4b-3681-4671-bc7c-4002bb60fa5e")
 	)
 	(wire
 		(pts
@@ -3665,17 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 284.48) (xy 229.87 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c53f50-4c0d-4304-b28f-5a1c66ecae41")
-	)
-	(wire
-		(pts
-			(xy 240.03 340.36) (xy 240.03 347.98)
+			(xy 257.81 340.36) (xy 257.81 347.98)
 		)
 		(stroke
 			(width 0)
@@ -3845,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 160.02) (xy 520.7 160.02)
+			(xy 539.75 160.02) (xy 541.02 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3875,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 284.48) (xy 231.14 284.48)
+			(xy 247.65 284.48) (xy 248.92 284.48)
 		)
 		(stroke
 			(width 0)
@@ -3892,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "205b4941-fd5e-40c7-9aea-e54e095c5fc8")
+	)
+	(wire
+		(pts
+			(xy 234.95 284.48) (xy 247.65 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bef4c4-a71c-4a40-9fe8-9b8294f4cbf9")
 	)
 	(wire
 		(pts
@@ -3995,6 +4032,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 96.52) (xy 516.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2708d148-1a33-418a-b016-85c1e6cd8b44")
+	)
+	(wire
+		(pts
 			(xy 147.32 297.18) (xy 160.02 297.18)
 		)
 		(stroke
@@ -4012,6 +4059,16 @@
 			(type default)
 		)
 		(uuid "27f7249f-22e6-449b-9723-e8a7c538e7ef")
+	)
+	(wire
+		(pts
+			(xy 210.82 284.48) (xy 234.95 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291dddd7-3f0d-4c1c-b7d1-644d6e096050")
 	)
 	(wire
 		(pts
@@ -4035,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 152.4) (xy 520.7 160.02)
+			(xy 541.02 152.4) (xy 541.02 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 347.98) (xy 240.03 347.98)
+			(xy 256.54 347.98) (xy 257.81 347.98)
 		)
 		(stroke
 			(width 0)
@@ -4145,13 +4202,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 316.23) (xy 92.71 316.23)
+			(xy 90.17 316.23) (xy 95.25 316.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ef7bde3-bd71-4386-91f9-11a99f1218ba")
+	)
+	(wire
+		(pts
+			(xy 516.89 104.14) (xy 516.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eff5384-c460-4240-8c92-e0aa5c0523eb")
 	)
 	(wire
 		(pts
@@ -4202,6 +4269,16 @@
 			(type default)
 		)
 		(uuid "34097f34-a0e0-4d51-8d9d-92f470cf3882")
+	)
+	(wire
+		(pts
+			(xy 181.61 172.72) (xy 247.65 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3478fa1a-b03a-425a-8df4-3ed0b085d8e3")
 	)
 	(wire
 		(pts
@@ -4275,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 237.49 144.78)
+			(xy 257.81 95.25) (xy 257.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4365,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 281.94 95.25)
+			(xy 257.81 95.25) (xy 281.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4375,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 284.48) (xy 240.03 332.74)
+			(xy 257.81 284.48) (xy 257.81 332.74)
 		)
 		(stroke
 			(width 0)
@@ -4385,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 307.34) (xy 92.71 307.34)
+			(xy 83.82 307.34) (xy 95.25 307.34)
 		)
 		(stroke
 			(width 0)
@@ -4395,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 95.25) (xy 228.6 95.25)
+			(xy 247.65 95.25) (xy 248.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4555,13 +4632,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 227.33 95.25)
+			(xy 233.68 102.87) (xy 233.68 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d61f69c-4fcc-45c4-8790-86991945f1ab")
+		(uuid "4ccfd9e1-fad4-49a1-beba-986315f86f01")
 	)
 	(wire
 		(pts
@@ -4665,7 +4742,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 160.02) (xy 237.49 160.02)
+			(xy 256.54 160.02) (xy 257.81 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4725,7 +4802,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 160.02) (xy 237.49 177.8)
+			(xy 257.81 160.02) (xy 257.81 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4735,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 96.52) (xy 520.7 144.78)
+			(xy 541.02 96.52) (xy 541.02 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 60.96) (xy 107.95 77.47)
+			(xy 107.95 60.96) (xy 107.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4965,16 +5042,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 367.03) (xy 240.03 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b4ca4b-43bb-460e-892c-c473ff5e09c4")
-	)
-	(wire
-		(pts
 			(xy 314.96 90.17) (xy 322.58 90.17)
 		)
 		(stroke
@@ -5005,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 160.02) (xy 511.81 160.02)
+			(xy 530.86 160.02) (xy 532.13 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 361.95) (xy 229.87 347.98)
+			(xy 247.65 361.95) (xy 247.65 347.98)
 		)
 		(stroke
 			(width 0)
@@ -5155,7 +5222,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 127) (xy 90.17 127)
+			(xy 87.63 127) (xy 92.71 127)
 		)
 		(stroke
 			(width 0)
@@ -5375,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 96.52) (xy 511.81 96.52)
+			(xy 530.86 96.52) (xy 532.13 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5392,6 +5459,16 @@
 			(type default)
 		)
 		(uuid "8246a028-c297-4c9f-9007-9a6de27d8004")
+	)
+	(wire
+		(pts
+			(xy 110.49 257.81) (xy 110.49 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d8a577-55b8-45f8-8271-9da2f136a81a")
 	)
 	(wire
 		(pts
@@ -5595,7 +5672,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 138.43) (xy 373.38 138.43)
+			(xy 364.49 138.43) (xy 375.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5645,6 +5722,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 177.8) (xy 257.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918c7b22-4894-4089-a4db-05c37a8a4cb5")
+	)
+	(wire
+		(pts
 			(xy 452.12 147.32) (xy 463.55 147.32)
 		)
 		(stroke
@@ -5652,6 +5739,16 @@
 			(type default)
 		)
 		(uuid "919bc872-1556-4aa4-90b7-c20a33b7dc49")
+	)
+	(wire
+		(pts
+			(xy 184.15 367.03) (xy 257.81 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922610e3-0123-4e95-9046-63481db06d6f")
 	)
 	(wire
 		(pts
@@ -5685,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 160.02) (xy 227.33 152.4)
+			(xy 247.65 160.02) (xy 247.65 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5755,7 +5852,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 347.98) (xy 231.14 347.98)
+			(xy 247.65 347.98) (xy 248.92 347.98)
 		)
 		(stroke
 			(width 0)
@@ -5775,23 +5872,13 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 179.07) (xy 520.7 179.07)
+			(xy 184.15 361.95) (xy 247.65 361.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c1b1f67-e01a-4e45-ae21-1dc0fc2f9a61")
-	)
-	(wire
-		(pts
-			(xy 181.61 177.8) (xy 237.49 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d7931e1-0583-4860-8512-097b75ff73fe")
+		(uuid "9ea3c5ed-ac44-47e9-a8bd-00eb38cc8512")
 	)
 	(wire
 		(pts
@@ -5822,6 +5909,16 @@
 			(type default)
 		)
 		(uuid "a0a7d974-ba83-4929-b67a-b7f0fe94a3a4")
+	)
+	(wire
+		(pts
+			(xy 233.68 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bc80f4-6024-4906-b48c-ec4aaa11de86")
 	)
 	(wire
 		(pts
@@ -5875,7 +5972,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 95.25) (xy 227.33 144.78)
+			(xy 247.65 95.25) (xy 247.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5902,6 +5999,16 @@
 			(type default)
 		)
 		(uuid "a6116747-68e3-47db-9879-945336ac1d52")
+	)
+	(wire
+		(pts
+			(xy 107.95 68.58) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f5331e-22f5-46be-8de1-0a583b23418e")
 	)
 	(wire
 		(pts
@@ -5935,7 +6042,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 326.39) (xy 92.71 326.39)
+			(xy 83.82 326.39) (xy 95.25 326.39)
 		)
 		(stroke
 			(width 0)
@@ -5975,7 +6082,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 137.16) (xy 90.17 137.16)
+			(xy 81.28 137.16) (xy 92.71 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6055,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 160.02) (xy 520.7 179.07)
+			(xy 541.02 160.02) (xy 541.02 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6115,16 +6222,6 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 96.52) (xy 510.54 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48ba419-4a6f-4577-ac00-6b94f84f261c")
-	)
-	(wire
-		(pts
 			(xy 412.75 173.99) (xy 424.18 173.99)
 		)
 		(stroke
@@ -6142,6 +6239,26 @@
 			(type default)
 		)
 		(uuid "b5993235-500c-4bfb-8068-bbb6c93202d7")
+	)
+	(wire
+		(pts
+			(xy 391.16 71.12) (xy 391.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c3adc6-7ad8-4747-99f9-3541e4ca40dd")
+	)
+	(wire
+		(pts
+			(xy 464.82 179.07) (xy 541.02 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6997490-5528-47ed-9ca9-473b356da50d")
 	)
 	(wire
 		(pts
@@ -6165,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 96.52) (xy 520.7 96.52)
+			(xy 539.75 96.52) (xy 541.02 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6182,6 +6299,16 @@
 			(type default)
 		)
 		(uuid "b8931533-dd05-44d6-8e64-439ed13d051f")
+	)
+	(wire
+		(pts
+			(xy 464.82 173.99) (xy 530.86 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89ac7fc-06b2-48fc-896e-a9467eb9f3f9")
 	)
 	(wire
 		(pts
@@ -6245,7 +6372,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 332.74) (xy 229.87 284.48)
+			(xy 247.65 332.74) (xy 247.65 284.48)
 		)
 		(stroke
 			(width 0)
@@ -6315,16 +6442,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 172.72) (xy 227.33 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf7499f0-1614-4c3f-8003-e0ab9524af62")
-	)
-	(wire
-		(pts
 			(xy 31.75 96.52) (xy 31.75 100.33)
 		)
 		(stroke
@@ -6335,7 +6452,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 95.25) (xy 237.49 95.25)
+			(xy 256.54 95.25) (xy 257.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6395,7 +6512,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 119.38) (xy 373.38 119.38)
+			(xy 364.49 119.38) (xy 375.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6452,16 +6569,6 @@
 			(type default)
 		)
 		(uuid "c5b2cf14-c729-4f60-81e4-79cd8d173692")
-	)
-	(wire
-		(pts
-			(xy 184.15 361.95) (xy 229.87 361.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d55a6f-6042-43e0-b797-8e11ea6f9cd9")
 	)
 	(wire
 		(pts
@@ -6605,7 +6712,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 96.52) (xy 561.34 96.52)
+			(xy 541.02 96.52) (xy 561.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6695,7 +6802,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 118.11) (xy 90.17 118.11)
+			(xy 81.28 118.11) (xy 92.71 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6705,7 +6812,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 62.23) (xy 391.16 78.74)
+			(xy 391.16 62.23) (xy 391.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6715,7 +6822,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 160.02) (xy 228.6 160.02)
+			(xy 247.65 160.02) (xy 248.92 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6915,7 +7022,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 284.48) (xy 240.03 284.48)
+			(xy 256.54 284.48) (xy 257.81 284.48)
 		)
 		(stroke
 			(width 0)
@@ -6935,7 +7042,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 144.78) (xy 510.54 96.52)
+			(xy 530.86 144.78) (xy 530.86 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7035,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 172.72) (xy 227.33 160.02)
+			(xy 247.65 172.72) (xy 247.65 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7105,7 +7212,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 284.48) (xy 280.67 284.48)
+			(xy 257.81 284.48) (xy 275.59 284.48)
 		)
 		(stroke
 			(width 0)
@@ -7122,6 +7229,16 @@
 			(type default)
 		)
 		(uuid "fa86ecdb-d828-4463-a48d-70509ba31c48")
+	)
+	(wire
+		(pts
+			(xy 516.89 96.52) (xy 530.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb441a23-df8e-47f1-8ca0-072145e3b70a")
 	)
 	(wire
 		(pts
@@ -7155,7 +7272,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 250.19) (xy 110.49 266.7)
+			(xy 110.49 250.19) (xy 110.49 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7175,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 160.02) (xy 510.54 152.4)
+			(xy 530.86 160.02) (xy 530.86 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7308,7 +7425,7 @@
 	)
 	(global_label "V_"
 		(shape output)
-		(at 280.67 284.48 0)
+		(at 275.59 284.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7319,7 +7436,7 @@
 		)
 		(uuid "0c13b433-c19b-439b-83a0-309bc85f2d92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.1874 284.48 0)
+			(at 281.1074 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,6 +7645,28 @@
 			)
 		)
 	)
+	(global_label "VBUS +15V"
+		(shape input)
+		(at 125.73 257.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f7a6c2f-d6e1-4e18-91f9-65b15efa874d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.6614 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "W_"
 		(shape output)
 		(at 561.34 96.52 0)
@@ -7614,6 +7753,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS +15V"
+		(shape input)
+		(at 123.19 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c4b5561-fdc4-4014-b21e-9777121c71e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.1214 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS +15V"
+		(shape input)
+		(at 406.4 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a25fb921-6e2f-454a-96a4-42a76c5b23b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 420.3314 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7881,7 +8064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 218.44 59.6899 0)
 			(effects
 				(font
@@ -7899,7 +8082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 214.63 58.42 0)
 			(effects
 				(font
@@ -7908,7 +8091,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 214.63 58.42 0)
 			(effects
 				(font
@@ -7978,7 +8188,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 134.62 81.28 0)
 			(effects
 				(font
@@ -8048,7 +8285,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5% thin film low inductance"
+			(at 193.04 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 193.04 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 193.04 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 193.04 293.37 0)
 			(effects
 				(font
@@ -8145,7 +8409,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05be9382-e0c3-467a-a2f7-cf65e2ddcc34")
 		(property "Reference" "Q4"
@@ -8157,7 +8421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C3M0075120K"
+		(property "Value" "G3R30MT12K"
 			(at 214.63 278.3966 0)
 			(effects
 				(font
@@ -8176,7 +8440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
+		(property "Datasheet" "https://genesicsemi.com/sic-mosfet/G3R30MT12K/G3R30MT12K.pdf"
 			(at 208.28 276.86 0)
 			(effects
 				(font
@@ -8187,6 +8451,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GeneSiC Semiconductor"
+			(at 208.28 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "G3R30MT12K"
+			(at 208.28 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 208.28 276.86 0)
 			(effects
 				(font
@@ -8262,7 +8553,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5% thin film low inductance"
+			(at 193.04 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 193.04 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 193.04 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 193.04 276.86 0)
 			(effects
 				(font
@@ -8304,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -8312,7 +8630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 147.32 55.88 0)
 			(effects
 				(font
@@ -8321,7 +8639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 147.32 55.88 0)
 			(effects
 				(font
@@ -8330,7 +8648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000v 1A"
 			(at 147.32 55.88 0)
 			(effects
 				(font
@@ -8349,6 +8667,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 147.32 55.88 0)
 			(effects
 				(font
@@ -8482,7 +8827,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 139.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 139.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 139.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 139.7 245.11 0)
 			(effects
 				(font
@@ -8552,7 +8924,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 180.34 149.86 0)
 			(effects
 				(font
@@ -8613,7 +9012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
 			(at 154.94 149.86 0)
 			(effects
 				(font
@@ -8622,7 +9021,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.1v zener"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BZT52C5V1-TP"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 154.94 149.86 0)
 			(effects
 				(font
@@ -8692,7 +9118,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 403.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 403.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 403.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 403.86 158.75 0)
 			(effects
 				(font
@@ -8711,6 +9164,72 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 60.96 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f4ed010-cbc5-4c1e-b16e-9f42c1f02dde")
+		(property "Reference" "#PWR056"
+			(at 60.96 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V_GATE"
+			(at 60.96 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3209a495-f0d6-454b-b9d3-d9c43ce1c432")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8762,7 +9281,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 407.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 407.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 407.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 407.67 82.55 0)
 			(effects
 				(font
@@ -8832,7 +9378,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 137.16 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 137.16 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 137.16 270.51 0)
 			(effects
 				(font
@@ -8875,7 +9448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 205.74 246.3799 0)
 			(effects
 				(font
@@ -8893,7 +9466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 201.93 245.11 0)
 			(effects
 				(font
@@ -8902,7 +9475,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 201.93 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 201.93 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 201.93 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 201.93 245.11 0)
 			(effects
 				(font
@@ -8927,33 +9527,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 515.62 160.02 90)
+		(lib_id "Device:FerriteBead_Small")
+		(at 95.25 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13186bec-136f-4427-a966-c9b5c9c42f88")
-		(property "Reference" "C82"
-			(at 515.62 152.4 90)
+		(uuid "11a34b4b-4ac3-49f2-bed3-858181f37458")
+		(property "Reference" "FB2"
+			(at 95.2119 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 515.62 154.94 90)
+		(property "Value" "120 ohm"
+			(at 95.2119 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 519.43 159.0548 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 95.25 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +9562,102 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 515.62 160.02 0)
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5bc40b9-018f-4b72-a6cc-347dcb9f6875")
+		)
+		(pin "2"
+			(uuid "0ce7fb64-348f-4711-a08c-12f19348aba7")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 535.94 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "13186bec-136f-4427-a966-c9b5c9c42f88")
+		(property "Reference" "C82"
+			(at 535.94 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 535.94 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 539.75 159.0548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 535.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +9666,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 515.62 160.02 0)
+			(at 535.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 535.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 535.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 535.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +9762,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 124.46 81.28 0)
 			(effects
 				(font
@@ -9083,7 +9832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 529.59 57.1499 0)
 			(effects
 				(font
@@ -9101,7 +9850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 525.78 55.88 0)
 			(effects
 				(font
@@ -9110,7 +9859,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 525.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 525.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 525.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 525.78 55.88 0)
 			(effects
 				(font
@@ -9136,32 +9912,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 515.62 96.52 90)
+		(at 233.68 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c000e54-9d0c-47c2-8e17-02b2762abb2b")
-		(property "Reference" "R58"
-			(at 515.62 90.17 90)
+		(uuid "1bf4f96b-ae80-43a1-b908-ae9468c0c8c4")
+		(property "Reference" "R108"
+			(at 237.998 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ".005"
-			(at 515.62 92.71 90)
+		(property "Value" "10"
+			(at 236.22 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RES_HCSM2818_STP"
-			(at 515.62 98.298 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 231.902 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9170,7 +9947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 515.62 96.52 0)
+			(at 233.68 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9178,8 +9955,130 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 515.62 96.52 0)
+		(property "Description" "5% thin film low inductance"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d917785f-3856-455a-999c-5aa201971cad")
+		)
+		(pin "2"
+			(uuid "633a47b0-2112-45d7-a8a8-633f89320b20")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 535.94 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c000e54-9d0c-47c2-8e17-02b2762abb2b")
+		(property "Reference" "R58"
+			(at 535.94 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".005"
+			(at 535.94 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES_HCSM2818_STP"
+			(at 535.94 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-hcsm.pdf"
+			(at 535.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "low inductance"
+			(at 535.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 535.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "HCSM2818FT5L00"
+			(at 535.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, must be low inductance shunt"
+			(at 535.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,6 +10096,196 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 97.79 307.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c04adfb-13af-4baf-a8de-8367d14642d7")
+		(property "Reference" "FB7"
+			(at 97.7519 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 97.7519 303.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 97.79 309.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 97.79 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 97.79 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 97.79 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 97.79 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6007918-5c20-444c-a6f7-c171eea56ef2")
+		)
+		(pin "2"
+			(uuid "3736721d-5783-4840-afbc-7c93b8b673d9")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 95.25 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb25866-382c-411e-a3e6-c05bdd765b80")
+		(property "Reference" "FB3"
+			(at 95.2119 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 95.2119 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 95.25 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7148bd3e-b76c-48f0-bdec-09031524438b")
+		)
+		(pin "2"
+			(uuid "482e1db9-1595-4502-b365-9f097fe8d20f")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -9336,7 +10425,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 95.25 90)
+		(at 252.73 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9345,7 +10434,7 @@
 		(fields_autoplaced yes)
 		(uuid "20562c50-fa28-4812-96de-d96f09e5afe1")
 		(property "Reference" "R48"
-			(at 232.41 88.9 90)
+			(at 252.73 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +10442,7 @@
 			)
 		)
 		(property "Value" ".005"
-			(at 232.41 91.44 90)
+			(at 252.73 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +10450,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RES_HCSM2818_STP"
-			(at 232.41 97.028 90)
+			(at 252.73 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,8 +10458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 232.41 95.25 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-hcsm.pdf"
+			(at 252.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,8 +10467,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 95.25 0)
+		(property "Description" "low inductance"
+			(at 252.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 252.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "HCSM2818FT5L00"
+			(at 252.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, must be low inductance shunt"
+			(at 252.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +10591,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "248f22b8-4a51-4c25-80e6-715c5dc83fcf")
 		(property "Reference" "TP14"
@@ -9515,6 +10631,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 325.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 325.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 325.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 325.12 132.08 0)
 			(effects
 				(font
@@ -9620,7 +10763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 552.45 57.1499 0)
 			(effects
 				(font
@@ -9638,7 +10781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 548.64 55.88 0)
 			(effects
 				(font
@@ -9647,7 +10790,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 548.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 548.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 548.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 548.64 55.88 0)
 			(effects
 				(font
@@ -9707,7 +10877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AMC1306M25DWVR"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Famc1306m25"
 			(at 163.83 364.49 0)
 			(effects
 				(font
@@ -9718,6 +10888,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 163.83 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "AMC1306M25DWVR"
+			(at 163.83 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 163.83 364.49 0)
 			(effects
 				(font
@@ -9805,7 +11002,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 427.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 427.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 427.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 427.99 113.03 0)
 			(effects
 				(font
@@ -9824,6 +11048,101 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 95.25 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b16b60b-8d37-4c38-8e62-4c797059305b")
+		(property "Reference" "FB1"
+			(at 95.2119 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 95.2119 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 95.25 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0971413a-a239-4307-b4c5-508527c97b5a")
+		)
+		(pin "2"
+			(uuid "e7ce06fa-6647-415a-9566-871a2925cc73")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -9875,7 +11194,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 118.11 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 118.11 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 118.11 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 118.11 241.3 0)
 			(effects
 				(font
@@ -9910,7 +11256,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dd5748d-37f7-48dd-b90f-d4f78c5f0a62")
 		(property "Reference" "R40"
-			(at 157.48 138.43 0)
+			(at 157.48 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +11264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "800"
+		(property "Value" "820"
 			(at 157.48 143.5099 0)
 			(effects
 				(font
@@ -9945,7 +11291,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 154.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 154.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805JR-07820RL"
+			(at 154.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 154.94 142.24 0)
 			(effects
 				(font
@@ -10081,7 +11454,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 427.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 427.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 427.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 427.99 105.41 0)
 			(effects
 				(font
@@ -10106,13 +11506,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 402.59 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e43280b-82ce-4607-a52f-0e1c21f5f057")
+		(property "Reference" "R9"
+			(at 402.59 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 402.59 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 402.59 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 402.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 402.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 402.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 402.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 402.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf0b274-39b6-4d88-b832-da5d349c3966")
+		)
+		(pin "2"
+			(uuid "3d278352-ae13-4341-bf2d-e10488c70ca2")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 59.69 318.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2ffc6e7c-715c-4f1b-a458-c94274697d16")
 		(property "Reference" "TP11"
@@ -10152,6 +11647,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 59.69 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 59.69 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 59.69 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 59.69 318.77 0)
 			(effects
 				(font
@@ -10348,7 +11870,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 86.36 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 86.36 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 86.36 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 86.36 250.19 0)
 			(effects
 				(font
@@ -10373,72 +11922,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 60.96 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3349f2f4-3b52-420d-9b30-ef3545a6eb81")
-		(property "Reference" "#PWR056"
-			(at 60.96 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
-			(at 60.96 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c449bac1-d19d-4c63-bfcb-cea02ae1a508")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 514.35 55.88 0)
 		(unit 1)
@@ -10457,7 +11940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 518.16 57.1499 0)
 			(effects
 				(font
@@ -10475,7 +11958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 514.35 55.88 0)
 			(effects
 				(font
@@ -10484,7 +11967,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 514.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 514.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 514.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 514.35 55.88 0)
 			(effects
 				(font
@@ -10581,7 +12091,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "392ccedc-1ffc-4922-85b9-9f7c72f64a85")
 		(property "Reference" "Q2"
@@ -10593,7 +12103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C3M0075120K"
+		(property "Value" "G3R30MT12K"
 			(at 212.09 89.1666 0)
 			(effects
 				(font
@@ -10612,7 +12122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
+		(property "Datasheet" "https://genesicsemi.com/sic-mosfet/G3R30MT12K/G3R30MT12K.pdf"
 			(at 205.74 87.63 0)
 			(effects
 				(font
@@ -10623,6 +12133,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GeneSiC Semiconductor"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "G3R30MT12K"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 205.74 87.63 0)
 			(effects
 				(font
@@ -10785,74 +12322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 377.19 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ab79013-8028-4e0e-b9e3-f0697f928152")
-		(property "Reference" "L13"
-			(at 377.19 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 377.19 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 377.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f81938d2-75ea-45fb-ad46-428698515e5b")
-		)
-		(pin "2"
-			(uuid "5abcd86d-9d67-4c76-95fd-e0430bf72be2")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 537.21 55.88 0)
 		(unit 1)
@@ -10871,7 +12340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 541.02 57.1499 0)
 			(effects
 				(font
@@ -10889,7 +12358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 537.21 55.88 0)
 			(effects
 				(font
@@ -10898,7 +12367,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 537.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 537.21 55.88 0)
 			(effects
 				(font
@@ -10968,7 +12464,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 147.32 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 147.32 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 147.32 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 147.32 293.37 0)
 			(effects
 				(font
@@ -10993,76 +12516,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 93.98 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c5fd8a7-5e74-419e-914c-660af1186743")
-		(property "Reference" "L6"
-			(at 93.98 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 93.98 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ebac7f8-58b8-46a3-a8b6-74c84ac6d0de")
-		)
-		(pin "2"
-			(uuid "782cb8f6-9cf9-4633-96f8-0771fdb64a31")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 520.7 148.59 0)
+		(at 541.02 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11071,7 +12526,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cff4365-f9a8-409c-9c54-1793851587dd")
 		(property "Reference" "R59"
-			(at 523.24 147.3199 0)
+			(at 543.56 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11079,8 +12534,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 523.24 149.8599 0)
+		(property "Value" "0"
+			(at 543.56 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,7 +12544,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 518.922 148.59 90)
+			(at 539.242 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,7 +12553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 520.7 148.59 0)
+			(at 541.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +12562,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 520.7 148.59 0)
+			(at 541.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 541.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-070RL"
+			(at 541.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
+			(at 541.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +12631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "1uf"
 			(at 172.72 151.1299 0)
 			(effects
 				(font
@@ -11176,7 +12658,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL10A105KB8NNNC"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 168.91 149.86 0)
 			(effects
 				(font
@@ -11207,7 +12716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3e5ddf3b-35c6-4e39-b074-ffaf9f489cbe")
 		(property "Reference" "TP9"
@@ -11247,6 +12756,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 39.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 39.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 39.37 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 39.37 318.77 0)
 			(effects
 				(font
@@ -11313,7 +12849,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 39.37 92.71 0)
 			(effects
 				(font
@@ -11381,7 +12944,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 367.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 367.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 367.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 367.03 62.23 0)
 			(effects
 				(font
@@ -11406,85 +12996,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 377.19 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "404cae8e-f995-49e6-8a47-142c46a2a14e")
-		(property "Reference" "L11"
-			(at 377.19 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 377.19 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 377.19 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8cc8077-2cf2-4c38-930a-67fc3424c88b")
-		)
-		(pin "2"
-			(uuid "0c0ba747-09cc-4ba1-96d7-c4adde0e8463")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 232.41 160.02 90)
+		(at 252.73 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41d2615a-107d-4949-9d82-1e8087ce7c47")
 		(property "Reference" "C66"
-			(at 232.41 152.4 90)
+			(at 252.73 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +13014,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 232.41 154.94 90)
+			(at 252.73 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11500,7 +13022,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 236.22 159.0548 0)
+			(at 256.54 159.0548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +13031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 160.02 0)
+			(at 252.73 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +13040,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 160.02 0)
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 252.73 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +13202,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5% thin film low inductance"
+			(at 473.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 473.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 473.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 473.71 88.9 0)
 			(effects
 				(font
@@ -11744,74 +13320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 377.19 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48da3f99-aaea-42cf-a6c2-6c10dc919800")
-		(property "Reference" "L12"
-			(at 377.19 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 377.19 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 377.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 377.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93181910-a532-4b64-882e-e6249c7caf2b")
-		)
-		(pin "2"
-			(uuid "196007c2-77cc-4192-a417-a349a5239b69")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 182.88 339.09 0)
 		(unit 1)
@@ -11857,7 +13365,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 182.88 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 182.88 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 182.88 339.09 0)
 			(effects
 				(font
@@ -11927,7 +13462,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 417.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 417.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 417.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 417.83 105.41 0)
 			(effects
 				(font
@@ -11970,7 +13532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 262.89 246.3799 0)
 			(effects
 				(font
@@ -11988,7 +13550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 259.08 245.11 0)
 			(effects
 				(font
@@ -11997,7 +13559,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 259.08 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 259.08 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 259.08 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 259.08 245.11 0)
 			(effects
 				(font
@@ -12154,76 +13743,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 93.98 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fc07b16-3225-43ea-a4ef-6a9e0ee4e96d")
-		(property "Reference" "L7"
-			(at 93.98 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 93.98 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e583c6d-0ddb-429f-bca4-19be9af73431")
-		)
-		(pin "2"
-			(uuid "9f0ec4c1-17da-4405-acff-a87b65657a45")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 237.49 148.59 0)
+		(at 257.81 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12232,7 +13753,7 @@
 		(fields_autoplaced yes)
 		(uuid "51259ce8-6875-4f72-b294-e167ba6b4408")
 		(property "Reference" "R50"
-			(at 240.03 147.3199 0)
+			(at 260.35 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,8 +13761,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 240.03 149.8599 0)
+		(property "Value" "0"
+			(at 260.35 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,7 +13771,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 235.712 148.59 90)
+			(at 256.032 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +13780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12268,7 +13789,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 148.59 0)
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-070RL"
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12337,7 +13885,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 134.62 88.9 0)
 			(effects
 				(font
@@ -12363,16 +13938,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 234.95 347.98 90)
+		(at 252.73 347.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5514dcdb-2b6b-4f91-add9-f7ecfb830a71")
 		(property "Reference" "C67"
-			(at 234.95 340.36 90)
+			(at 252.73 340.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12380,7 +13955,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 234.95 342.9 90)
+			(at 252.73 342.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +13963,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 238.76 347.0148 0)
+			(at 256.54 347.0148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +13972,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 347.98 0)
+			(at 252.73 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,7 +13981,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 347.98 0)
+			(at 252.73 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 252.73 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 252.73 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 252.73 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +14049,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 378.46 58.42 0)
 			(effects
 				(font
@@ -12455,7 +14057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 378.46 62.23 0)
 			(effects
 				(font
@@ -12464,7 +14066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 378.46 62.23 0)
 			(effects
 				(font
@@ -12473,7 +14075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000v 1A"
 			(at 378.46 62.23 0)
 			(effects
 				(font
@@ -12492,6 +14094,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 378.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 378.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 378.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 378.46 62.23 0)
 			(effects
 				(font
@@ -12522,7 +14151,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5915d75b-a8dd-48cd-aadd-43c52d407e72")
 		(property "Reference" "TP12"
@@ -12560,6 +14189,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 129.54 172.72 0)
 			(effects
 				(font
@@ -12626,7 +14282,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5% thin film low inductance"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -12696,7 +14379,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 137.16 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 137.16 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 137.16 278.13 0)
 			(effects
 				(font
@@ -12830,7 +14540,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -12890,7 +14627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AMC1306M25DWVR"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Famc1306m25"
 			(at 444.5 176.53 0)
 			(effects
 				(font
@@ -12901,6 +14638,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 444.5 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 444.5 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "AMC1306M25DWVR"
+			(at 444.5 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 444.5 176.53 0)
 			(effects
 				(font
@@ -13027,7 +14791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 207.01 59.6899 0)
 			(effects
 				(font
@@ -13045,7 +14809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -13054,7 +14818,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -13085,7 +14876,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6841d168-c2e7-45fa-a19d-51a214b58782")
 		(property "Reference" "TP10"
@@ -13133,6 +14924,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4653c94d-70e4-45f6-bee6-38ab333916f1")
 		)
@@ -13147,7 +14965,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 227.33 148.59 0)
+		(at 247.65 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13156,7 +14974,7 @@
 		(fields_autoplaced yes)
 		(uuid "693ad1ef-7216-445b-a147-bffd45fc67b7")
 		(property "Reference" "R46"
-			(at 229.87 147.3199 0)
+			(at 250.19 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13164,8 +14982,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 229.87 149.8599 0)
+		(property "Value" "0"
+			(at 250.19 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13174,7 +14992,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 225.552 148.59 90)
+			(at 245.872 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,7 +15001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 148.59 0)
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,7 +15010,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 148.59 0)
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-070RL"
+			(at 247.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
+			(at 247.65 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13259,7 +15104,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -13302,7 +15174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+15V_GATE"
 			(at 83.82 302.26 0)
 			(effects
 				(font
@@ -13344,6 +15216,102 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 516.89 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6be436c9-6748-4808-9536-1c1dc075a21a")
+		(property "Reference" "R109"
+			(at 521.208 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 519.43 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 515.112 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 516.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5% thin film low inductance"
+			(at 516.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 516.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 516.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 516.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e98e7d00-663d-42cc-9e5a-3c134295de20")
+		)
+		(pin "2"
+			(uuid "3eb56343-1a6c-4e98-8ee9-30b333dea1d8")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -13527,7 +15495,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 58.42 64.77 0)
 			(effects
 				(font
@@ -13597,7 +15592,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 407.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 407.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 407.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 407.67 90.17 0)
 			(effects
 				(font
@@ -13640,7 +15662,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 228.6 246.3799 0)
 			(effects
 				(font
@@ -13658,7 +15680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 224.79 245.11 0)
 			(effects
 				(font
@@ -13667,7 +15689,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 224.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 224.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 224.79 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 224.79 245.11 0)
 			(effects
 				(font
@@ -13776,7 +15825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 195.58 59.6899 0)
 			(effects
 				(font
@@ -13794,7 +15843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -13803,7 +15852,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -13873,7 +15949,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 417.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 417.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 417.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 417.83 90.17 0)
 			(effects
 				(font
@@ -13934,7 +16037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
 			(at 157.48 339.09 0)
 			(effects
 				(font
@@ -13943,7 +16046,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.1v zener"
+			(at 157.48 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 157.48 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BZT52C5V1-TP"
+			(at 157.48 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 157.48 339.09 0)
 			(effects
 				(font
@@ -13968,13 +16098,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 378.46 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79dde8bc-cf39-4458-a1e3-3471bb065025")
+		(property "Reference" "FB4"
+			(at 378.4219 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 378.4219 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 378.46 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 378.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 378.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 378.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 378.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14ce4a2-2a06-467f-b3cf-b954c6f3a5a0")
+		)
+		(pin "2"
+			(uuid "2e87a745-a9d0-4763-a0c3-2fa3dd90f551")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 132.08 361.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d0c8954-1df4-48a7-a654-0220dbefa090")
 		(property "Reference" "TP13"
@@ -14012,6 +16237,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 132.08 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 132.08 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 132.08 361.95 0)
 			(effects
 				(font
@@ -14076,7 +16328,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 420.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 420.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 420.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 420.37 57.15 0)
 			(effects
 				(font
@@ -14146,7 +16425,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 341.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 341.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 341.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 341.63 66.04 0)
 			(effects
 				(font
@@ -14216,7 +16522,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 463.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 463.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 463.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 463.55 151.13 0)
 			(effects
 				(font
@@ -14286,7 +16619,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5% thin film low inductance"
+			(at 473.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 473.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 473.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 473.71 105.41 0)
 			(effects
 				(font
@@ -14383,7 +16743,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "875cdf25-ef29-406e-9c50-0f1554c8425f")
 		(property "Reference" "Q7"
@@ -14395,7 +16755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C3M0075120K"
+		(property "Value" "G3R30MT12K"
 			(at 495.3 106.9466 0)
 			(effects
 				(font
@@ -14414,7 +16774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
+		(property "Datasheet" "https://genesicsemi.com/sic-mosfet/G3R30MT12K/G3R30MT12K.pdf"
 			(at 488.95 105.41 0)
 			(effects
 				(font
@@ -14425,6 +16785,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 488.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GeneSiC Semiconductor"
+			(at 488.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "G3R30MT12K"
+			(at 488.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 488.95 105.41 0)
 			(effects
 				(font
@@ -14465,7 +16852,7 @@
 		(fields_autoplaced yes)
 		(uuid "87f3afdb-8582-4903-9a21-906bf02c5f9c")
 		(property "Reference" "R41"
-			(at 160.02 327.66 0)
+			(at 160.02 330.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,7 +16860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "800"
+		(property "Value" "820"
 			(at 160.02 332.7399 0)
 			(effects
 				(font
@@ -14500,7 +16887,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 157.48 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 157.48 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805JR-07820RL"
+			(at 157.48 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 157.48 331.47 0)
 			(effects
 				(font
@@ -14531,7 +16945,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "88bd6484-9b64-4ef7-b5ab-cbb317d6ff25")
 		(property "Reference" "TP16"
@@ -14577,6 +16991,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 412.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 412.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 412.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1355294-ee28-4c10-82d9-67c848b5afcd")
 		)
@@ -14608,7 +17049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 506.73 57.1499 0)
 			(effects
 				(font
@@ -14626,7 +17067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 502.92 55.88 0)
 			(effects
 				(font
@@ -14635,7 +17076,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 502.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 502.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 502.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 502.92 55.88 0)
 			(effects
 				(font
@@ -14661,6 +17129,119 @@
 	)
 	(symbol
 		(lib_id "Device:D")
+		(at 114.3 257.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a9eea90-9f18-4238-b343-ba25e3d6a5ed")
+		(property "Reference" "D37"
+			(at 114.3 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS1MLW"
+			(at 114.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:D_SOD-123W"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000v 1A"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 114.3 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f8cae5-1b2f-4097-96ea-1c5d0294dfca")
+		)
+		(pin "2"
+			(uuid "bf32ef70-6b18-4cd2-a092-7f2e892ce2ad")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
 		(at 430.53 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14677,7 +17258,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 430.53 53.34 0)
 			(effects
 				(font
@@ -14685,7 +17266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 430.53 57.15 0)
 			(effects
 				(font
@@ -14694,7 +17275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 430.53 57.15 0)
 			(effects
 				(font
@@ -14703,7 +17284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000v 1A"
 			(at 430.53 57.15 0)
 			(effects
 				(font
@@ -14730,6 +17311,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 430.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 430.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 430.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9edd390c-88cc-4cb5-b1c1-635bde6eba31")
 		)
@@ -14740,6 +17348,102 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c4d09f9-5522-462f-b38f-b85a2962a4d8")
+		(property "Reference" "R91"
+			(at 239.268 290.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 237.49 289.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 233.172 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5% thin film low inductance"
+			(at 234.95 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 234.95 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 234.95 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 234.95 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a611fc0d-f239-4234-9591-aaca3b1a12d3")
+		)
+		(pin "2"
+			(uuid "3ea2d1f5-11f3-496b-a0f7-c68e30bf8a9c")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -14791,7 +17495,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 41.91 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 41.91 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 41.91 281.94 0)
 			(effects
 				(font
@@ -14861,7 +17592,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 147.32 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 147.32 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 147.32 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 147.32 300.99 0)
 			(effects
 				(font
@@ -14880,6 +17638,101 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 378.46 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f7fc53a-3891-446d-8cf3-b12a5ee8cab0")
+		(property "Reference" "FB6"
+			(at 378.4219 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 378.4219 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 378.46 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 378.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 378.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 378.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 378.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46f70342-910b-4f0f-9420-d491d1484709")
+		)
+		(pin "2"
+			(uuid "f5ecb0e8-08f6-4da6-bf1f-35d67e39b3c7")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB6")
 					(unit 1)
 				)
 			)
@@ -14931,7 +17784,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -14957,6 +17837,119 @@
 	)
 	(symbol
 		(lib_id "Device:D")
+		(at 394.97 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91aa4f6c-79f6-42a7-9402-7a4732ce2dba")
+		(property "Reference" "D36"
+			(at 394.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS1MLW"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:D_SOD-123W"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000v 1A"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 394.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0ae2c7f-5a24-4572-8718-7ef6c2759305")
+		)
+		(pin "2"
+			(uuid "b0282b64-cdc4-454c-ba10-30757ef8051e")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
 		(at 95.25 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14973,7 +17966,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 95.25 57.15 0)
 			(effects
 				(font
@@ -14981,7 +17974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -14990,7 +17983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -14999,7 +17992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000v 1A"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -15018,6 +18011,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -15060,7 +18080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+15V_GATE"
 			(at 364.49 114.3 0)
 			(effects
 				(font
@@ -15108,6 +18128,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 111.76 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9721eb84-af52-48e4-8fd0-f55acc8f308a")
+		(property "Reference" "D35"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS1MLW"
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:D_SOD-123W"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000v 1A"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf2bff8-f51b-479d-996b-0f83f58c09f2")
+		)
+		(pin "2"
+			(uuid "6983c72b-ca8c-47b0-bb49-875fefe91adb")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 213.36 245.11 0)
 		(unit 1)
@@ -15126,7 +18259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 217.17 246.3799 0)
 			(effects
 				(font
@@ -15144,7 +18277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 213.36 245.11 0)
 			(effects
 				(font
@@ -15153,7 +18286,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 213.36 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 213.36 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 213.36 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 213.36 245.11 0)
 			(effects
 				(font
@@ -15223,7 +18383,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5% thin film low inductance"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RT1206FRE0710RL"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 190.5 104.14 0)
 			(effects
 				(font
@@ -15293,7 +18480,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -15429,7 +18643,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 115.57 52.07 0)
 			(effects
 				(font
@@ -15472,7 +18713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 241.3 59.6899 0)
 			(effects
 				(font
@@ -15490,7 +18731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 237.49 58.42 0)
 			(effects
 				(font
@@ -15499,7 +18740,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 237.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 237.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 237.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 237.49 58.42 0)
 			(effects
 				(font
@@ -15560,7 +18828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
 			(at 438.15 151.13 0)
 			(effects
 				(font
@@ -15569,7 +18837,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.1v zener"
+			(at 438.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 438.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BZT52C5V1-TP"
+			(at 438.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 438.15 151.13 0)
 			(effects
 				(font
@@ -15661,7 +18956,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 284.48 90)
+		(at 252.73 284.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15670,7 +18965,7 @@
 		(fields_autoplaced yes)
 		(uuid "a031098e-9b05-4dc3-8764-f0865b734d0d")
 		(property "Reference" "R49"
-			(at 234.95 278.13 90)
+			(at 252.73 278.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15678,7 +18973,7 @@
 			)
 		)
 		(property "Value" ".005"
-			(at 234.95 280.67 90)
+			(at 252.73 280.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +18981,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RES_HCSM2818_STP"
-			(at 234.95 286.258 90)
+			(at 252.73 286.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15694,8 +18989,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 284.48 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-hcsm.pdf"
+			(at 252.73 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15703,8 +18998,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 284.48 0)
+		(property "Description" "low inductance"
+			(at 252.73 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 252.73 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "HCSM2818FT5L00"
+			(at 252.73 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, must be low inductance shunt"
+			(at 252.73 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15773,7 +19095,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 417.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 417.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 417.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 417.83 113.03 0)
 			(effects
 				(font
@@ -15816,7 +19165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 229.87 59.6899 0)
 			(effects
 				(font
@@ -15834,7 +19183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 226.06 58.42 0)
 			(effects
 				(font
@@ -15843,7 +19192,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 226.06 58.42 0)
 			(effects
 				(font
@@ -15868,33 +19244,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 96.52 326.39 90)
+		(lib_id "power:+15V")
+		(at 341.63 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a3c44b4b-4918-43f5-8179-fc637b2eeb91")
-		(property "Reference" "L10"
-			(at 96.52 320.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 96.52 322.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 96.52 326.39 0)
+		(uuid "a4592eeb-81b7-4617-9aba-e89c6ba4f7fd")
+		(property "Reference" "#PWR076"
+			(at 341.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15902,8 +19262,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 96.52 326.39 0)
+		(property "Value" "+15V_GATE"
+			(at 341.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15912,7 +19289,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 326.39 0)
+			(at 341.63 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15921,15 +19298,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d23a3d5c-1325-480a-bba5-32143c1f3273")
-		)
-		(pin "2"
-			(uuid "0483659c-ac0d-4c8f-94e1-c066cd94b3fa")
+			(uuid "21f1663b-6760-40cb-9b48-37fac455545c")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L10")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -16113,7 +19487,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 398.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 398.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 398.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 398.78 53.34 0)
 			(effects
 				(font
@@ -16139,7 +19540,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 336.55 0)
+		(at 257.81 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16148,7 +19549,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac95a9d1-911f-4b99-8fb1-aa00627f4d60")
 		(property "Reference" "R51"
-			(at 242.57 335.2799 0)
+			(at 260.35 335.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16156,8 +19557,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 242.57 337.8199 0)
+		(property "Value" "0"
+			(at 260.35 337.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16166,7 +19567,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 238.252 336.55 90)
+			(at 256.032 336.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16175,7 +19576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 336.55 0)
+			(at 257.81 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16184,7 +19585,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 336.55 0)
+			(at 257.81 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 257.81 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-070RL"
+			(at 257.81 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
+			(at 257.81 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16208,25 +19636,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 93.98 118.11 90)
+		(lib_id "Device:FerriteBead_Small")
+		(at 97.79 316.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b57c9a5c-72a6-4f2f-9714-415db7460799")
-		(property "Reference" "L5"
-			(at 93.98 111.76 90)
+		(uuid "b29b3334-0f31-4749-8e32-2934014db335")
+		(property "Reference" "FB8"
+			(at 97.7519 309.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10uH"
-			(at 93.98 114.3 90)
+		(property "Value" "120 ohm"
+			(at 97.7519 312.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16234,7 +19662,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 93.98 118.11 0)
+			(at 97.79 318.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16243,7 +19671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 118.11 0)
+			(at 97.79 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16251,8 +19679,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 118.11 0)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 97.79 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 97.79 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 97.79 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 97.79 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,15 +19716,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad4ec0ea-2bbe-454b-99dd-beedc38278cd")
+			(uuid "0ae10984-929d-41ea-af06-5b12c29b4ba9")
 		)
 		(pin "2"
-			(uuid "d56a2e02-fe72-449d-a044-182d3de8c813")
+			(uuid "2d582e10-d62a-453c-9970-bb31a3d49201")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L5")
+					(reference "FB8")
 					(unit 1)
 				)
 			)
@@ -16294,7 +19749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 251.46 246.3799 0)
 			(effects
 				(font
@@ -16312,7 +19767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 247.65 245.11 0)
 			(effects
 				(font
@@ -16321,7 +19776,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 247.65 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 247.65 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 247.65 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 247.65 245.11 0)
 			(effects
 				(font
@@ -16391,7 +19873,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 137.16 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 137.16 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 137.16 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 137.16 293.37 0)
 			(effects
 				(font
@@ -16461,7 +19970,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 127 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 127 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 127 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 127 278.13 0)
 			(effects
 				(font
@@ -16480,6 +20016,101 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 97.79 326.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90b9473-8286-4b9b-99b6-7e942b02bdb0")
+		(property "Reference" "FB9"
+			(at 97.7519 320.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 97.7519 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 97.79 328.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 97.79 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 97.79 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 97.79 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 97.79 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d069605a-9e4a-4f16-ad9e-3cf730ed4ca5")
+		)
+		(pin "2"
+			(uuid "58574c2e-682f-4456-9c50-d1a4ec30197d")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB9")
 					(unit 1)
 				)
 			)
@@ -16531,7 +20162,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 134.62 111.76 0)
 			(effects
 				(font
@@ -16556,6 +20214,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-VDC")
+		(at 233.68 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc92da89-07f1-404d-bc87-59d90ae1bd60")
+		(property "Reference" "#PWR0145"
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 233.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f29ccd2-c9d6-4fae-86a5-880934aee2c2")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2EDF9275FXUMA1:2EDF9275FXUMA1")
 		(at 64.77 276.86 0)
 		(unit 1)
@@ -16573,7 +20297,7 @@
 				)
 			)
 		)
-		(property "Value" "2EDF9275FXUMA1"
+		(property "Value" "2EDF8275FXUMA1"
 			(at 87.63 269.24 0)
 			(effects
 				(font
@@ -16591,7 +20315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2EDF9275FXUMA1"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2EDF8275F-DataSheet-v02_07-EN.pdf?fileId=8ac78c8c7c72fb9a017c73a8b6f0077d"
 			(at 64.77 276.86 0)
 			(effects
 				(font
@@ -16602,6 +20326,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 64.77 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 64.77 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "2EDF8275FXUMA1"
+			(at 64.77 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 64.77 276.86 0)
 			(effects
 				(font
@@ -16685,7 +20436,7 @@
 				)
 			)
 		)
-		(property "Value" "2EDF9275FXUMA1"
+		(property "Value" "2EDF8275FXUMA1"
 			(at 368.3 81.28 0)
 			(effects
 				(font
@@ -16703,7 +20454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2EDF9275FXUMA1"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2EDF8275F-DataSheet-v02_07-EN.pdf?fileId=8ac78c8c7c72fb9a017c73a8b6f0077d"
 			(at 345.44 88.9 0)
 			(effects
 				(font
@@ -16714,6 +20465,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 345.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 345.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "2EDF8275FXUMA1"
+			(at 345.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 345.44 88.9 0)
 			(effects
 				(font
@@ -16825,7 +20603,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 144.78 104.14 0)
 			(effects
 				(font
@@ -16850,33 +20655,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 96.52 307.34 90)
+		(lib_id "Device:R")
+		(at 121.92 257.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c002423f-bf8d-4e67-9418-5709157e78c7")
-		(property "Reference" "L8"
-			(at 96.52 300.99 90)
+		(uuid "c0729e47-32da-45ae-9366-17a40fe13fe7")
+		(property "Reference" "R89"
+			(at 121.92 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10uH"
-			(at 96.52 303.53 90)
+		(property "Value" "1"
+			(at 121.92 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 96.52 307.34 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 121.92 259.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16885,7 +20690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 307.34 0)
+			(at 121.92 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,8 +20698,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 307.34 0)
+		(property "Description" "5%"
+			(at 121.92 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 121.92 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 121.92 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 121.92 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16903,15 +20735,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f0a94be-54ea-4743-8617-b6937034bf82")
+			(uuid "20057d0a-1d12-4948-ab02-d25b79b439a5")
 		)
 		(pin "2"
-			(uuid "a2486c0e-d7ed-43ca-83a8-6a9ae3153c67")
+			(uuid "d701d018-5d23-432e-b93e-7c175ee36c5b")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L8")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -16953,7 +20785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AMC1306M25DWVR"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Famc1306m25"
 			(at 161.29 175.26 0)
 			(effects
 				(font
@@ -16964,6 +20796,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 161.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "AMC1306M25DWVR"
+			(at 161.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 161.29 175.26 0)
 			(effects
 				(font
@@ -17000,6 +20859,101 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 516.89 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d58311-77d5-4001-b5d3-594ec5e3ceb7")
+		(property "Reference" "C137"
+			(at 524.51 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pf"
+			(at 521.97 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 517.8552 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 516.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1kv C0G/NP0"
+			(at 516.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 516.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM31A5C3A471FWA1D"
+			(at 516.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 516.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "888075db-a37c-4fa3-b7b1-6264da3a1264")
+		)
+		(pin "1"
+			(uuid "b2849f2d-5b1d-430c-8c07-f8e758f9cd08")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -17051,7 +21005,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 137.16 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 137.16 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 137.16 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 137.16 300.99 0)
 			(effects
 				(font
@@ -17093,7 +21074,7 @@
 				)
 			)
 		)
-		(property "Value" "2EDF9275FXUMA1"
+		(property "Value" "2EDF8275FXUMA1"
 			(at 85.09 80.01 0)
 			(effects
 				(font
@@ -17111,7 +21092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2EDF9275FXUMA1"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2EDF8275F-DataSheet-v02_07-EN.pdf?fileId=8ac78c8c7c72fb9a017c73a8b6f0077d"
 			(at 62.23 87.63 0)
 			(effects
 				(font
@@ -17122,6 +21103,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "2EDF8275FXUMA1"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 62.23 87.63 0)
 			(effects
 				(font
@@ -17194,7 +21202,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7777d59-5604-4fa4-9ba9-78fb758ffed7")
 		(property "Reference" "Q6"
@@ -17206,7 +21214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C3M0075120K"
+		(property "Value" "G3R30MT12K"
 			(at 495.3 90.4366 0)
 			(effects
 				(font
@@ -17225,7 +21233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
+		(property "Datasheet" "https://genesicsemi.com/sic-mosfet/G3R30MT12K/G3R30MT12K.pdf"
 			(at 488.95 88.9 0)
 			(effects
 				(font
@@ -17236,6 +21244,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 488.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GeneSiC Semiconductor"
+			(at 488.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "G3R30MT12K"
+			(at 488.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 488.95 88.9 0)
 			(effects
 				(font
@@ -17311,7 +21346,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 322.58 93.98 0)
 			(effects
 				(font
@@ -17381,7 +21443,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 417.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 417.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 417.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 417.83 82.55 0)
 			(effects
 				(font
@@ -17424,7 +21513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "1uf"
 			(at 175.26 340.3599 0)
 			(effects
 				(font
@@ -17451,7 +21540,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 171.45 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 171.45 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL10A105KB8NNNC"
+			(at 171.45 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 171.45 339.09 0)
 			(effects
 				(font
@@ -17494,7 +21610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 252.73 59.6899 0)
 			(effects
 				(font
@@ -17512,7 +21628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 248.92 58.42 0)
 			(effects
 				(font
@@ -17521,7 +21637,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 248.92 58.42 0)
 			(effects
 				(font
@@ -17618,7 +21761,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cca94888-d353-4361-b205-c806097e7162")
 		(property "Reference" "Q5"
@@ -17630,7 +21773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C3M0075120K"
+		(property "Value" "G3R30MT12K"
 			(at 214.63 294.9066 0)
 			(effects
 				(font
@@ -17649,7 +21792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
+		(property "Datasheet" "https://genesicsemi.com/sic-mosfet/G3R30MT12K/G3R30MT12K.pdf"
 			(at 208.28 293.37 0)
 			(effects
 				(font
@@ -17660,6 +21803,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GeneSiC Semiconductor"
+			(at 208.28 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "G3R30MT12K"
+			(at 208.28 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 208.28 293.37 0)
 			(effects
 				(font
@@ -17757,6 +21927,101 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 233.68 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cef55701-4ddb-402b-b6c1-3855b1865051")
+		(property "Reference" "C136"
+			(at 241.3 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pf"
+			(at 238.76 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 234.6452 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1kv C0G/NP0"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM31A5C3A471FWA1D"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88ce60cc-9e13-45b1-bd35-ba92bae56d57")
+		)
+		(pin "1"
+			(uuid "63de89ca-d5e8-4e0b-abb4-662a91d0b75f")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 127 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17801,7 +22066,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 127 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 127 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 127 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 127 270.51 0)
 			(effects
 				(font
@@ -17910,7 +22202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 495.3 57.1499 0)
 			(effects
 				(font
@@ -17928,7 +22220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 491.49 55.88 0)
 			(effects
 				(font
@@ -17937,7 +22229,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 491.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 491.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 491.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 491.49 55.88 0)
 			(effects
 				(font
@@ -18094,6 +22413,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 119.38 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7e9befe-5451-4e21-a4e3-ae7b1e62d8c9")
+		(property "Reference" "R8"
+			(at 119.38 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 119.38 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 119.38 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805FR-131RL"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db519ab-2711-44fe-9137-5f288d4467e0")
+		)
+		(pin "2"
+			(uuid "78951439-055e-434a-ab91-ba4e7fe41f3e")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND3")
 		(at 341.63 69.85 0)
 		(unit 1)
@@ -18161,7 +22575,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 336.55 0)
+		(at 247.65 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18169,7 +22583,7 @@
 		(dnp no)
 		(uuid "daf21a20-fc0b-45ac-9f56-2eb0a0bd66d0")
 		(property "Reference" "R47"
-			(at 232.41 335.2799 0)
+			(at 250.19 335.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18177,8 +22591,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 232.41 337.8199 0)
+		(property "Value" "0"
+			(at 250.19 337.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18187,7 +22601,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 228.092 336.55 90)
+			(at 245.872 336.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18196,7 +22610,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 336.55 0)
+			(at 247.65 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18205,7 +22619,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 336.55 0)
+			(at 247.65 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 247.65 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-070RL"
+			(at 247.65 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
+			(at 247.65 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,7 +22715,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -18305,7 +22773,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e2a253e5-ac05-4e2e-98f1-6328ba493290")
 		(property "Reference" "TP15"
@@ -18353,6 +22821,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 345.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 345.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 345.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53b2fcb4-9a4e-41a9-bbea-858f5780a322")
 		)
@@ -18384,7 +22879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2"
+		(property "Value" "1uf"
 			(at 455.93 152.3999 0)
 			(effects
 				(font
@@ -18411,7 +22906,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 452.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 452.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL10A105KB8NNNC"
+			(at 452.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 452.12 151.13 0)
 			(effects
 				(font
@@ -18454,7 +22976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+15V_GATE"
 			(at 81.28 113.03 0)
 			(effects
 				(font
@@ -18547,7 +23069,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 60.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 60.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 60.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 60.96 254 0)
 			(effects
 				(font
@@ -18578,7 +23127,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e6af217b-8b33-4eb4-8b5c-7a7fe3f007cb")
 		(property "Reference" "Q3"
@@ -18590,7 +23139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C3M0075120K"
+		(property "Value" "G3R30MT12K"
 			(at 212.09 105.6766 0)
 			(effects
 				(font
@@ -18609,7 +23158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf"
+		(property "Datasheet" "https://genesicsemi.com/sic-mosfet/G3R30MT12K/G3R30MT12K.pdf"
 			(at 205.74 104.14 0)
 			(effects
 				(font
@@ -18620,6 +23169,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GeneSiC Semiconductor"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "G3R30MT12K"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 205.74 104.14 0)
 			(effects
 				(font
@@ -18650,17 +23226,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 341.63 60.96 0)
+		(lib_id "Device:C")
+		(at 234.95 298.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9a0c558-bfe1-40b8-b8ed-cf898919b2c2")
-		(property "Reference" "#PWR076"
-			(at 341.63 64.77 0)
+		(uuid "e9ad0ccd-da67-4aef-addc-c362e1ac4698")
+		(property "Reference" "C133"
+			(at 242.57 298.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pf"
+			(at 240.03 298.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 235.9152 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18668,8 +23260,87 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
-			(at 341.63 55.88 0)
+		(property "Datasheet" "~"
+			(at 234.95 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1kv C0G/NP0"
+			(at 234.95 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 234.95 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM31A5C3A471FWA1D"
+			(at 234.95 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 234.95 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a7a57a3-e39f-443e-a7c5-1ab160b63398")
+		)
+		(pin "1"
+			(uuid "5798e0ab-aff4-43b5-8738-484dbb8f80b9")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "C133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 58.42 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea6e024b-dcfe-41fc-901e-f619c3b20833")
+		(property "Reference" "#PWR054"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V_GATE"
+			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18677,7 +23348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 60.96 0)
+			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18686,7 +23357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 60.96 0)
+			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18695,7 +23366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 60.96 0)
+			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18704,12 +23375,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e3ed709-01fe-4a6a-a88b-7769c198db09")
+			(uuid "d14c1e01-b07c-483d-bf43-e32f2de0bcc9")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR076")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -18782,6 +23453,167 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-VDC")
+		(at 516.89 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8160f2-7166-4cc9-bd32-4cd58495a9ec")
+		(property "Reference" "#PWR0146"
+			(at 516.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 516.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 516.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92e412bf-e4ce-4387-8b2a-b256f3f0d356")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 378.46 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec4eb81e-4c49-46cd-98cd-de69cdb1705e")
+		(property "Reference" "FB5"
+			(at 378.4219 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 378.4219 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 378.46 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 378.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 378.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 378.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 378.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4584b88-df69-4921-b11c-dacc8c5df1e3")
+		)
+		(pin "2"
+			(uuid "0484aed0-9b4d-48bc-b476-27c12f711ad9")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 236.22 245.11 0)
 		(unit 1)
@@ -18800,7 +23632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nf"
 			(at 240.03 246.3799 0)
 			(effects
 				(font
@@ -18818,7 +23650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C1210C473KDRAC7800"
 			(at 236.22 245.11 0)
 			(effects
 				(font
@@ -18827,7 +23659,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 236.22 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 236.22 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C1210C473KDRACTU"
+			(at 236.22 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 236.22 245.11 0)
 			(effects
 				(font
@@ -18846,72 +23705,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "C127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 58.42 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f28bcfe0-3fa0-48fe-916c-d71ee2effe02")
-		(property "Reference" "#PWR054"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
-			(at 58.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "745ec226-28df-420d-8cd8-bc03527f75d0")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -18984,81 +23777,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 96.52 316.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3955f18-c0a1-4a0f-90f0-df0e1fabdb2a")
-		(property "Reference" "L9"
-			(at 96.52 309.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 96.52 312.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 96.52 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca420be0-f315-43bf-91e1-462478f247dc")
-		)
-		(pin "2"
-			(uuid "38ab9b14-2e33-4364-986d-c3d280a993e5")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
-					(reference "L9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 38.1 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f466e7e9-25f2-46e4-a0b4-abaa2741b972")
 		(property "Reference" "TP8"
@@ -19106,6 +23831,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 38.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98360174-4fd4-48e6-8556-147c958d06bb")
 		)
@@ -19136,7 +23888,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 97.79 246.38 0)
 			(effects
 				(font
@@ -19144,7 +23896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 97.79 250.19 0)
 			(effects
 				(font
@@ -19153,7 +23905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 97.79 250.19 0)
 			(effects
 				(font
@@ -19162,7 +23914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000v 1A"
 			(at 97.79 250.19 0)
 			(effects
 				(font
@@ -19181,6 +23933,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 97.79 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 97.79 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 97.79 250.19 0)
 			(effects
 				(font
@@ -19250,7 +24029,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 134.62 104.14 0)
 			(effects
 				(font
@@ -19351,7 +24157,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9224946-0028-4e0b-9cdf-c860dccfd6ae")
 		(property "Reference" "R54"
-			(at 440.69 139.7 0)
+			(at 440.69 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19359,7 +24165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "800"
+		(property "Value" "820"
 			(at 440.69 144.7799 0)
 			(effects
 				(font
@@ -19386,7 +24192,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 438.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 438.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0805JR-07820RL"
+			(at 438.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 438.15 143.51 0)
 			(effects
 				(font
@@ -19412,7 +24245,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 510.54 148.59 0)
+		(at 530.86 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19421,7 +24254,7 @@
 		(fields_autoplaced yes)
 		(uuid "f976a270-aed8-47c7-976a-24b36f18c369")
 		(property "Reference" "R57"
-			(at 513.08 147.3199 0)
+			(at 533.4 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19429,8 +24262,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 513.08 149.8599 0)
+		(property "Value" "0"
+			(at 533.4 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19439,7 +24272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 508.762 148.59 90)
+			(at 529.082 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19448,7 +24281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 510.54 148.59 0)
+			(at 530.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19457,7 +24290,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 510.54 148.59 0)
+			(at 530.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 530.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-070RL"
+			(at 530.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
+			(at 530.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19526,7 +24386,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 123.19 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 123.19 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 123.19 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 123.19 346.71 0)
 			(effects
 				(font
@@ -19545,6 +24432,72 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-VDC")
+		(at 234.95 302.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe2cab45-7ef2-4938-971c-c7bb30b1c580")
+		(property "Reference" "#PWR0119"
+			(at 234.95 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 234.95 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74dc6858-dd89-4b1d-89b1-a4a00db34c48")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/b4bade25-f251-493e-881f-c7d34096bfbd"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -19634,7 +24587,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 149.86 241.3 0)
 			(effects
 				(font
@@ -19642,7 +24595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 149.86 245.11 0)
 			(effects
 				(font
@@ -19651,7 +24604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 149.86 245.11 0)
 			(effects
 				(font
@@ -19660,7 +24613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1000v 1A"
 			(at 149.86 245.11 0)
 			(effects
 				(font
@@ -19679,6 +24632,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 149.86 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 149.86 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 149.86 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 149.86 245.11 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-23208162394673245
+23223907293743450
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94801,6 +94801,20 @@ WRF0505S-3WR2
 4
 4
 footprints
+B32671L1-SMD
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*2mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 2mm Capacitor
+0
+2
+2
+footprints
+B326712L-SMD
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*2mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 2mm Capacitor
+0
+2
+2
+footprints
 BUS CAP1
 C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.5*6.5mm^2, Capacitor
 C Rect series Radial pin pitch 5.00mm  length 7.5mm width 6.5mm Capacitor
@@ -94920,12 +94934,26 @@ AMC1306M25DWVR
 8
 8
 footprints
+D_SOD-123W
+SOD-123
+SOD-123
+0
+2
+2
+footprints
 F0505S-2WR3
 
 WRF0505S-3WR2 
 0
 4
 4
+footprints
+FR_3-3V
+
+
+0
+6
+6
 footprints
 IC6_AP64060QWU-7_DIO
 
@@ -94955,12 +94983,26 @@ STM32F413RGT6
 64
 64
 footprints
+Molex_Mini-Fit_Jr_0455580003_2x03_P4.20mm_Horizontal
+Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-06A2, example for new mpn: 39-30-0060, 3 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
+connector Molex Mini-Fit_Jr top entryplastic_peg
+0
+6
+6
+footprints
 MountingHole_3.2mm_M3_Pad_TopBottom_LargeIsolation
 Mounting Hole 3.2mm, M3, DIN965
 mounting hole 3.2mm m3 din965
 0
 3
 1
+footprints
+NXJ2_24V_MUR
+
+NXJ2S2415MC-R7 
+0
+8
+8
 footprints
 PG-DSO-16-11
 
@@ -95060,6 +95102,20 @@ MIC5504-3.3YM5-TR
 5
 5
 footprints
+SOT95P280X145-5N
+
+
+0
+5
+5
+footprints
+Symbol_HighVoltage_Triangle_17x15mm_Silk
+High voltage symbol, in triangle, 17x15mm, copper layer
+warning graphic
+0
+0
+0
+footprints
 TO-247-4_Horizontal_TabUp
 TO-247-4, Horizontal, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html
 TO-247-4 Horizontal RM 2.54mm
@@ -95080,3 +95136,10 @@ test point SMD pad rectangle square
 0
 1
 1
+footprints_EM_SERIAL_MODULE
+EM_serial_module
+
+
+0
+60
+60

@@ -4574,7 +4574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 80.01 121.3485 90)
 			(effects
 				(font
@@ -4592,7 +4592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 82.55 121.92 0)
 			(effects
 				(font
@@ -4602,6 +4602,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 82.55 121.92 0)
 			(effects
 				(font
@@ -4647,7 +4674,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 107.95 173.99 0)
 			(effects
 				(font
@@ -4674,7 +4701,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 105.41 172.72 0)
 			(effects
 				(font
@@ -4705,7 +4759,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1957cfbe-4f2c-4643-a04b-be8c7f52c4c0")
 		(property "Reference" "TP6"
@@ -4753,6 +4807,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 213.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 213.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 213.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d42a2166-d498-4d78-a0e1-ca7fc04019ee")
 		)
@@ -4783,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 109.22 204.47 90)
 			(effects
 				(font
@@ -4809,7 +4890,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 109.22 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.22 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 109.22 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 109.22 208.28 0)
 			(effects
 				(font
@@ -4840,7 +4948,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1bff99f1-49ff-441f-ae3b-1fadd1166638")
 		(property "Reference" "TP5"
@@ -4888,6 +4996,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "689f052d-db0d-461e-8836-45e7d18111a8")
 		)
@@ -4919,7 +5054,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 256.54 119.3799 0)
 			(effects
 				(font
@@ -4946,7 +5081,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 254 118.11 0)
 			(effects
 				(font
@@ -4988,7 +5150,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Top_Bottom"
+		(property "Value" "STO"
 			(at 78.74 222.25 0)
 			(effects
 				(font
@@ -4996,7 +5158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
+		(property "Footprint" "footprints:Molex_Mini-Fit_Jr_0455580003_2x03_P4.20mm_Horizontal"
 			(at 77.47 228.6 0)
 			(effects
 				(font
@@ -5015,6 +5177,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 77.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "0455580003"
+			(at 77.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 77.47 228.6 0)
 			(effects
 				(font
@@ -5069,7 +5258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -5096,7 +5285,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 113.03 60.96 0)
 			(effects
 				(font
@@ -5166,7 +5382,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 123.19 142.24 0)
 			(effects
 				(font
@@ -5236,7 +5479,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 91.44 142.24 0)
 			(effects
 				(font
@@ -5278,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 222.25 158.75 90)
 			(effects
 				(font
@@ -5304,7 +5574,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 222.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 222.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 222.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 222.25 162.56 0)
 			(effects
 				(font
@@ -5440,7 +5737,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 124.46 87.63 0)
 			(effects
 				(font
@@ -5482,7 +5806,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 233.68 158.75 90)
 			(effects
 				(font
@@ -5508,7 +5832,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 233.68 162.56 0)
 			(effects
 				(font
@@ -5551,7 +5902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 115.57 116.84 0)
 			(effects
 				(font
@@ -5578,7 +5929,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 113.03 115.57 0)
 			(effects
 				(font
@@ -5752,7 +6130,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 233.68 87.63 90)
 			(effects
 				(font
@@ -5778,7 +6156,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 233.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 233.68 91.44 0)
 			(effects
 				(font
@@ -5820,7 +6225,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 101.6 204.47 90)
 			(effects
 				(font
@@ -5846,7 +6251,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 101.6 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 101.6 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 101.6 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 101.6 208.28 0)
 			(effects
 				(font
@@ -5889,7 +6321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -5916,7 +6348,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 113.03 74.93 0)
 			(effects
 				(font
@@ -5984,7 +6443,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-07220RL"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 158.75 184.15 0)
 			(effects
 				(font
@@ -6053,6 +6539,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "6N137S-TA1"
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 138.43 148.59 0)
 			(effects
 				(font
@@ -6137,7 +6650,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 168.91 148.59 0)
 			(effects
 				(font
@@ -6206,7 +6746,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PTC reset fuse 60v 50mA"
+			(at 66.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton - Electronics Division"
+			(at 66.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "PTS120660V005"
+			(at 66.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 66.04 241.3 0)
 			(effects
 				(font
@@ -6249,7 +6816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 245.11 87.63 0)
 			(effects
 				(font
@@ -6276,7 +6843,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 242.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -6319,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 71.12 200.0885 90)
 			(effects
 				(font
@@ -6337,7 +6931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 73.66 200.66 0)
 			(effects
 				(font
@@ -6347,6 +6941,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 73.66 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 73.66 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 73.66 200.66 0)
 			(effects
 				(font
@@ -6392,7 +7013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "AO4421"
 			(at 93.98 185.42 0)
 			(effects
 				(font
@@ -6410,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/htmldatasheets/production/235802/0/0/1/ao4421-datasheet.html?site=US&lang=en&cur=USD"
 			(at 100.33 171.45 0)
 			(effects
 				(font
@@ -6448,6 +7069,33 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 100.33 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor Inc."
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "AO4421"
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 100.33 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +7180,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-07220RL"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 158.75 199.39 0)
 			(effects
 				(font
@@ -6575,7 +7250,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 90.17 201.93 0)
 			(effects
 				(font
@@ -6602,7 +7277,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 87.63 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 87.63 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 87.63 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 87.63 200.66 0)
 			(effects
 				(font
@@ -6663,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -6672,7 +7374,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.1v zener"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BZT52C5V1-TP"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -6715,7 +7444,7 @@
 				)
 			)
 		)
-		(property "Value" "FODM217A"
+		(property "Value" "EL3H7"
 			(at 138.43 195.58 0)
 			(effects
 				(font
@@ -6744,6 +7473,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Everlight Electronics Co Ltd"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "EL3H7(B)(TA)-VG"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 138.43 201.93 0)
 			(effects
 				(font
@@ -6858,7 +7614,7 @@
 				)
 			)
 		)
-		(property "Value" "FODM217A"
+		(property "Value" "EL3H7"
 			(at 138.43 180.34 0)
 			(effects
 				(font
@@ -6887,6 +7643,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Everlight Electronics Co Ltd"
+			(at 138.43 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "EL3H7(B)(TA)-VG"
+			(at 138.43 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -7028,7 +7811,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 168.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 168.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 168.91 93.98 0)
 			(effects
 				(font
@@ -7097,7 +7907,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PTC reset fuse 60v 50mA"
+			(at 106.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton - Electronics Division"
+			(at 106.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "PTS120660V005"
+			(at 106.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 106.68 226.06 0)
 			(effects
 				(font
@@ -7140,7 +7977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 115.57 130.81 0)
 			(effects
 				(font
@@ -7167,7 +8004,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 113.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 113.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 113.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 113.03 129.54 0)
 			(effects
 				(font
@@ -7228,7 +8092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
 			(at 115.57 172.72 0)
 			(effects
 				(font
@@ -7237,7 +8101,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.1v zener"
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BZT52C5V1-TP"
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 115.57 172.72 0)
 			(effects
 				(font
@@ -7446,6 +8337,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "6N137S-TA1"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee0b4d6d-70c0-4a1b-91e6-49de0f5229c3")
 		)
@@ -7483,7 +8401,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4f629fb-50c3-4273-bd2c-93ec1ba99839")
 		(property "Reference" "TP7"
@@ -7523,6 +8441,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 213.36 130.81 0)
 			(effects
 				(font
@@ -7589,7 +8534,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -7650,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -7659,7 +8631,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.1v zener"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Co"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BZT52C5V1-TP"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -7795,7 +8794,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 115.57 142.24 0)
 			(effects
 				(font
@@ -7837,7 +8863,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 222.25 87.63 90)
 			(effects
 				(font
@@ -7863,7 +8889,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 222.25 91.44 0)
 			(effects
 				(font
@@ -7906,7 +8959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 245.11 158.75 0)
 			(effects
 				(font
@@ -7933,7 +8986,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 242.57 157.48 0)
 			(effects
 				(font
@@ -7976,7 +9056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_Series_ACK"
+		(property "Value" "BAT54SLT1G"
 			(at 81.28 68.0085 90)
 			(effects
 				(font
@@ -7994,7 +9074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54slt1-d.pdf"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -8004,6 +9084,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "BAT54SLT1G"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -8076,7 +9183,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 116.84 87.63 0)
 			(effects
 				(font

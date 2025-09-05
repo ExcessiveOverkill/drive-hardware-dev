@@ -2422,7 +2422,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -2491,7 +2518,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "green diffused"
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harvatek Corporation"
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "B1931NG--20D001114U1930"
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 195.58 58.42 0)
 			(effects
 				(font
@@ -2560,7 +2614,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "green diffused"
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harvatek Corporation"
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "B1931NG--20D001114U1930"
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 195.58 69.85 0)
 			(effects
 				(font
@@ -2631,6 +2712,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "TCA9555PWR"
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 119.38 107.95 0)
 			(effects
 				(font
@@ -2765,7 +2873,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "green diffused"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harvatek Corporation"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "B1931NG--20D001114U1930"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 195.58 81.28 0)
 			(effects
 				(font
@@ -2835,7 +2970,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 74.93 100.33 0)
 			(effects
 				(font
@@ -2904,7 +3066,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 207.01 92.71 0)
 			(effects
 				(font
@@ -3040,7 +3229,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 64.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 64.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 64.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 64.77 100.33 0)
 			(effects
 				(font
@@ -3110,7 +3326,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3245,7 +3488,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 207.01 81.28 0)
 			(effects
 				(font
@@ -3380,7 +3650,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "green diffused"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harvatek Corporation"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "B1931NG--20D001114U1930"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 195.58 92.71 0)
 			(effects
 				(font
@@ -3516,7 +3813,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -3558,7 +3882,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x04"
+		(property "Value" "DS02C-254-1L-04BE"
 			(at 217.17 133.35 0)
 			(effects
 				(font
@@ -3575,7 +3899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/ds02-254.pdf"
 			(at 217.17 123.19 0)
 			(effects
 				(font
@@ -3585,6 +3909,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "DS02C-254-1L-04BE"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 217.17 123.19 0)
 			(effects
 				(font
@@ -3803,7 +4154,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 207.01 58.42 0)
 			(effects
 				(font

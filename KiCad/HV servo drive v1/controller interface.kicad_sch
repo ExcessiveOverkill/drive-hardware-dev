@@ -398,243 +398,6 @@
 				)
 			)
 		)
-		(symbol "2023-05-31_19-45-09:AP64060QWU-7"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AP64060QWU-7"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IC6_AP64060QWU-7_DIO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "AP64060QWU-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "AP64060QWU-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "IC6_AP64060QWU-7_DIO IC6_AP64060QWU-7_DIO-M IC6_AP64060QWU-7_DIO-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP64060QWU-7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:8P8C_LED_Shielded_x2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1978,31 +1741,34 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "Device:FerriteBead_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2019,7 +1785,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
+			(property "Description" "Ferrite bead, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2028,7 +1794,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(property "ki_keywords" "L ferrite bead inductor filter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2037,7 +1803,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2046,11 +1812,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2059,10 +1825,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2071,22 +1837,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -2096,11 +1850,11 @@
 					)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "FerriteBead_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 2.54 270)
 					(length 1.27)
-					(name "1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2116,9 +1870,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 -2.54 90)
 					(length 1.27)
-					(name "2"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2247,227 +2001,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "F0505S DC-DC:F0505S"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U7"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "WRF0505S-3WR2"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "footprints:F0505S-2WR3"
-				(at 20.32 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "WRF0505S-3WR2"
-				(at 20.32 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "WRF0505S-3WR2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SIP7_WRE/F_S-3WR2_MNS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "F0505S_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 33.02 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "F0505S_1_1"
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "-V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "0V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "+V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3304,6 +2837,419 @@
 				)
 			)
 		)
+		(symbol "NXJ2S2415MC-R7:NXJ2S2415MC-R7"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U6"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "NXJ2S2415MC-R7"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "NXJ2_24V_MUR"
+				(at -0.508 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NXJ2S2415MC-R7"
+				(at -0.508 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NXJ2S2415MC-R7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "NXJ2_24V_MUR NXJ2_24V_MUR-M NXJ2_24V_MUR-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NXJ2S2415MC-R7_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 33.02 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -12.7) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:AP2204R-5.0"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2204R-5.0"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA low dropout linear regulator, wide input voltage range, 5.0V fixed positive output, SOT-89-3 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?89*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2204R-5.0_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2204R-5.0_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_DIP_x02"
 			(pin_names
 				(offset 0) hide)
@@ -3969,10 +3915,10 @@
 		(uuid "02a23a49-0e6b-4c83-a0c1-a01db8e2ab2c")
 	)
 	(junction
-		(at 335.28 270.51)
+		(at 317.5 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "039b5040-24ed-456b-b3b7-19b4e2a0197a")
+		(uuid "0404af98-d3f3-4ebc-8d0f-4d8a5defe922")
 	)
 	(junction
 		(at 256.54 205.74)
@@ -3981,34 +3927,16 @@
 		(uuid "0d0a4bc4-b894-486a-903b-0b3697a6cddd")
 	)
 	(junction
-		(at 269.24 308.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "139105a1-8c16-4424-a004-11f2d7de62cc")
-	)
-	(junction
 		(at 386.08 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a5c151f-eab6-49f2-9dc6-754049762cce")
 	)
 	(junction
-		(at 405.13 273.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b37bfeb-d7b5-44fb-b02f-92e0dd4b69dd")
-	)
-	(junction
 		(at 257.81 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ce0568b-0359-488f-b947-98c7b0caadec")
-	)
-	(junction
-		(at 255.27 314.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dbc824a-7798-40e1-bd6b-175e47b9e57b")
 	)
 	(junction
 		(at 405.13 262.89)
@@ -4023,22 +3951,16 @@
 		(uuid "361ba702-6230-44d9-899e-fdef7815df85")
 	)
 	(junction
+		(at 405.13 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3828b848-f48c-457a-bb40-38c8a4a213be")
+	)
+	(junction
 		(at 241.3 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c5bba0d-7284-4dec-b889-9ac448a1f362")
-	)
-	(junction
-		(at 405.13 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41e21a51-f6ba-4198-8003-25f70f6f879a")
-	)
-	(junction
-		(at 297.18 270.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43a73e77-afd2-403f-afef-21a48bc45983")
 	)
 	(junction
 		(at 271.78 160.02)
@@ -4047,16 +3969,16 @@
 		(uuid "48036a07-dc37-45ff-a809-776785c1464e")
 	)
 	(junction
-		(at 317.5 270.51)
+		(at 339.09 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49e47482-5ee6-4715-b378-12e6cb71eb46")
+		(uuid "5149d850-4133-4986-a199-5f13dc500f90")
 	)
 	(junction
-		(at 251.46 308.61)
+		(at 317.5 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5270757d-7ab0-4fb1-be7c-2abb76493b8a")
+		(uuid "54714307-59bb-43f7-b945-55f97ffda477")
 	)
 	(junction
 		(at 269.24 162.56)
@@ -4065,16 +3987,10 @@
 		(uuid "581c98ba-40e0-4d29-b893-bee74b348914")
 	)
 	(junction
-		(at 255.27 331.47)
+		(at 405.13 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f6cf0ff-240e-4c04-964e-463b94517eb2")
-	)
-	(junction
-		(at 292.1 308.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fbf8afe-677e-4cfd-8083-557232da9223")
+		(uuid "5fdd93a9-3163-4a25-9bf8-b75c06dcd265")
 	)
 	(junction
 		(at 269.24 224.79)
@@ -4083,16 +3999,10 @@
 		(uuid "64b278d3-16cd-4614-a00c-4535d3529fab")
 	)
 	(junction
-		(at 274.32 308.61)
+		(at 228.6 317.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a92efdb-2450-4b6d-ba3b-63d7b6545aca")
-	)
-	(junction
-		(at 280.67 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ccc673c-4a4c-412c-9bb0-4de69bd46e09")
+		(uuid "6a1260ef-e243-4b2f-90f3-20c185a0b81b")
 	)
 	(junction
 		(at 340.36 222.25)
@@ -4119,22 +4029,10 @@
 		(uuid "988af86d-5c2d-404d-b454-ea9e2a1e6d9a")
 	)
 	(junction
-		(at 394.97 273.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c602222-fb0a-4d22-be13-2c9ba7b11fac")
-	)
-	(junction
 		(at 269.24 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a206df0e-237b-4678-94d9-db36d3646af2")
-	)
-	(junction
-		(at 317.5 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a724dc07-3ac1-44df-ab5e-85dada1ac63d")
 	)
 	(junction
 		(at 340.36 99.06)
@@ -4143,28 +4041,22 @@
 		(uuid "a91c3fed-8c75-422e-a480-68f0cafd9fbf")
 	)
 	(junction
-		(at 251.46 314.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b21bc172-80e7-4923-bd26-6195f51c88ff")
-	)
-	(junction
 		(at 241.3 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4e3afc3-fd6e-471d-b86a-2d50ed2c927b")
 	)
 	(junction
+		(at 238.76 308.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf7e19be-d1d7-40ad-bb1b-4cd08ea05c12")
+	)
+	(junction
 		(at 386.08 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c551b963-19f1-4e44-bef1-c9d2dc65f172")
-	)
-	(junction
-		(at 245.11 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5a40fe4-158c-4f89-894e-dbb4c4272de9")
 	)
 	(junction
 		(at 243.84 205.74)
@@ -4185,34 +4077,16 @@
 		(uuid "d29ee00b-e01f-4342-993a-e43ac2cf713c")
 	)
 	(junction
-		(at 269.24 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d33ae4b5-2aee-4833-9840-869eb0fa9090")
-	)
-	(junction
 		(at 237.49 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db89ce1d-0b43-42ec-918c-e4d646f484e3")
 	)
 	(junction
-		(at 280.67 308.61)
+		(at 238.76 317.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e0dd2794-fdb2-4325-ba09-67dff6760bf5")
-	)
-	(junction
-		(at 191.77 321.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1a573bd-c2a6-4130-b877-89dc976bac82")
-	)
-	(junction
-		(at 297.18 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f09da413-0701-48ae-99f7-7152ab7ca866")
+		(uuid "ea2696ca-8143-4507-8d3b-36ddad81c928")
 	)
 	(junction
 		(at 278.13 66.04)
@@ -4227,10 +4101,16 @@
 		(uuid "f6c59c74-7464-40ee-8c49-68ca56490f44")
 	)
 	(junction
-		(at 205.74 331.47)
+		(at 250.19 308.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f738f833-30b0-4b8b-a31f-6285b78872ad")
+		(uuid "fe47fbca-d0e7-4fa7-8877-1c2255f4ae88")
+	)
+	(junction
+		(at 218.44 308.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe82855d-f894-4635-817f-aaea414cd969")
 	)
 	(no_connect
 		(at 208.28 152.4)
@@ -4276,26 +4156,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 283.21) (xy 394.97 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "007f7b50-5b65-4be3-94c2-611313d65423")
-	)
-	(wire
-		(pts
-			(xy 274.32 288.29) (xy 274.32 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e6bb52-0b0a-4801-816f-def291b2c4ca")
-	)
-	(wire
-		(pts
 			(xy 389.89 100.33) (xy 386.08 100.33)
 		)
 		(stroke
@@ -4303,16 +4163,6 @@
 			(type default)
 		)
 		(uuid "02b9a155-6829-4233-b544-210902a548f3")
-	)
-	(wire
-		(pts
-			(xy 280.67 308.61) (xy 280.67 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e297ae-cc81-436c-948a-3eebcb6443da")
 	)
 	(wire
 		(pts
@@ -4326,23 +4176,13 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 260.35) (xy 342.9 260.35)
+			(xy 339.09 266.7) (xy 339.09 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05e82de7-3fb0-4c51-b570-9f111e9a4400")
-	)
-	(wire
-		(pts
-			(xy 237.49 170.18) (xy 237.49 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06d1070a-feb1-4f6e-b000-504ab85aa90a")
+		(uuid "07a6afda-cb27-4c73-aec2-0576d555cea2")
 	)
 	(wire
 		(pts
@@ -4353,6 +4193,16 @@
 			(type default)
 		)
 		(uuid "0a227f6b-0d1d-4338-8429-d8d05072eec1")
+	)
+	(wire
+		(pts
+			(xy 339.09 264.16) (xy 339.09 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a319a0c-dc25-45a7-a231-5d720068185f")
 	)
 	(wire
 		(pts
@@ -4376,16 +4226,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 148.59) (xy 241.3 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e403518-8667-469f-88eb-c6d7936a9344")
-	)
-	(wire
-		(pts
 			(xy 267.97 95.25) (xy 252.73 95.25)
 		)
 		(stroke
@@ -4396,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 72.39) (xy 292.1 73.66)
+			(xy 295.91 72.39) (xy 295.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4416,33 +4256,13 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 260.35) (xy 405.13 260.35)
+			(xy 218.44 316.23) (xy 218.44 317.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10cb2a65-d4e0-4cc6-ac62-3f44ee2f1541")
-	)
-	(wire
-		(pts
-			(xy 251.46 297.18) (xy 234.95 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112887c9-91bc-4dc5-9061-a6394f5d9db3")
-	)
-	(wire
-		(pts
-			(xy 297.18 270.51) (xy 317.5 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12db4a8a-62e2-47f1-a6b0-a56c72dfafbd")
+		(uuid "10da6b14-b946-4871-a79a-03492aeab081")
 	)
 	(wire
 		(pts
@@ -4496,26 +4316,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 322.58) (xy 255.27 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b5cc6aa-4a89-436b-96bd-b23c1659fcb5")
-	)
-	(wire
-		(pts
-			(xy 292.1 302.26) (xy 292.1 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5538c9-a39a-4348-b272-5713abadc3ff")
-	)
-	(wire
-		(pts
 			(xy 344.17 99.06) (xy 340.36 99.06)
 		)
 		(stroke
@@ -4533,6 +4333,16 @@
 			(type default)
 		)
 		(uuid "1e8b53d8-1a7d-462b-96f0-e280a11b575f")
+	)
+	(wire
+		(pts
+			(xy 339.09 261.62) (xy 339.09 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc1eead-bc81-4c53-bae7-509ca6f6b55f")
 	)
 	(wire
 		(pts
@@ -4576,16 +4386,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 260.35) (xy 303.53 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b089d82-e1bf-4624-8cbc-ad322b82f6f4")
-	)
-	(wire
-		(pts
 			(xy 228.6 154.94) (xy 237.49 154.94)
 		)
 		(stroke
@@ -4606,16 +4406,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 314.96) (xy 205.74 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f77cbbc-4489-410a-a884-2f333026d656")
-	)
-	(wire
-		(pts
 			(xy 243.84 205.74) (xy 243.84 210.82)
 		)
 		(stroke
@@ -4623,6 +4413,26 @@
 			(type default)
 		)
 		(uuid "31a68890-ed47-408d-9a29-e11af846691b")
+	)
+	(wire
+		(pts
+			(xy 218.44 317.5) (xy 228.6 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c8f935-7601-469c-9011-b9e1186a213c")
+	)
+	(wire
+		(pts
+			(xy 218.44 308.61) (xy 220.98 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3340be1c-fb59-4e28-8c37-996f4a4904b3")
 	)
 	(wire
 		(pts
@@ -4646,16 +4456,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 331.47) (xy 205.74 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35786039-77ba-4671-b603-d235f2797ec6")
-	)
-	(wire
-		(pts
 			(xy 386.08 100.33) (xy 386.08 102.87)
 		)
 		(stroke
@@ -4676,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 264.16) (xy 339.09 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3804a09a-3c27-4b12-a8b3-a84e3a4ff47d")
+	)
+	(wire
+		(pts
 			(xy 205.74 76.2) (xy 213.36 76.2)
 		)
 		(stroke
@@ -4686,13 +4496,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 312.42) (xy 191.77 288.29)
+			(xy 255.27 308.61) (xy 250.19 308.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3913c8c3-302d-410e-b1e2-52a7d8e53052")
+		(uuid "3a5ec7d9-3ffc-4093-a1b7-982945e3e636")
+	)
+	(wire
+		(pts
+			(xy 250.19 308.61) (xy 238.76 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be1f3f7-a7d8-48d6-93a9-624fd3935366")
 	)
 	(wire
 		(pts
@@ -4756,36 +4576,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 262.89) (xy 335.28 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b5067e-18b8-492a-b9fe-560a298c20f7")
-	)
-	(wire
-		(pts
-			(xy 269.24 308.61) (xy 269.24 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b278ec-fdec-4326-bd07-0aa450e938aa")
-	)
-	(wire
-		(pts
-			(xy 359.41 283.21) (xy 335.28 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44897b4b-00e0-454b-a8ed-797285bfa9ec")
-	)
-	(wire
-		(pts
 			(xy 269.24 205.74) (xy 269.24 210.82)
 		)
 		(stroke
@@ -4846,13 +4636,23 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 254) (xy 405.13 260.35)
+			(xy 342.9 261.62) (xy 339.09 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "509f179d-b8e4-4b42-bea4-533b8869aafb")
+		(uuid "4fd6ece0-c6e6-46ec-9bba-8fd1dba1f4b7")
+	)
+	(wire
+		(pts
+			(xy 238.76 308.61) (xy 236.22 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50729880-8584-462c-a8c3-eb7b6a75f778")
 	)
 	(wire
 		(pts
@@ -4866,53 +4666,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 308.61) (xy 251.46 297.18)
+			(xy 237.49 170.18) (xy 237.49 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "515cad3b-e879-4ef4-aa3f-3ddf6ef76c9c")
-	)
-	(wire
-		(pts
-			(xy 394.97 265.43) (xy 394.97 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52213ebc-5833-4022-9a31-3b715dc00347")
-	)
-	(wire
-		(pts
-			(xy 191.77 320.04) (xy 191.77 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526736b4-4ce2-4536-b8d1-0d4d11b6a0a0")
-	)
-	(wire
-		(pts
-			(xy 297.18 275.59) (xy 297.18 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52dc9316-a077-4ee3-8e1c-3d36668f330f")
-	)
-	(wire
-		(pts
-			(xy 205.74 331.47) (xy 245.11 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "531e8464-832a-41ea-acaa-4a3fd7234fcf")
+		(uuid "53cbd9e2-c844-49b5-8d52-59d12fd5d6b8")
 	)
 	(wire
 		(pts
@@ -4926,26 +4686,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 308.61) (xy 280.67 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577668b9-c7c6-4d78-bb62-08186566614a")
-	)
-	(wire
-		(pts
-			(xy 191.77 288.29) (xy 274.32 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57944d19-e593-40b6-890e-5d91ef1bf747")
-	)
-	(wire
-		(pts
 			(xy 243.84 224.79) (xy 256.54 224.79)
 		)
 		(stroke
@@ -4956,16 +4696,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 308.61) (xy 269.24 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a084b0-fa38-4ac6-b7f3-72a9d1a1f662")
-	)
-	(wire
-		(pts
 			(xy 387.35 199.39) (xy 387.35 190.5)
 		)
 		(stroke
@@ -4973,6 +4703,16 @@
 			(type default)
 		)
 		(uuid "5cf1489e-ad7a-46b7-941b-e72df785904f")
+	)
+	(wire
+		(pts
+			(xy 339.09 266.7) (xy 342.9 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f03dcae-b102-462f-a18a-a59d87938a5b")
 	)
 	(wire
 		(pts
@@ -4993,6 +4733,16 @@
 			(type default)
 		)
 		(uuid "64644e82-0bd4-440f-b6cf-906d5fecf74f")
+	)
+	(wire
+		(pts
+			(xy 405.13 261.62) (xy 405.13 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65931f46-f874-467b-8aef-92d149ed6133")
 	)
 	(wire
 		(pts
@@ -5026,6 +4776,26 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 317.5) (xy 238.76 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb1bee9-939b-4c48-b927-7f55f92da1fc")
+	)
+	(wire
+		(pts
+			(xy 396.24 264.16) (xy 396.24 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7145074d-beca-4d3c-849c-b8f5e09ca757")
+	)
+	(wire
+		(pts
 			(xy 387.35 127) (xy 396.24 127)
 		)
 		(stroke
@@ -5036,16 +4806,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 308.61) (xy 280.67 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e77dc4-822c-464f-93a3-04749db3809e")
-	)
-	(wire
-		(pts
 			(xy 336.55 67.31) (xy 344.17 67.31)
 		)
 		(stroke
@@ -5053,16 +4813,6 @@
 			(type default)
 		)
 		(uuid "76a6014e-017e-4188-9800-b2628bcafdf7")
-	)
-	(wire
-		(pts
-			(xy 251.46 308.61) (xy 257.81 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "779d88f0-c54d-4cad-88dc-2765392f2a3a")
 	)
 	(wire
 		(pts
@@ -5116,13 +4866,13 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 323.85) (xy 292.1 331.47)
+			(xy 250.19 316.23) (xy 250.19 317.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "803f3b6c-f194-4244-b4bb-b84f1f173a5a")
+		(uuid "80ddb09f-cfac-4eac-b2ad-f13accf258e6")
 	)
 	(wire
 		(pts
@@ -5146,16 +4896,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 270.51) (xy 335.28 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "816662fc-c056-46ca-bbcb-062805d85e1f")
-	)
-	(wire
-		(pts
 			(xy 271.78 137.16) (xy 269.24 137.16)
 		)
 		(stroke
@@ -5166,13 +4906,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 308.61) (xy 274.32 308.61)
+			(xy 317.5 273.05) (xy 317.5 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86c46394-20bb-4e59-b5f2-dc659e3ea8ea")
+		(uuid "864ce9a2-e9c2-43e0-90e0-df2a1162689f")
 	)
 	(wire
 		(pts
@@ -5196,13 +4936,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 294.64) (xy 255.27 314.96)
+			(xy 228.6 317.5) (xy 228.6 320.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89ac8a04-7699-4a00-9338-2c93b2d58425")
+		(uuid "8a1f7d29-f4ce-4895-9251-ab130a98a29b")
 	)
 	(wire
 		(pts
@@ -5236,13 +4976,13 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 260.35) (xy 317.5 260.35)
+			(xy 228.6 316.23) (xy 228.6 317.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f9cdf41-f748-4960-9f78-898224530fcd")
+		(uuid "8c3a1500-f923-4418-8200-1a165dd3c182")
 	)
 	(wire
 		(pts
@@ -5296,6 +5036,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 264.16) (xy 396.24 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9210be47-d8f6-4297-ba5c-7887b54fd29c")
+	)
+	(wire
+		(pts
 			(xy 389.89 223.52) (xy 386.08 223.52)
 		)
 		(stroke
@@ -5323,6 +5073,16 @@
 			(type default)
 		)
 		(uuid "940010b6-ca79-4316-adbe-45238ce4aeb4")
+	)
+	(wire
+		(pts
+			(xy 317.5 270.51) (xy 339.09 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9513b697-48f4-47de-aad6-c93ded6e6740")
 	)
 	(wire
 		(pts
@@ -5366,16 +5126,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 317.5) (xy 210.82 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a10783-5bc7-4054-bf83-f1ebb4d882b4")
-	)
-	(wire
-		(pts
 			(xy 257.81 137.16) (xy 255.27 137.16)
 		)
 		(stroke
@@ -5406,13 +5156,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 312.42) (xy 210.82 297.18)
+			(xy 228.6 317.5) (xy 238.76 317.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ccc11c9-75a3-4d55-888d-84befba27cce")
+		(uuid "9d2b6115-fb8e-4179-9fc9-5e7015a790fe")
+	)
+	(wire
+		(pts
+			(xy 213.36 308.61) (xy 218.44 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d7863b-5695-490e-8418-2ef6edbe5416")
 	)
 	(wire
 		(pts
@@ -5436,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 260.35) (xy 297.18 261.62)
+			(xy 317.5 254) (xy 317.5 260.35)
 		)
 		(stroke
 			(width 0)
@@ -5456,26 +5216,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 328.93) (xy 191.77 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a363e27c-c535-4a5f-be7f-1cce6a264aa7")
-	)
-	(wire
-		(pts
-			(xy 335.28 262.89) (xy 342.9 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a41d276a-078b-4e93-b306-7419955e3000")
-	)
-	(wire
-		(pts
 			(xy 271.78 160.02) (xy 279.4 160.02)
 		)
 		(stroke
@@ -5483,26 +5223,6 @@
 			(type default)
 		)
 		(uuid "a42f5bd3-492f-4bd1-bf7c-49b7c801d068")
-	)
-	(wire
-		(pts
-			(xy 335.28 283.21) (xy 335.28 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a793e8c4-4f60-4c3d-a86d-9b2a673750d1")
-	)
-	(wire
-		(pts
-			(xy 297.18 269.24) (xy 297.18 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ca3cdc-25bb-44cd-bee2-164342a52f65")
 	)
 	(wire
 		(pts
@@ -5516,16 +5236,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 323.85) (xy 269.24 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95e7261-968d-40fe-a9cc-02e9ed08ec8a")
-	)
-	(wire
-		(pts
 			(xy 231.14 205.74) (xy 243.84 205.74)
 		)
 		(stroke
@@ -5536,23 +5246,13 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 66.04) (xy 278.13 66.04)
+			(xy 295.91 66.04) (xy 278.13 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ade9df70-b3db-4623-888f-5c5443e087a5")
-	)
-	(wire
-		(pts
-			(xy 251.46 314.96) (xy 255.27 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15beee9-7b07-4952-b187-e1c8b8fdbae0")
 	)
 	(wire
 		(pts
@@ -5566,23 +5266,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 312.42) (xy 251.46 308.61)
+			(xy 396.24 273.05) (xy 405.13 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3e5cb67-3fdd-47b6-898d-8156f6cfe8f1")
-	)
-	(wire
-		(pts
-			(xy 255.27 331.47) (xy 269.24 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c52ab7-c9f8-4fe1-abcf-99339830fd2b")
+		(uuid "b4a854ce-0b02-46d1-a154-0d863b93e2e8")
 	)
 	(wire
 		(pts
@@ -5606,16 +5296,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 321.31) (xy 191.77 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbfd1847-5cb8-40cc-9fc8-c2f9257c6942")
-	)
-	(wire
-		(pts
 			(xy 344.17 91.44) (xy 344.17 99.06)
 		)
 		(stroke
@@ -5623,6 +5303,16 @@
 			(type default)
 		)
 		(uuid "bd24ab03-5d2f-4b2f-b099-bd346c80f3f2")
+	)
+	(wire
+		(pts
+			(xy 241.3 146.05) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f37ad9-cb96-4479-a571-127d44624797")
 	)
 	(wire
 		(pts
@@ -5656,26 +5346,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 260.35) (xy 297.18 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c27be2-b36c-4cf8-bdce-33edb09594fa")
-	)
-	(wire
-		(pts
-			(xy 280.67 323.85) (xy 280.67 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a3f169-bd63-4ee1-a23b-d80a9a47b11b")
-	)
-	(wire
-		(pts
 			(xy 317.5 260.35) (xy 317.5 261.62)
 		)
 		(stroke
@@ -5683,16 +5353,6 @@
 			(type default)
 		)
 		(uuid "c9bb8ad9-9551-4ae0-90da-c431d0f9fe41")
-	)
-	(wire
-		(pts
-			(xy 210.82 297.18) (xy 227.33 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca5f2938-132b-48af-9cfc-269dc3aac010")
 	)
 	(wire
 		(pts
@@ -5736,13 +5396,13 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 265.43) (xy 383.54 265.43)
+			(xy 213.36 304.8) (xy 213.36 308.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3a0e015-7dc4-4a01-9443-31df75f2913f")
+		(uuid "d38e2f6f-179f-4eb3-9b58-4fd7a119308e")
 	)
 	(wire
 		(pts
@@ -5766,16 +5426,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 314.96) (xy 251.46 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d777dfd8-21ad-4f0d-a679-4834ac6e4fb3")
-	)
-	(wire
-		(pts
 			(xy 241.3 167.64) (xy 279.4 167.64)
 		)
 		(stroke
@@ -5796,6 +5446,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 261.62) (xy 405.13 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0ea673-4be9-4398-a071-3afa17ff469c")
+	)
+	(wire
+		(pts
 			(xy 336.55 127) (xy 344.17 127)
 		)
 		(stroke
@@ -5813,26 +5473,6 @@
 			(type default)
 		)
 		(uuid "ddaea628-bebe-4872-9805-0544eb9bce34")
-	)
-	(wire
-		(pts
-			(xy 269.24 331.47) (xy 280.67 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debb0e6b-81b8-4cad-a299-01b4c27b8c95")
-	)
-	(wire
-		(pts
-			(xy 292.1 308.61) (xy 292.1 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df59f6e0-7c7d-46c1-a95e-9ca067c463f1")
 	)
 	(wire
 		(pts
@@ -5866,16 +5506,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 331.47) (xy 280.67 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e17a294d-0287-4bd7-b63b-62fa2957cc91")
-	)
-	(wire
-		(pts
 			(xy 344.17 190.5) (xy 344.17 199.39)
 		)
 		(stroke
@@ -5886,13 +5516,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 331.47) (xy 255.27 331.47)
+			(xy 317.5 260.35) (xy 339.09 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6cb3902-ca32-4e72-b2af-0a13a4f603ab")
+		(uuid "e6dc22ab-5566-4639-a044-5f2fd1ce41d6")
 	)
 	(wire
 		(pts
@@ -5916,6 +5546,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 317.5) (xy 238.76 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed9ff48-ed47-43e8-98ac-663c2c524027")
+	)
+	(wire
+		(pts
 			(xy 281.94 205.74) (xy 269.24 205.74)
 		)
 		(stroke
@@ -5926,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 260.35) (xy 405.13 262.89)
+			(xy 405.13 254) (xy 405.13 261.62)
 		)
 		(stroke
 			(width 0)
@@ -5953,16 +5593,6 @@
 			(type default)
 		)
 		(uuid "f7b58918-455f-4dda-b8c5-6cdd1a3be386")
-	)
-	(wire
-		(pts
-			(xy 367.03 283.21) (xy 394.97 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97c5680-0b21-4bfe-9f1d-4d38388459d9")
 	)
 	(wire
 		(pts
@@ -6006,23 +5636,13 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 273.05) (xy 405.13 273.05)
+			(xy 255.27 302.26) (xy 255.27 308.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcd63a33-3b32-4a3e-92f0-fcd0d71d95cd")
-	)
-	(wire
-		(pts
-			(xy 210.82 314.96) (xy 205.74 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2b2ca2-29c6-4f51-9a65-e531caf2bf08")
+		(uuid "feb7d108-5d67-4386-b032-d21fa61f34a3")
 	)
 	(wire
 		(pts
@@ -6323,28 +5943,6 @@
 			)
 		)
 	)
-	(global_label "24V_ISO"
-		(shape input)
-		(at 255.27 294.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41fc96a4-4c18-4e50-a39a-1d9d6fe1c0fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.8752 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5v_ISO"
 		(shape input)
 		(at 337.82 222.25 180)
@@ -6363,6 +5961,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v_ISO"
+		(shape input)
+		(at 255.27 302.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "468f1d54-b68c-4609-bf09-34ab0fed6d63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.5447 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6477,9 +6097,9 @@
 			)
 		)
 	)
-	(global_label "5v_ISO"
+	(global_label "24V_ISO"
 		(shape input)
-		(at 297.18 254 180)
+		(at 317.5 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6489,7 +6109,7 @@
 		)
 		(uuid "556e6a81-bd96-4d37-9dc4-847e0e44614f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.9053 254 0)
+			(at 306.8948 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,28 +6493,6 @@
 			)
 		)
 	)
-	(global_label "5v_ISO"
-		(shape input)
-		(at 292.1 302.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0cc63aa-d215-4280-b450-d4dd9f4fbcbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.3747 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX-"
 		(shape input)
 		(at 236.22 95.25 180)
@@ -7093,6 +6691,28 @@
 			)
 		)
 	)
+	(global_label "24V_ISO"
+		(shape input)
+		(at 213.36 304.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee86cf20-7dda-44fc-87ac-75726ec768bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.7548 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 231.14 214.63 0)
@@ -7139,7 +6759,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 231.14 214.63 0)
 			(effects
 				(font
@@ -7340,7 +6987,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 248.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 248.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RMCF0603FT10R0"
+			(at 248.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 248.92 95.25 0)
 			(effects
 				(font
@@ -7382,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Value" "8P8C_LED_Shielded_x2"
+		(property "Value" "E5908-0T0343-L"
 			(at 289.56 177.8 0)
 			(effects
 				(font
@@ -7399,7 +7073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/E5908-0T0343-L"
 			(at 289.56 160.655 90)
 			(effects
 				(font
@@ -7409,6 +7083,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 289.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Pulse Electronics"
+			(at 289.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "E5908-0T0343-L"
+			(at 289.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 289.56 160.02 0)
 			(effects
 				(font
@@ -7572,92 +7273,13 @@
 		)
 	)
 	(symbol
-		(lib_id "F0505S DC-DC:F0505S")
-		(at 342.9 260.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11237800-878d-4fe9-a623-a2277b8f219c")
-		(property "Reference" "U6"
-			(at 363.22 250.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "WRF0505S-3WR2"
-			(at 363.22 252.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:F0505S-2WR3"
-			(at 363.22 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "WRF0505S-3WR2"
-			(at 363.22 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ea4c3f8-66f7-4e0f-bc59-89a63dbeabfd")
-		)
-		(pin "2"
-			(uuid "00e13dc1-4485-44be-b547-fbf91e460426")
-		)
-		(pin "5"
-			(uuid "ba7a1fa0-b8f6-4354-ab53-6d8a5af2115f")
-		)
-		(pin "6"
-			(uuid "e17aa6d0-e224-4a52-9339-515856c66afa")
-		)
-		(pin "7"
-			(uuid "e8cabd3f-b18f-45c6-920a-768e1cca6969")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x02")
 		(at 226.06 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "131f8c88-4eca-41e0-89da-60196f6b56fb")
 		(property "Reference" "SW1"
@@ -7668,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Value" "TERM RES"
+		(property "Value" "DS01-254-L-02BE"
 			(at 226.06 63.5 0)
 			(effects
 				(font
@@ -7685,7 +7307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/ds01-254.pdf"
 			(at 226.06 71.12 0)
 			(effects
 				(font
@@ -7695,6 +7317,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky (Formerly CUI Devices)"
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "DS01-254-L-02BE"
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 226.06 71.12 0)
 			(effects
 				(font
@@ -7792,7 +7441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 297.18 275.59 0)
+		(at 317.5 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7801,7 +7450,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f1d0454-fc00-42a4-a7f5-15ca0d756416")
 		(property "Reference" "#PWR024"
-			(at 297.18 281.94 0)
+			(at 317.5 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +7459,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 297.18 280.67 0)
+			(at 317.5 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 275.59 0)
+			(at 317.5 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +7476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 275.59 0)
+			(at 317.5 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +7485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 275.59 0)
+			(at 317.5 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +7523,7 @@
 				)
 			)
 		)
-		(property "Value" "D_TVS_Dual_AAC"
+		(property "Value" "SM712"
 			(at 205.74 118.11 0)
 			(effects
 				(font
@@ -7891,7 +7540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/SM712%20N2270%20REV.A.pdf"
 			(at 201.93 121.92 0)
 			(effects
 				(font
@@ -7901,6 +7550,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SMC Diode Solutions"
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SM712"
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 205.74 121.92 0)
 			(effects
 				(font
@@ -7928,33 +7604,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 261.62 308.61 90)
+		(lib_id "Device:C")
+		(at 250.19 312.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b65cffe-bcbd-4e27-b2a1-0bfd87027348")
-		(property "Reference" "L3"
-			(at 261.62 303.53 90)
+		(uuid "2d2b83a4-287c-47fb-9e20-39e1ad5318d1")
+		(property "Reference" "C14"
+			(at 254 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10uH"
-			(at 261.62 306.07 90)
+		(property "Value" "10uf"
+			(at 254 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
-			(at 261.62 308.61 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 251.1552 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +7641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 308.61 0)
+			(at 250.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,8 +7649,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 261.62 308.61 0)
+		(property "Description" "50v"
+			(at 250.19 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 250.19 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 250.19 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 250.19 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,15 +7686,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "10ef721e-ca88-4341-aa86-3650a2582ab2")
+			(uuid "b4d4979e-9bcd-4d1f-bdea-a6f87e25b4b2")
 		)
 		(pin "2"
-			(uuid "8d2d1eae-41fe-4833-9dbf-2e5ad994bd4c")
+			(uuid "0f274cac-c373-4412-bc9b-369f50e327ba")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "L3")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8002,7 +7707,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2de5868b-a54d-492b-9ab4-13016f169380")
 		(property "Reference" "R11"
@@ -8039,7 +7744,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-07120RL"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 201.93 76.2 0)
 			(effects
 				(font
@@ -8109,7 +7841,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 243.84 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 243.84 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 243.84 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 243.84 214.63 0)
 			(effects
 				(font
@@ -8179,7 +7938,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 405.13 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 405.13 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 405.13 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 405.13 267.97 0)
 			(effects
 				(font
@@ -8249,7 +8035,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 281.94 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 281.94 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 281.94 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 281.94 214.63 0)
 			(effects
 				(font
@@ -8268,6 +8081,103 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 312.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34df88c7-9145-444e-9852-07b160593b62")
+		(property "Reference" "C132"
+			(at 214.63 311.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 214.63 313.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 217.4748 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50v"
+			(at 218.44 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 218.44 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 218.44 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 218.44 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b81bdc-5629-49ce-9f5c-42d5af40305d")
+		)
+		(pin "2"
+			(uuid "89fc886e-ea4c-4525-a5b2-a21bd71d4d35")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -8319,7 +8229,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 340.36 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 340.36 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 340.36 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 340.36 228.6 0)
 			(effects
 				(font
@@ -8338,88 +8275,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2023-05-31_19-45-09:AP64060QWU-7")
-		(at 210.82 312.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ac8bd8c-7b41-4fad-b47f-d4619495b0d0")
-		(property "Reference" "U4"
-			(at 231.14 302.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AP64060QWU-7"
-			(at 231.14 304.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:IC6_AP64060QWU-7_DIO"
-			(at 210.82 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "AP64060QWU-7"
-			(at 210.82 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02548a77-80a4-43ca-8221-71a0f2c7b2a0")
-		)
-		(pin "2"
-			(uuid "29c74970-86af-4355-a938-e7ca17164adc")
-		)
-		(pin "3"
-			(uuid "c15c9a2e-07db-4821-9e4e-cecc5e0e0488")
-		)
-		(pin "4"
-			(uuid "d69cf110-c702-4337-938b-778024e12b93")
-		)
-		(pin "5"
-			(uuid "2d67f3ec-e632-43d2-b312-e13f09d17047")
-		)
-		(pin "6"
-			(uuid "50b2e359-63aa-42f8-b087-3cab714141a9")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8461,7 +8316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ISO6721BQDRQ1"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fiso6721-q1"
 			(at 382.27 91.44 0)
 			(effects
 				(font
@@ -8472,6 +8327,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 382.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 382.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "ISO6721BQDRQ1"
+			(at 382.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 382.27 91.44 0)
 			(effects
 				(font
@@ -8508,76 +8390,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 292.1 320.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4372d3f0-2aea-4cde-abbe-de500fb2e3e2")
-		(property "Reference" "C23"
-			(at 295.91 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uf"
-			(at 295.91 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 293.0652 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb7da840-1e51-4535-b8cb-78f429f2b52d")
-		)
-		(pin "2"
-			(uuid "34f49232-33db-42bd-b20c-2154792671ce")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8441,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 256.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 256.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 256.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 256.54 214.63 0)
 			(effects
 				(font
@@ -8648,76 +8487,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 269.24 320.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d684562-c602-41c2-8cbf-55a37ac422d4")
-		(property "Reference" "C19"
-			(at 273.05 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uf"
-			(at 273.05 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 270.2052 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d17d54fb-d42c-42e5-93ae-e2dd6bae56bb")
-		)
-		(pin "2"
-			(uuid "7c325748-37ee-44d2-b693-d40f740a736d")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8967,7 +8736,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 340.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 340.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 340.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 340.36 105.41 0)
 			(effects
 				(font
@@ -8998,7 +8794,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "57cabc37-f8a3-4c0d-854d-26d0dd75d966")
 		(property "Reference" "R10"
@@ -9035,7 +8831,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0603JR-07120RL"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -9105,7 +8928,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 386.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 386.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 386.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 386.08 166.37 0)
 			(effects
 				(font
@@ -9175,7 +9025,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 269.24 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 269.24 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 269.24 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -9266,78 +9143,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 191.77 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "673e301c-91bd-457b-a689-43715a542940")
-		(property "Reference" "R9"
-			(at 194.31 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22.1k"
-			(at 194.31 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.992 325.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56b3abc8-247f-4d5a-91bb-a2bc91e39f52")
-		)
-		(pin "2"
-			(uuid "f94d71fa-c6f4-4e32-b9ce-a2a70c78fca5")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
-		(at 292.1 72.39 0)
+		(at 295.91 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9347,7 +9154,7 @@
 		(fields_autoplaced yes)
 		(uuid "679e1c16-eaa1-45cc-b9b2-ab871291f48d")
 		(property "Reference" "#PWR023"
-			(at 292.1 78.74 0)
+			(at 295.91 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +9163,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 292.1 77.47 0)
+			(at 295.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,7 +9171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 72.39 0)
+			(at 295.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +9180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 72.39 0)
+			(at 295.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 292.1 72.39 0)
+			(at 295.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +9229,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "THVD1552"
+		(property "Value" "THVD1552DR"
 			(at 278.4759 77.47 0)
 			(effects
 				(font
@@ -9440,7 +9247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1490E_1491E.pdf"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fthvd1550"
 			(at 290.83 90.17 0)
 			(effects
 				(font
@@ -9450,6 +9257,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 278.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 278.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "THVD1552DR"
+			(at 278.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 278.13 92.71 0)
 			(effects
 				(font
@@ -9510,33 +9344,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 307.34 260.35 90)
+		(lib_id "Device:FerriteBead_Small")
+		(at 237.49 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "748837fe-9822-4bbe-a63c-45d721d36e1c")
-		(property "Reference" "L4"
-			(at 307.34 255.27 90)
+		(uuid "756d20d2-3670-49b7-91e6-fbb093d06f81")
+		(property "Reference" "FB11"
+			(at 240.03 177.7618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10uH"
-			(at 307.34 257.81 90)
+		(property "Value" "120 ohm"
+			(at 240.03 180.3018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
-			(at 307.34 260.35 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 235.712 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 307.34 260.35 0)
+			(at 237.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,8 +9389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 307.34 260.35 0)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 237.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,51 +9398,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3f7a5750-d48e-4ba3-8367-499050bd8942")
-		)
-		(pin "2"
-			(uuid "38acfed1-ad65-48e9-a042-5efbbd24fecc")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 241.3 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "762b9b76-9926-48bc-9d9d-424ae4cff069")
-		(property "Reference" "L2"
-			(at 242.57 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uH"
-			(at 242.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
-			(at 241.3 144.78 0)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 237.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,8 +9407,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 241.3 144.78 0)
+		(property "Part number" "LI0603G121R-10"
+			(at 237.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,8 +9416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 144.78 0)
+		(property "Generic Allowed?" "yes"
+			(at 237.49 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,15 +9426,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7cac481-8479-46b7-8753-f83c56dc4d6d")
+			(uuid "6abb9a4a-dd87-445c-9993-2b0f9ed25271")
 		)
 		(pin "2"
-			(uuid "a651091a-a9fe-4af9-bcd9-539d019474ab")
+			(uuid "3036f4db-c9ff-4d0d-9658-523c8d133919")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "L2")
+					(reference "FB11")
 					(unit 1)
 				)
 			)
@@ -9693,7 +9486,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 340.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 340.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 340.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 340.36 165.1 0)
 			(effects
 				(font
@@ -9820,7 +9640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+		(property "Datasheet" ""
 			(at 213.36 359.156 0)
 			(effects
 				(font
@@ -9830,6 +9650,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 213.36 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 213.36 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "0022035045"
+			(at 213.36 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 213.36 359.41 0)
 			(effects
 				(font
@@ -9854,6 +9701,103 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 241.3 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f84e925-9789-4af2-9b4b-37e3b101e1a0")
+		(property "Reference" "FB10"
+			(at 233.934 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120 ohm"
+			(at 221.996 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 243.078 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 ohm @ 100Mhz, 1A, <200mOhm"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird-Signal Integrity Products"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LI0603G121R-10"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8407244d-632d-45ac-b6b7-e000cc251722")
+		)
+		(pin "1"
+			(uuid "fed61440-ce57-41bf-b260-76566463f7c6")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
+					(reference "FB10")
 					(unit 1)
 				)
 			)
@@ -9904,7 +9848,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RMCF0603FT10R0"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -9923,140 +9894,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 231.14 297.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8466983e-5632-4426-8d18-83a7701804bf")
-		(property "Reference" "C14"
-			(at 231.14 289.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ".1uf"
-			(at 231.14 292.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 234.95 296.2148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "807f6fd5-f0f5-4af8-9122-6fd8c4839f27")
-		)
-		(pin "2"
-			(uuid "ac8e7b6e-0315-4f65-a55e-cac99d9d91a8")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 245.11 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "866ed2fa-dd6e-4de1-b38c-2e41970548ba")
-		(property "Reference" "#PWR020"
-			(at 245.11 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 245.11 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca0c3e17-df8f-41c7-a5c1-9404901fd537")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10195,35 +10032,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 280.67 320.04 0)
+		(lib_id "Regulator_Linear:AP2204R-5.0")
+		(at 228.6 308.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d2eb357-8255-4370-824a-e492514957db")
-		(property "Reference" "C20"
-			(at 284.48 318.77 0)
+		(uuid "9082e27c-5036-43af-991d-15eb872246c1")
+		(property "Reference" "U21"
+			(at 228.6 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10uf"
-			(at 284.48 321.31 0)
+		(property "Value" "AP2205-50Y-13"
+			(at 228.6 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 281.6352 323.85 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 228.6 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,8 +10066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 280.67 320.04 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2205.pdf"
+			(at 228.6 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +10076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 320.04 0)
+			(at 228.6 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,84 +10084,46 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e75318c2-32d4-4259-ac61-050eb16c5735")
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 228.6 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "AP2205-50Y-13"
+			(at 228.6 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 228.6 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "917757dc-881b-404c-a156-3292d7d1f709")
 		)
 		(pin "2"
-			(uuid "56f23b62-d43a-4f7b-8c05-3d3fd07a7b2d")
+			(uuid "74a274e7-e5f4-4e40-b8db-80e335d94d6b")
+		)
+		(pin "1"
+			(uuid "d38f12e5-3156-4379-8f27-0e52b83dd2e2")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 363.22 283.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94aae528-2ad0-492f-8258-6619619b95c8")
-		(property "Reference" "C29"
-			(at 363.22 275.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220pf"
-			(at 363.22 278.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
-			(at 359.41 284.1752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 363.22 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 363.22 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2df3736-3fc7-4a48-a922-cd0c4e532cd2")
-		)
-		(pin "2"
-			(uuid "1acf987f-7c89-4048-b68b-18cd5d28b7d2")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C29")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -10339,7 +10136,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "95632607-b13f-46ad-9fb7-27702ebf9fd8")
 		(property "Reference" "TP4"
@@ -10379,6 +10176,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 411.48 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 411.48 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 411.48 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 411.48 261.62 0)
 			(effects
 				(font
@@ -10633,7 +10457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ISO6721BQDRQ1"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fiso6721-q1"
 			(at 382.27 214.63 0)
 			(effects
 				(font
@@ -10644,6 +10468,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "ISO6721BQDRQ1"
+			(at 382.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 382.27 214.63 0)
 			(effects
 				(font
@@ -10730,7 +10581,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 242.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 242.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RMCF0603FT10R0"
+			(at 242.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 242.57 100.33 0)
 			(effects
 				(font
@@ -10838,7 +10716,7 @@
 				)
 			)
 		)
-		(property "Value" "D_TVS_Dual_AAC"
+		(property "Value" "SM712"
 			(at 205.74 96.52 0)
 			(effects
 				(font
@@ -10855,7 +10733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/SM712%20N2270%20REV.A.pdf"
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -10865,6 +10743,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SMC Diode Solutions"
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SM712"
+			(at 205.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -11025,6 +10930,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 238.76 312.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a91bd15f-dc2e-4f56-8075-aea12e4afe17")
+		(property "Reference" "C29"
+			(at 242.57 311.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 242.57 313.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 237.7948 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50v"
+			(at 238.76 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 238.76 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 238.76 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 238.76 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f20c7f52-184f-44b5-81db-611e8fdbf344")
+		)
+		(pin "2"
+			(uuid "9d5bd0f8-679c-416f-a3f7-f0228ee7e64a")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 261.62 85.09 270)
 		(mirror x)
@@ -11069,7 +11071,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5%"
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RMCF0603FT10R0"
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 261.62 85.09 0)
 			(effects
 				(font
@@ -11112,7 +11141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+15V"
 			(at 405.13 248.92 0)
 			(effects
 				(font
@@ -11195,7 +11224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ISO6721BQDRQ1"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fiso6721-q1"
 			(at 382.27 151.13 0)
 			(effects
 				(font
@@ -11206,6 +11235,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 382.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 382.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "ISO6721BQDRQ1"
+			(at 382.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 382.27 151.13 0)
 			(effects
 				(font
@@ -11380,78 +11436,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 237.49 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf90fea7-42e4-4547-a1c6-99baa93db06a")
-		(property "Reference" "L1"
-			(at 238.76 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uH"
-			(at 238.76 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
-			(at 237.49 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49a8fb7b-efca-4620-bd18-28720d70d417")
-		)
-		(pin "2"
-			(uuid "b319cec5-d652-40bf-888f-03bbb34deb99")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 292.1 69.85 0)
+		(at 295.91 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11461,7 +11447,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0950580-2a98-4959-b24b-18f4ccfd404c")
 		(property "Reference" "C22"
-			(at 295.91 68.58 0)
+			(at 299.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11470,7 +11456,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 295.91 71.12 0)
+			(at 299.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11479,7 +11465,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 291.1348 73.66 0)
+			(at 294.9448 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 292.1 69.85 0)
+			(at 295.91 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,8 +11482,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 292.1 69.85 0)
+		(property "Description" "50v"
+			(at 295.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 295.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 295.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 295.91 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11566,7 +11579,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 317.5 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 317.5 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "GRM21BR61H106KE43L"
+			(at 317.5 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 317.5 265.43 0)
 			(effects
 				(font
@@ -11636,7 +11676,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 386.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 386.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 386.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 386.08 106.68 0)
 			(effects
 				(font
@@ -11793,76 +11860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 191.77 316.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3857d6a-bd80-48c7-906f-dfd0c1220440")
-		(property "Reference" "R8"
-			(at 194.31 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "115k"
-			(at 194.31 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.992 316.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "302ebae4-432e-43f4-a11c-e139ce12a176")
-		)
-		(pin "2"
-			(uuid "39f31876-50d3-48bf-8e9d-8313ba0cd366")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:8P8C_LED_Shielded_x2")
 		(at 218.44 160.02 0)
 		(mirror x)
@@ -11881,7 +11878,7 @@
 				)
 			)
 		)
-		(property "Value" "8P8C_LED_Shielded_x2"
+		(property "Value" "E5908-0T0343-L"
 			(at 218.44 177.8 0)
 			(effects
 				(font
@@ -11898,7 +11895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/E5908-0T0343-L"
 			(at 218.44 160.655 90)
 			(effects
 				(font
@@ -11908,6 +11905,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 218.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Pulse Electronics"
+			(at 218.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "E5908-0T0343-L"
+			(at 218.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" " yes"
 			(at 218.44 160.02 0)
 			(effects
 				(font
@@ -12004,53 +12028,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 255.27 318.77 0)
+		(lib_id "NXJ2S2415MC-R7:NXJ2S2415MC-R7")
+		(at 342.9 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d64b59e5-ff6e-4d90-a11c-6ff585b26247")
-		(property "Reference" "C16"
-			(at 259.08 317.5 0)
+		(uuid "dbbea18c-7710-428e-9926-5e5324be2d90")
+		(property "Reference" "U6"
+			(at 363.22 251.46 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.2uf"
-			(at 259.08 320.04 0)
+		(property "Value" "NXJ2S2415MC-R7"
+			(at 363.22 254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 256.2352 322.58 0)
+		(property "Footprint" "footprints:NXJ2_24V_MUR"
+			(at 342.392 256.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 255.27 318.77 0)
+		(property "Datasheet" "https://www.murata.com/products/productdata/8807031996446/kdc-nxj2.pdf"
+			(at 342.392 258.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 255.27 318.77 0)
+			(at 342.9 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12058,16 +12082,61 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4653e1dc-6629-460a-9e75-dd51016108af")
+		(property "Manufacturer" "Murata Power Solutions Inc."
+			(at 342.9 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "NXJ2S2415MC-R7"
+			(at 342.9 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 342.9 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "7a1119f2-1dfd-4a77-9d12-6c6e9f5fa590")
+			(uuid "8da39aa2-aaba-4623-b7ce-89cd11f6f105")
+		)
+		(pin "1"
+			(uuid "8cd98a93-43c4-4723-89df-d050d574802d")
+		)
+		(pin "6"
+			(uuid "e0f73979-4125-4283-b205-9bd2989242e5")
+		)
+		(pin "11"
+			(uuid "796c5bd5-dc81-4fdd-8e8a-39660ff41703")
+		)
+		(pin "7"
+			(uuid "9d9b04a8-d290-44b8-a5ee-ede0d93bde6b")
+		)
+		(pin "5"
+			(uuid "08215559-2698-4f00-8536-0beb45cbad4b")
+		)
+		(pin "12"
+			(uuid "b275ad2c-58ab-4da1-941c-2421484e7fe6")
+		)
+		(pin "8"
+			(uuid "52c875af-fadc-4cf5-a0dd-3c18dbd7fcc3")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C16")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12206,35 +12275,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 297.18 265.43 0)
+		(lib_id "power:GND1")
+		(at 228.6 320.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed1e0658-0c99-4622-b22a-706ef95379ea")
-		(property "Reference" "C24"
-			(at 300.99 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uf"
-			(at 300.99 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 298.1452 269.24 0)
+		(uuid "e8394cfe-4feb-4eeb-b254-4a09d573318f")
+		(property "Reference" "#PWR0144"
+			(at 228.6 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,8 +12293,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 297.18 265.43 0)
+		(property "Value" "GND1"
+			(at 228.6 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12320,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 265.43 0)
+			(at 228.6 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,15 +12329,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "430f9eb1-9729-4792-ab8a-3c71e800f3de")
-		)
-		(pin "2"
-			(uuid "41682b14-8cec-4c0a-8942-5ddf4c61c32b")
+			(uuid "f6ae1c91-a981-4da9-a5ee-4579f41d1c66")
 		)
 		(instances
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/9524a05b-e576-4e62-b0e5-c418214a1de1"
-					(reference "C24")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -12387,7 +12452,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50v"
+			(at 386.08 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 386.08 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0603ZRY5V9BB104"
+			(at 386.08 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 386.08 229.87 0)
 			(effects
 				(font
@@ -12448,7 +12540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+		(property "Datasheet" ""
 			(at 255.27 359.156 0)
 			(effects
 				(font
@@ -12458,6 +12550,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 255.27 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 255.27 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "0022035045"
+			(at 255.27 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 255.27 359.41 0)
 			(effects
 				(font

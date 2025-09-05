@@ -369,7 +369,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "21c1c933-5a6f-43ea-a653-df8b338abeea")
 		(property "Reference" "H8"
@@ -417,6 +417,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6223f79b-63c3-4cbe-9b71-3e607cc1c165")
 		)
@@ -436,7 +463,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2d6dc31e-cd0d-4cc3-84f6-0d5ca6502dc3")
 		(property "Reference" "H2"
@@ -484,6 +511,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40db8613-a9da-4bb7-8afa-c1b1c0bd7505")
 		)
@@ -503,7 +557,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2e39300c-cc5c-4e10-a11b-373cc6071981")
 		(property "Reference" "H1"
@@ -551,6 +605,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "764b4c40-4fc1-46c5-a2b3-152657dc3ad3")
 		)
@@ -570,7 +651,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "359273ef-211c-4cc9-b692-34f846e6f050")
 		(property "Reference" "H6"
@@ -618,6 +699,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adfcf329-28f6-4555-ab68-f1b9538ef0c2")
 		)
@@ -637,7 +745,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "47f4030b-ff4c-408c-a942-16941f0b2b05")
 		(property "Reference" "H4"
@@ -685,6 +793,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2beaad3d-1aac-4098-9734-5549d00ad932")
 		)
@@ -699,16 +834,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 143.51 115.57 270)
+		(at 52.07 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "55e6f61a-2838-4e96-a908-0700e441cbcf")
 		(property "Reference" "H10"
-			(at 147.32 114.3 90)
+			(at 55.88 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +852,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 116.84 90)
+			(at 55.88 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +861,7 @@
 			)
 		)
 		(property "Footprint" "footprints:MountingHole_3.2mm_M3_Pad_TopBottom_LargeIsolation"
-			(at 143.51 115.57 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 115.57 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +879,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 115.57 0)
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,16 +925,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 143.51 128.27 270)
+		(at 52.07 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5989381a-c00f-4865-b120-b236d1bd44eb")
 		(property "Reference" "H12"
-			(at 147.32 127 90)
+			(at 55.88 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +943,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 129.54 90)
+			(at 55.88 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +952,7 @@
 			)
 		)
 		(property "Footprint" "footprints:MountingHole_3.2mm_M3_Pad_TopBottom_LargeIsolation"
-			(at 143.51 128.27 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 128.27 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +970,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 128.27 0)
+			(at 52.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 52.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 52.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +1021,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "60dbc071-681b-40db-b683-0aaa254da469")
 		(property "Reference" "H3"
@@ -880,6 +1069,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfbfecdb-3388-4756-97ba-79e66bb1b2f3")
 		)
@@ -894,16 +1110,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 143.51 134.62 270)
+		(at 52.07 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "77efdd49-b98d-4047-b691-da540f974433")
 		(property "Reference" "H13"
-			(at 147.32 133.35 90)
+			(at 55.88 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +1128,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 135.89 90)
+			(at 55.88 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +1137,7 @@
 			)
 		)
 		(property "Footprint" "footprints:MountingHole_3.2mm_M3_Pad_TopBottom_LargeIsolation"
-			(at 143.51 134.62 0)
+			(at 52.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +1146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 134.62 0)
+			(at 52.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +1155,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 134.62 0)
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 52.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1206,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "917faadb-bf37-4256-aef3-91fb3ccc8abb")
 		(property "Reference" "H5"
@@ -1011,6 +1254,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f09ef815-418d-4e0a-9963-c8ba146b1746")
 		)
@@ -1025,16 +1295,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 143.51 121.92 270)
+		(at 52.07 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c69df49b-24a2-4399-9cb5-de06dd2cbff6")
 		(property "Reference" "H11"
-			(at 147.32 120.65 90)
+			(at 55.88 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1313,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 123.19 90)
+			(at 55.88 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1322,7 @@
 			)
 		)
 		(property "Footprint" "footprints:MountingHole_3.2mm_M3_Pad_TopBottom_LargeIsolation"
-			(at 143.51 121.92 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 121.92 0)
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1340,34 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 121.92 0)
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 52.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1391,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e75c866d-0a94-4ce1-8537-71529ac14b58")
 		(property "Reference" "H7"
@@ -1142,6 +1439,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0eee480-5932-44cd-a444-d5de2e349c97")
 		)
@@ -1161,7 +1485,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e96ff311-7a50-4873-98f4-343e43de1b21")
 		(property "Reference" "H9"
@@ -1201,6 +1525,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" ""
 			(at 142.24 105.41 0)
 			(effects
 				(font

@@ -5,108 +5,6 @@
 	(uuid "b719d0c2-e53a-4473-a0e6-c492d20d5e69")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x02_Top_Bottom"
 			(pin_names
 				(offset 1.016) hide)
@@ -1605,16 +1503,16 @@
 		)
 	)
 	(junction
+		(at 68.58 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00b27a97-6c51-4b55-a757-3a9dbfe33d87")
+	)
+	(junction
 		(at 69.85 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "054d3f42-884b-45c6-a0c6-43f51b9d68a7")
-	)
-	(junction
-		(at 40.64 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09c13b40-ff5a-42bf-951e-8ff618feb4a5")
 	)
 	(junction
 		(at 199.39 54.61)
@@ -1641,12 +1539,6 @@
 		(uuid "3efb183b-c83d-497a-b3ee-40101df855b5")
 	)
 	(junction
-		(at 156.21 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45ea80bd-0124-49ce-8b10-52c64d05d121")
-	)
-	(junction
 		(at 212.09 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1665,28 +1557,22 @@
 		(uuid "681dcab6-025f-4b24-8629-841126928a8c")
 	)
 	(junction
-		(at 156.21 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c2fa669-7959-4342-9fe8-b14cb433ccee")
-	)
-	(junction
 		(at 52.07 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f83a321-8ac3-4b53-b45c-92f0d6816647")
 	)
 	(junction
-		(at 68.58 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8010157c-c9e4-446a-bafc-061513ebf016")
-	)
-	(junction
 		(at 59.69 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8db4e457-72d9-422a-a02d-3107dad224f1")
+		(uuid "70740e0a-2229-49bb-8962-d43d4da1d761")
+	)
+	(junction
+		(at 77.47 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "764199df-ceba-4f00-b340-93d5f2212e41")
 	)
 	(junction
 		(at 54.61 43.18)
@@ -1749,22 +1635,10 @@
 		(uuid "e40b5c46-6a43-4d3e-b42c-bb2cf164f22d")
 	)
 	(junction
-		(at 77.47 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4531a73-c4f5-490a-b819-19953251721b")
-	)
-	(junction
 		(at 82.55 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4d49f72-124b-48e6-8fb9-851e678b27de")
-	)
-	(junction
-		(at 40.64 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f298b806-fe25-4ec6-b88e-f8333e684792")
 	)
 	(wire
 		(pts
@@ -1788,16 +1662,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 38.1) (xy 156.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c74b79b-67ed-4bbc-bf2c-0b53c7b2fe74")
-	)
-	(wire
-		(pts
 			(xy 69.85 120.65) (xy 82.55 120.65)
 		)
 		(stroke
@@ -1815,16 +1679,6 @@
 			(type default)
 		)
 		(uuid "13ee6984-adfc-4b8e-befa-8d9c5f78d48c")
-	)
-	(wire
-		(pts
-			(xy 176.53 140.97) (xy 176.53 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d49663-456c-437e-b569-ed6e72cc186a")
 	)
 	(wire
 		(pts
@@ -1855,6 +1709,16 @@
 			(type default)
 		)
 		(uuid "250595a2-4a26-4731-a693-5b564fc583f9")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 68.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba9d90d-d354-4e2d-bfa8-ffeac0e67901")
 	)
 	(wire
 		(pts
@@ -1898,13 +1762,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 55.88) (xy 156.21 55.88)
+			(xy 77.47 88.9) (xy 77.47 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36471c37-a609-4907-a500-d9e8884ff899")
+		(uuid "3c103bac-508e-436d-96b6-620c5b73dd61")
+	)
+	(wire
+		(pts
+			(xy 68.58 105.41) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7312e1-f2ab-44cc-998e-47bd70a54bc6")
 	)
 	(wire
 		(pts
@@ -1915,16 +1789,6 @@
 			(type default)
 		)
 		(uuid "4319e536-b507-4ed0-a549-8c2ef61b35eb")
-	)
-	(wire
-		(pts
-			(xy 77.47 88.9) (xy 77.47 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d548d4-e121-4a13-99cf-95fb20900885")
 	)
 	(wire
 		(pts
@@ -1945,16 +1809,6 @@
 			(type default)
 		)
 		(uuid "49a98cde-25ac-48c1-a295-b38e12ed2719")
-	)
-	(wire
-		(pts
-			(xy 77.47 118.11) (xy 77.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4daae68c-16a7-4f52-a53e-1e304b288ea4")
 	)
 	(wire
 		(pts
@@ -2008,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 38.1) (xy 137.16 38.1)
+			(xy 130.81 38.1) (xy 166.37 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2038,16 +1892,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 105.41) (xy 68.58 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae2e274-3aac-4d7d-abf6-254dc54f6b62")
-	)
-	(wire
-		(pts
 			(xy 212.09 41.91) (xy 217.17 41.91)
 		)
 		(stroke
@@ -2065,16 +1909,6 @@
 			(type default)
 		)
 		(uuid "7f43ba34-88ea-4b70-9d2a-a21229e58a94")
-	)
-	(wire
-		(pts
-			(xy 156.21 55.88) (xy 156.21 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8870f470-88c3-4d99-87ba-257b4acb0579")
 	)
 	(wire
 		(pts
@@ -2098,33 +1932,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 38.1) (xy 156.21 38.1)
+			(xy 59.69 92.71) (xy 59.69 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e2cdbd1-65d6-49ab-ada7-7d6c63d76965")
-	)
-	(wire
-		(pts
-			(xy 144.78 55.88) (xy 156.21 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a44ccb5b-9d7a-4365-99c3-9a2aa8ba92df")
-	)
-	(wire
-		(pts
-			(xy 68.58 88.9) (xy 68.58 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae398947-53d9-4f16-b955-c67b6422e15a")
+		(uuid "9c5552c3-5d7b-4a5c-bc3e-9fad47197909")
 	)
 	(wire
 		(pts
@@ -2165,16 +1979,6 @@
 			(type default)
 		)
 		(uuid "b51bb706-34e3-42c7-8b3a-21652f70afd9")
-	)
-	(wire
-		(pts
-			(xy 180.34 140.97) (xy 176.53 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8a9ce6a-7716-4b7d-8fbd-98ee30805beb")
 	)
 	(wire
 		(pts
@@ -2238,16 +2042,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 38.1) (xy 156.21 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2d58e25-d4e8-41e1-a92a-313f0c6bdc1a")
-	)
-	(wire
-		(pts
 			(xy 212.09 57.15) (xy 217.17 57.15)
 		)
 		(stroke
@@ -2268,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 55.88) (xy 137.16 55.88)
+			(xy 130.81 55.88) (xy 166.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2318,16 +2112,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 59.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde81be7-e52e-47d5-b8b8-db5cc1d8f175")
-	)
-	(wire
-		(pts
 			(xy 82.55 107.95) (xy 107.95 107.95)
 		)
 		(stroke
@@ -2365,6 +2149,16 @@
 			(type default)
 		)
 		(uuid "e206baae-d595-4f27-addc-957929ea6272")
+	)
+	(wire
+		(pts
+			(xy 77.47 118.11) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e413177b-2df1-49aa-81bd-2802f99b1763")
 	)
 	(wire
 		(pts
@@ -2843,30 +2637,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape output)
-		(at 187.96 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "f0425d89-1369-4a72-b0da-22b51351b567")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.2917 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "U"
 		(shape output)
 		(at 147.32 105.41 180)
@@ -2912,70 +2682,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d11b6e2-457b-40ef-a585-5f8fbced4410")
-		(property "Reference" "TP21"
-			(at 40.64 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 40.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:TestPoint_Pad_3.1x1.6mm"
-			(at 45.72 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11e35932-c5c7-4f91-81e0-b7ecfc348c26")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "TP21")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3063,7 +2769,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "3.3uH"
 			(at 45.72 92.71 90)
 			(effects
 				(font
@@ -3080,7 +2786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34000/ihlp-6767gz-01.pdf"
 			(at 45.72 95.25 0)
 			(effects
 				(font
@@ -3089,7 +2795,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "IHLP6767GZER3R3M01"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 45.72 95.25 0)
 			(effects
 				(font
@@ -3114,75 +2847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 140.97 55.88 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1afb0888-9147-4577-b7c4-7bb0d14d498c")
-		(property "Reference" "L22"
-			(at 140.97 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uH"
-			(at 140.97 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-5050"
-			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88152121-f781-4519-bf31-9c90365a3824")
-		)
-		(pin "1"
-			(uuid "be58bd0e-3ca6-47c9-9806-7e206f24578e")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "L22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
 		(at 204.47 54.61 0)
 		(unit 1)
@@ -3200,7 +2864,7 @@
 				)
 			)
 		)
-		(property "Value" "DC BUS J2"
+		(property "Value" "DC BUS"
 			(at 205.74 50.8 0)
 			(effects
 				(font
@@ -3227,6 +2891,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "0768250004"
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 204.47 54.61 0)
 			(effects
 				(font
@@ -3274,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Value" "DC BUS J1"
+		(property "Value" "DC BUS"
 			(at 205.74 35.56 0)
 			(effects
 				(font
@@ -3309,6 +3000,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Molex"
+			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "0768250004"
+			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eadafcfa-e068-4dc6-b2d9-6c38139723be")
 		)
@@ -3325,210 +3043,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 140.97 38.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22133806-de84-42c6-932e-e6343fc5f492")
-		(property "Reference" "L21"
-			(at 140.97 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uH"
-			(at 140.97 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-5050"
-			(at 140.97 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 140.97 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7712ad0-a3bb-42bd-a9fd-7ceb1755b13a")
-		)
-		(pin "1"
-			(uuid "adae4ee1-003c-4a86-b76f-7de55d919d84")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "L21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "287883f7-802a-40e8-b723-bdf99ad8b86f")
-		(property "Reference" "R87"
-			(at 162.56 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7"
-			(at 160.02 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
-			(at 157.988 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0466799-04b5-4bb2-862e-173eb429b0ac")
-		)
-		(pin "2"
-			(uuid "da4f7ed2-d6d8-41ee-8234-39f60b719366")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "R87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VDC")
-		(at 176.53 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3681d396-d423-431c-b43b-22bf2396f1da")
-		(property "Reference" "#PWR0140"
-			(at 176.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 176.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "309af0a6-ffeb-43ec-9e0b-64ba71de791a")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -3654,6 +3168,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Molex"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "0768250008"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "728b76b3-9cf7-455b-b50c-de2c81e39554")
 		)
@@ -3689,12 +3230,12 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 101.6 0)
+		(at 82.55 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4432a5c5-c033-4208-9dd6-d696514ae961")
 		(property "Reference" "C114"
@@ -3703,20 +3244,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "470pf"
+		(property "Value" "390pf"
 			(at 86.36 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 83.5152 105.41 0)
+		(property "Footprint" "footprints:B326712L-SMD"
+			(at 81.5848 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3274,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC45SL3AD391JYVNA"
+			(at 82.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 82.55 101.6 0)
 			(effects
 				(font
@@ -3793,7 +3361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/SMQN-e.PDF"
 			(at 40.64 46.99 0)
 			(effects
 				(font
@@ -3802,7 +3370,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "450v ESMQ451VSN471MR45S"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chemi-Con"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "ESMQ451VSN471MR45S"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 40.64 46.99 0)
 			(effects
 				(font
@@ -3827,77 +3422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "550dafe1-eecc-4667-8ebe-b83e9d86b951")
-		(property "Reference" "C117"
-			(at 152.4 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nf"
-			(at 152.4 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 155.2448 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0757d682-9942-48de-8d64-a137e875b3e3")
-		)
-		(pin "1"
-			(uuid "fd6e46a6-8105-423d-8d37-a4fc1c2085a8")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 77.47 130.81 270)
 		(unit 1)
@@ -3916,7 +3440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 80.01 132.0799 90)
 			(effects
 				(font
@@ -3925,7 +3449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 77.47 130.81 0)
 			(effects
 				(font
@@ -3934,7 +3458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 77.47 130.81 0)
 			(effects
 				(font
@@ -3943,7 +3467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1000v 1A"
 			(at 77.47 130.81 0)
 			(effects
 				(font
@@ -3970,6 +3494,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 77.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e40a6215-ce00-4c8a-b3a0-2cf8a709783e")
 		)
@@ -3980,140 +3531,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
 					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6359a472-36bb-42b4-8ae0-1ffdbcfaf30b")
-		(property "Reference" "R84"
-			(at 55.88 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7"
-			(at 55.88 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
-			(at 55.88 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16485ee2-108f-41ac-98ea-0bd3e47d4938")
-		)
-		(pin "2"
-			(uuid "448a86ab-a5e0-4fbf-804e-0372a72c7b6d")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "710b4220-1da9-4efc-87b4-fbaf0446889a")
-		(property "Reference" "R86"
-			(at 73.66 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7"
-			(at 73.66 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
-			(at 73.66 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b9e4b48-bb87-43c9-aa24-e94fe7d0acf9")
-		)
-		(pin "2"
-			(uuid "6a29bfd0-68ee-429f-80ee-6c8488817283")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -4156,7 +3573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2454/C4AQ%20Series%2C%20Auto.pdf"
 			(at 78.74 46.99 0)
 			(effects
 				(font
@@ -4165,7 +3582,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "650v C4AQCBW5400A3LJ"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C4AQCBW5400A3LJ"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 78.74 46.99 0)
 			(effects
 				(font
@@ -4208,7 +3652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 80.01 86.3599 90)
 			(effects
 				(font
@@ -4217,7 +3661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -4226,7 +3670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -4235,7 +3679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1000v 1A"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -4262,6 +3706,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0219d9c-b3d2-48c8-8d42-99a19b0ed79b")
 		)
@@ -4278,164 +3749,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "787cd9b0-8a33-4db2-bc05-9219b543a127")
-		(property "Reference" "TP22"
-			(at 40.64 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 40.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:TestPoint_Pad_3.1x1.6mm"
-			(at 35.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1f3dc49-8283-4219-8484-c37d022c7f3b")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 184.15 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82575af3-0c6a-4e6d-85fe-1b5d63c60da3")
-		(property "Reference" "C131"
-			(at 184.15 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220pf"
-			(at 184.15 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm"
-			(at 180.34 141.9352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e166da2a-d24b-4285-a73d-b3c23d03cd10")
-		)
-		(pin "2"
-			(uuid "e0780e4b-c7c8-4ed0-8f6e-71b715f1df38")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 64.77 105.41 270)
+		(at 64.77 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8b741f1e-eef7-418b-b799-eea16f028a80")
+		(uuid "76b475de-6968-4fd3-ac2a-dff9f54cf81e")
 		(property "Reference" "R85"
-			(at 64.77 99.06 90)
+			(at 66.802 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "4.7"
-			(at 64.77 101.6 90)
+		(property "Value" "20"
+			(at 66.0399 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_1206_3216Metric_Wide"
-			(at 64.77 103.632 90)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 64.77 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +3793,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3/4W pulse withstanding"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CRCW121020R0JNEAHP"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 64.77 105.41 0)
 			(effects
 				(font
@@ -4462,10 +3830,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb9c318b-cf69-4d00-9bcf-89524d1a493c")
+			(uuid "bb69b57f-5126-45f1-9dda-e9dfd42db24d")
 		)
 		(pin "2"
-			(uuid "358514bf-99c3-47ba-8e8b-b829b85aca02")
+			(uuid "99b68fbd-9850-4b38-a206-cee8bf37345b")
 		)
 		(instances
 			(project "HV servo drive v1"
@@ -4495,7 +3863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 62.23 86.3599 90)
 			(effects
 				(font
@@ -4504,7 +3872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 59.69 85.09 0)
 			(effects
 				(font
@@ -4513,7 +3881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 59.69 85.09 0)
 			(effects
 				(font
@@ -4522,7 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1000v 1A"
 			(at 59.69 85.09 0)
 			(effects
 				(font
@@ -4549,6 +3917,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04dd3cc4-e3b9-4722-ba49-615c7a51ef27")
 		)
@@ -4559,6 +3954,102 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
 					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9565253e-9bba-43e5-a714-0dfea8d765c4")
+		(property "Reference" "R84"
+			(at 57.912 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20"
+			(at 57.1499 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 55.88 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3/4W pulse withstanding"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CRCW121020R0JNEAHP"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3285e69-4bfb-469d-9163-d5b176428f7a")
+		)
+		(pin "2"
+			(uuid "89a20676-cb21-4538-92ce-d5011351af9d")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "3.3uH"
 			(at 45.72 105.41 90)
 			(effects
 				(font
@@ -4599,7 +4090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34000/ihlp-6767gz-01.pdf"
 			(at 45.72 107.95 0)
 			(effects
 				(font
@@ -4608,7 +4099,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "IHLP6767GZER3R3M01"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 45.72 107.95 0)
 			(effects
 				(font
@@ -4634,12 +4152,205 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 140.97 270)
+		(at 82.55 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a3380537-481a-4d36-bb3d-c8b8f4fb4dac")
+		(property "Reference" "C115"
+			(at 86.36 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "390pf"
+			(at 86.36 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:B326712L-SMD"
+			(at 81.5848 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC45SL3AD391JYVNA"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 82.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a05c8bc-aa82-4fee-9ad9-2cbf6cb6836d")
+		)
+		(pin "1"
+			(uuid "ddb2d5d2-1e69-4f7c-8d6c-e03fc484570b")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "ae92c29b-1b2e-4956-9a1d-88eb5ac33a01")
+		(property "Reference" "R86"
+			(at 75.692 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20"
+			(at 74.9299 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 73.66 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3/4W pulse withstanding"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CRCW121020R0JNEAHP"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cac2ca27-1cfa-431c-b8ac-3b9aeebb5255")
+		)
+		(pin "2"
+			(uuid "de67e198-f011-48df-9545-735adbf06128")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd244f73-0168-4ee1-a462-d18e90f9135b")
 		(property "Reference" "C130"
@@ -4676,7 +4387,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 220PF 1.5KV RADIAL X1 Y1"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "DE1B3RA221KN4AP01F"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 153.67 140.97 0)
 			(effects
 				(font
@@ -4718,7 +4456,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "3.3uH"
 			(at 45.72 118.11 90)
 			(effects
 				(font
@@ -4735,7 +4473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34000/ihlp-6767gz-01.pdf"
 			(at 45.72 120.65 0)
 			(effects
 				(font
@@ -4744,7 +4482,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "IHLP6767GZER3R3M01"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 45.72 120.65 0)
 			(effects
 				(font
@@ -4787,7 +4552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 71.12 86.3599 90)
 			(effects
 				(font
@@ -4796,7 +4561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -4805,7 +4570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -4814,7 +4579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1000v 1A"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -4833,6 +4598,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -4917,6 +4709,103 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
 					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c757af05-4324-41e2-bebf-ab37a292d9a6")
+		(property "Reference" "C116"
+			(at 100.33 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390pf"
+			(at 100.33 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:B326712L-SMD"
+			(at 97.4852 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC45SL3AD391JYVNA"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42a517a3-0c6e-466f-ab7e-2ec8faa1e45e")
+		)
+		(pin "1"
+			(uuid "db19cd33-7dfa-4435-9b01-7236981aad2e")
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -5024,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.chemi-con.co.jp/products/relatedfiles/capacitor/catalog/SMQN-e.PDF"
 			(at 54.61 46.99 0)
 			(effects
 				(font
@@ -5033,7 +4922,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "450v ESMQ451VSN471MR45S"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chemi-Con"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "ESMQ451VSN471MR45S"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 54.61 46.99 0)
 			(effects
 				(font
@@ -5076,7 +4992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 71.12 132.0799 90)
 			(effects
 				(font
@@ -5085,7 +5001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -5094,7 +5010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -5103,7 +5019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1000v 1A"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -5122,6 +5038,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -5146,76 +5089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 82.55 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d76918ab-8b5d-4d8e-be30-b2d56aa4c329")
-		(property "Reference" "C115"
-			(at 86.36 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470pf"
-			(at 86.36 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 83.5152 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 82.55 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8a9cab4-efc9-4fdc-b9b8-3fe86085dcf0")
-		)
-		(pin "1"
-			(uuid "9a956e88-d0e0-4e21-afc6-c18b5da00bdf")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 59.69 130.81 270)
 		(unit 1)
@@ -5234,7 +5107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "RS1MLW"
 			(at 62.23 132.0799 90)
 			(effects
 				(font
@@ -5243,7 +5116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "footprints:D_SOD-123W"
 			(at 59.69 130.81 0)
 			(effects
 				(font
@@ -5252,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/RS1DLW%20SERIES_C2103.pdf"
 			(at 59.69 130.81 0)
 			(effects
 				(font
@@ -5261,7 +5134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1000v 1A"
 			(at 59.69 130.81 0)
 			(effects
 				(font
@@ -5288,6 +5161,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Taiwan Semiconductor Corporation"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RS1MLW"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05ff0825-3038-40b1-92d2-8b16228943a6")
 		)
@@ -5298,76 +5198,6 @@
 			(project "HV servo drive v1"
 				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
 					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 96.52 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec876852-0738-4ff7-8643-92ea443a918c")
-		(property "Reference" "C116"
-			(at 100.33 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470pf"
-			(at 100.33 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 97.4852 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "018e8874-758a-468b-93a5-1bed4758fc9f")
-		)
-		(pin "1"
-			(uuid "4a6553b0-3537-44c7-920e-e7adc1393006")
-		)
-		(instances
-			(project "HV servo drive v1"
-				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6/2852c9f9-8bc9-4870-b49f-dc85f06c165d"
-					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -5610,7 +5440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2454/C4AQ%20Series%2C%20Auto.pdf"
 			(at 90.17 46.99 0)
 			(effects
 				(font
@@ -5619,7 +5449,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "650v C4AQCBW5400A3LJ"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "C4AQCBW5400A3LJ"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 90.17 46.99 0)
 			(effects
 				(font
